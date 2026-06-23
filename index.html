@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#090d18">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="WC Analyst">
+<meta name="description" content="Daily World Cup 2026 predictions by an elite football data analyst">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-192.png">
+<title>WC 2026 Analyst</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#090d18;--card:#111827;--border:rgba(255,255,255,.07);--border2:rgba(255,255,255,.13);
+  --green:#10b981;--gdim:rgba(16,185,129,.12);
+  --amber:#f59e0b;--adim:rgba(245,158,11,.12);
+  --red:#ef4444;--rdim:rgba(239,68,68,.12);
+  --gold:#fbbf24;--t1:#f9fafb;--t2:#9ca3af;--t3:#4b5563;
+  --safe-top:env(safe-area-inset-top,0px);
+  --safe-bot:env(safe-area-inset-bottom,0px);
+}
+html{background:var(--bg)}
+body{background:var(--bg);color:var(--t1);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif;min-height:100dvh;-webkit-font-smoothing:antialiased}
+
+/* ── HEADER ── */
+.hdr{background:linear-gradient(180deg,#0c1526,#090d18);border-bottom:1px solid var(--border);padding:calc(14px + var(--safe-top)) 20px 14px;position:sticky;top:0;z-index:100}
+.hdr-in{max-width:1100px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.logo{display:flex;align-items:center;gap:10px}
+.logo h1{font-size:17px;font-weight:800;letter-spacing:-.3px;color:#fff}
+.logo h1 em{color:var(--green);font-style:normal}
+.logo small{display:block;font-size:9px;text-transform:uppercase;letter-spacing:2.5px;color:var(--t3);margin-top:2px}
+.hdr-right{display:flex;align-items:center;gap:10px;font-size:12px;color:var(--t2)}
+.pill{background:var(--gdim);color:var(--green);font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:1px;padding:3px 9px;border-radius:20px;border:1px solid rgba(16,185,129,.25)}
+
+/* ── LAYOUT ── */
+.wrap{max-width:1100px;margin:0 auto;padding:24px 16px calc(24px + var(--safe-bot))}
+.sh{display:flex;align-items:center;gap:8px;margin:0 0 14px}
+.sl{font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:2px;color:var(--green);white-space:nowrap}
+.sline{flex:1;height:1px;background:var(--border)}
+.mb{margin-bottom:32px}
+
+/* ── MATCH GRID ── */
+.mgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px;margin-bottom:32px}
+
+/* ── MATCH CARD ── */
+.mc{background:var(--card);border:1px solid var(--border);border-radius:14px;overflow:hidden;transition:border-color .2s,transform .2s}
+.mc:active{transform:scale(.99)}
+.mc.exact{border-left:3px solid var(--green);border-color:var(--green)}
+.mc.correct{border-left:3px solid var(--amber);border-color:var(--amber)}
+.mc.wrong{border-left:3px solid var(--red);border-color:var(--red)}
+
+.mc-top{display:flex;align-items:center;justify-content:space-between;padding:8px 13px;background:rgba(0,0,0,.22);border-bottom:1px solid var(--border);flex-wrap:wrap;gap:4px}
+.grp{font-size:9px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;background:var(--gdim);color:var(--green);border:1px solid rgba(16,185,129,.25);padding:2px 7px;border-radius:4px}
+.mt{font-size:10px;color:var(--t2)}
+.mv{font-size:10px;color:var(--t3)}
+
+.mc-body{padding:16px 12px 6px;display:flex;align-items:center;gap:8px}
+.team{flex:1;display:flex;flex-direction:column;align-items:center;gap:4px;text-align:center}
+.tf{font-size:28px;line-height:1}
+.tn{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.3px}
+.ta{font-size:9px;color:var(--t3);letter-spacing:1px}
+.sw{display:flex;align-items:center;gap:5px}
+.sc{font-size:42px;font-weight:900;color:#fff;line-height:1;font-variant-numeric:tabular-nums}
+.ss{font-size:24px;color:var(--t3);font-weight:200}
+
+.mc-det{padding:2px 12px 13px}
+.scorers{display:flex;gap:6px;padding:7px 0 9px;border-bottom:1px solid var(--border);font-size:10.5px}
+.sh2{flex:1;color:var(--t2)}.sa2{flex:1;color:var(--t2);text-align:right}
+.sn{display:block;color:var(--t1);font-weight:500;line-height:1.5}
+.mc-foot{display:flex;align-items:flex-start;justify-content:space-between;gap:6px;padding:8px 0 0;flex-wrap:wrap}
+.conf{font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;padding:3px 9px;border-radius:20px;white-space:nowrap}
+.c-high{background:rgba(16,185,129,.15);color:var(--green);border:1px solid rgba(16,185,129,.3)}
+.c-medium-high{background:rgba(16,185,129,.1);color:#6ee7b7;border:1px solid rgba(16,185,129,.2)}
+.c-medium{background:var(--adim);color:var(--amber);border:1px solid rgba(245,158,11,.3)}
+.c-low{background:var(--rdim);color:var(--red);border:1px solid rgba(239,68,68,.3)}
+.moment{font-size:10px;color:var(--t3);font-style:italic;flex:1;text-align:right;line-height:1.5;max-width:58%}
+
+/* ── RESULT ZONE ── */
+.rzone{margin-top:11px;padding-top:11px;border-top:1px solid var(--border)}
+.rbtn{width:100%;background:none;border:1px solid var(--border2);color:var(--t2);font-size:11px;padding:8px;border-radius:8px;cursor:pointer;transition:all .15s;-webkit-tap-highlight-color:transparent}
+.rbtn:active{background:var(--gdim);border-color:var(--green);color:var(--green)}
+.rform{display:none;margin-top:10px}
+.rform.open{display:block}
+.rinputs{display:flex;align-items:center;gap:8px;margin-bottom:8px}
+.ig{display:flex;flex-direction:column;align-items:center;gap:3px}
+.ig label{font-size:9px;color:var(--t3);letter-spacing:1px;text-transform:uppercase}
+.rinputs input{width:54px;background:rgba(255,255,255,.06);border:1px solid var(--border2);color:#fff;font-size:20px;font-weight:700;text-align:center;padding:8px 4px;border-radius:8px;outline:none;-moz-appearance:textfield}
+.rinputs input::-webkit-outer-spin-button,.rinputs input::-webkit-inner-spin-button{-webkit-appearance:none}
+.rinputs input:focus{border-color:var(--green)}
+.rinputs .sep{color:var(--t3);font-size:18px}
+.bsave{flex:1;background:var(--green);color:#fff;border:none;padding:9px 14px;border-radius:8px;font-size:12px;font-weight:700;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.rdisplay{background:rgba(0,0,0,.22);border-radius:8px;padding:11px;margin-top:9px;display:none}
+.rdisplay.on{display:block}
+.rrow{display:flex;justify-content:space-between;font-size:11px;margin-bottom:4px}
+.rrow .lbl{color:var(--t3)}.rrow .val{font-weight:700}
+.otag{text-align:center;margin-top:7px;font-size:11px;font-weight:700;padding:5px;border-radius:6px}
+.ot-exact{background:rgba(16,185,129,.18);color:var(--green)}
+.ot-correct{background:rgba(245,158,11,.18);color:var(--amber)}
+.ot-wrong{background:rgba(239,68,68,.18);color:var(--red)}
+.editlnk{font-size:10px;color:var(--t3);cursor:pointer;text-align:right;display:block;margin-top:5px}
+
+/* ── VERDICT ── */
+.vbox{background:var(--card);border:1px solid var(--border);border-radius:14px;overflow:hidden;margin-bottom:32px}
+.vtog{width:100%;background:none;border:none;padding:13px 17px;display:flex;align-items:center;justify-content:space-between;cursor:pointer;color:var(--t1);-webkit-tap-highlight-color:transparent}
+.vtog:active{background:rgba(255,255,255,.02)}
+.vlbl{display:flex;align-items:center;gap:8px;font-weight:700;font-size:13px}
+.vchev{color:var(--t3);transition:transform .25s}
+.vchev.open{transform:rotate(180deg)}
+.vbody{display:none;padding:0 17px 17px;border-top:1px solid var(--border)}
+.vbody.open{display:block}
+.vtxt{padding-top:13px;font-size:13px;line-height:1.8;color:var(--t2);font-style:italic}
+.vsig{text-align:right;font-size:11px;color:var(--t3);margin-top:9px}
+
+/* ── PLAYERS ── */
+.pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:10px;margin-bottom:32px}
+.pc{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:13px}
+.pn{font-weight:700;font-size:13px;margin-bottom:2px}
+.pt{font-size:9px;color:var(--green);text-transform:uppercase;letter-spacing:1.2px;margin-bottom:7px}
+.ps{font-size:11px;color:var(--t2);line-height:1.5}
+.pw{margin-top:8px;font-size:10px;color:var(--t3);padding-top:8px;border-top:1px solid var(--border);line-height:1.5}
+
+/* ── ACCURACY ── */
+.abox{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:20px;margin-bottom:32px}
+.agrid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:16px}
+@media(min-width:480px){.agrid{grid-template-columns:repeat(4,1fr)}}
+.acard{background:rgba(0,0,0,.2);border:1px solid var(--border);border-radius:10px;padding:14px;text-align:center}
+.av{font-size:28px;font-weight:900;line-height:1;margin-bottom:4px}
+.av.g{color:var(--green)}.av.a{color:var(--amber)}.av.gold{color:var(--gold)}.av.r{color:var(--red)}
+.al{font-size:9px;text-transform:uppercase;letter-spacing:1px;color:var(--t3)}
+.bw{margin-top:5px;background:rgba(255,255,255,.07);height:3px;border-radius:2px;overflow:hidden}
+.bar{height:100%;border-radius:2px;transition:width .5s ease}
+.bar.g{background:var(--green)}.bar.a{background:var(--amber)}.bar.gold{background:var(--gold)}.bar.r{background:var(--red)}
+
+/* ── HISTORY ── */
+.hbox{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:20px;margin-bottom:32px;overflow-x:auto}
+table.ht{width:100%;border-collapse:collapse;font-size:12px;min-width:520px}
+table.ht th{text-align:left;padding:6px 10px;font-size:9px;text-transform:uppercase;letter-spacing:1.2px;color:var(--t3);border-bottom:1px solid var(--border);font-weight:600}
+table.ht td{padding:9px 10px;border-bottom:1px solid rgba(255,255,255,.04);color:var(--t2)}
+table.ht tr:last-child td{border-bottom:none}
+.be{color:var(--green);font-weight:700}.bc{color:var(--amber);font-weight:700}.bw2{color:var(--red);font-weight:700}.bp{color:var(--t3);font-style:italic}
+
+/* ── TOAST ── */
+.toast{position:fixed;bottom:calc(20px + var(--safe-bot));left:50%;transform:translateX(-50%) translateY(20px);background:#1f2937;color:var(--t1);font-size:12px;padding:10px 18px;border-radius:20px;opacity:0;transition:all .3s;pointer-events:none;z-index:999;border:1px solid var(--border2)}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+/* ── LOADING ── */
+.loading{text-align:center;padding:60px 20px;color:var(--t3);font-size:14px}
+.spin{display:inline-block;font-size:28px;animation:spin 1s linear infinite;margin-bottom:12px}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+@media(max-width:420px){.sc{font-size:36px}.tf{font-size:24px}.wrap{padding:16px 12px calc(16px + var(--safe-bot))}}
+</style>
+</head>
+<body>
+
+<header class="hdr">
+  <div class="hdr-in">
+    <div class="logo">
+      <span style="font-size:24px">⚽</span>
+      <div>
+        <h1>WC 2026 <em>Analyst</em></h1>
+        <small>Elite Prediction Engine</small>
+      </div>
+    </div>
+    <div class="hdr-right">
+      <span id="hdr-date"></span>
+      <span id="hdr-live"></span>
+    </div>
+  </div>
+</header>
+
+<main class="wrap" id="app">
+  <div class="loading"><div class="spin">⚽</div><br>Loading today's predictions…</div>
+</main>
+
+<div class="toast" id="toast"></div>
+
+<script>
+// ── Storage ──
+const SK='wc2026_r', HK='wc2026_h';
+const getR=()=>{try{return JSON.parse(localStorage.getItem(SK)||'{}')}catch{return{}}};
+const getH=()=>{try{return JSON.parse(localStorage.getItem(HK)||'[]')}catch{return[]}};
+const saveR=(id,v)=>{const r=getR();r[id]=v;localStorage.setItem(SK,JSON.stringify(r))};
+const delR=id=>{const r=getR();delete r[id];localStorage.setItem(SK,JSON.stringify(r))};
+
+// ── Outcome ──
+function outcome(pred,actual){
+  if(!actual)return'pending';
+  const po=pred.h>pred.a?'H':pred.h<pred.a?'A':'D';
+  const ao=actual.h>actual.a?'H':actual.h<actual.a?'A':'D';
+  if(pred.h===actual.h&&pred.a===actual.a)return'exact';
+  if(po===ao)return'correct';
+  return'wrong';
+}
+
+// ── Toast ──
+function toast(msg){
+  const el=document.getElementById('toast');
+  el.textContent=msg;el.classList.add('show');
+  setTimeout(()=>el.classList.remove('show'),2200);
+}
+
+// ── Render Matches ──
+function renderMatches(B){
+  const results=getR();
+  return B.matches.map(m=>{
+    const act=results[m.id]||null;
+    const out=outcome(m.pred,act);
+    const cls=['mc',out==='exact'?'exact':out==='correct'?'correct':out==='wrong'?'wrong':''].filter(Boolean).join(' ');
+    const confCls='conf c-'+m.confidence.toLowerCase().replace(/[\s\-]+/g,'-');
+    const hS=m.scorers.h.map(s=>`<span class="sn">${s}</span>`).join('')||`<span style="color:var(--t3)">—</span>`;
+    const aS=m.scorers.a.map(s=>`<span class="sn">${s}</span>`).join('')||`<span style="color:var(--t3)">—</span>`;
+    const resD=act?`
+      <div class="rdisplay on">
+        <div class="rrow"><span class="lbl">Predicted</span><span class="val">${m.home.abbr} ${m.pred.h}–${m.pred.a} ${m.away.abbr}</span></div>
+        <div class="rrow"><span class="lbl">Actual</span><span class="val">${m.home.abbr} ${act.h}–${act.a} ${m.away.abbr}</span></div>
+        <div class="otag ${out==='exact'?'ot-exact':out==='correct'?'ot-correct':'ot-wrong'}">
+          ${out==='exact'?'✓ EXACT SCORE HIT':out==='correct'?'✓ CORRECT OUTCOME':'✗ WRONG OUTCOME'}
+        </div>
+        <span class="editlnk" onclick="editR('${m.id}')">Edit result</span>
+      </div>`:'';
+    return`<div class="${cls}" id="mc-${m.id}">
+      <div class="mc-top">
+        <span class="grp">${m.group}</span>
+        <span class="mt">${m.time}</span>
+        <span class="mv">${m.venue}</span>
+      </div>
+      <div class="mc-body">
+        <div class="team"><span class="tf">${m.home.flag}</span><span class="tn">${m.home.name}</span><span class="ta">${m.home.abbr}</span></div>
+        <div class="sw"><span class="sc">${m.pred.h}</span><span class="ss">–</span><span class="sc">${m.pred.a}</span></div>
+        <div class="team"><span class="tf">${m.away.flag}</span><span class="tn">${m.away.name}</span><span class="ta">${m.away.abbr}</span></div>
+      </div>
+      <div class="mc-det">
+        <div class="scorers"><div class="sh2">${hS}</div><div class="sa2">${aS}</div></div>
+        <div class="mc-foot">
+          <span class="${confCls}">${m.confidence} confidence</span>
+          <span class="moment">${m.moment}</span>
+        </div>
+        <div class="rzone">
+          ${act
+            ?`<button class="rbtn" onclick="editR('${m.id}')">✎ Edit Result</button>`
+            :`<button class="rbtn" onclick="openForm('${m.id}',this)">+ Enter Actual Result</button>`
+          }
+          <div class="rform" id="rf-${m.id}">
+            <div class="rinputs">
+              <div class="ig"><label>${m.home.abbr}</label><input type="number" id="hi-${m.id}" min="0" max="20" placeholder="0" inputmode="numeric"></div>
+              <span class="sep">–</span>
+              <div class="ig"><label>${m.away.abbr}</label><input type="number" id="ai-${m.id}" min="0" max="20" placeholder="0" inputmode="numeric"></div>
+              <button class="bsave" onclick="submitR('${m.id}')">Save</button>
+            </div>
+          </div>
+          ${resD}
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+// ── Render Accuracy ──
+function renderAccuracy(B){
+  const results=getR(),hist=getH();
+  const allP={};
+  hist.forEach(e=>{allP[e.id]=e});
+  B.matches.forEach(m=>{if(!allP[m.id])allP[m.id]={id:m.id,pred:m.pred,confidence:m.confidence,matchLabel:`${m.home.name} vs ${m.away.name}`,date:B.dateKey}});
+  let total=0,correct=0,exact=0,wrong=0;
+  for(const[id,p]of Object.entries(allP)){
+    const act=results[id];if(!act)continue;total++;
+    const out=outcome(p.pred,act);
+    if(out==='exact'){exact++;correct++;}else if(out==='correct')correct++;else if(out==='wrong')wrong++;
+  }
+  const pct=n=>total>0?Math.round(n/total*100)+'%':'—';
+  const bw=n=>total>0?Math.round(n/total*100)+'%':'0%';
+  return`<div class="agrid">
+    <div class="acard"><div class="av g" id="s-t">${total||'—'}</div><div class="al">Tracked</div><div class="bw"><div class="bar g" style="width:${total>0?'100%':'0%'}"></div></div></div>
+    <div class="acard"><div class="av a">${pct(correct)}</div><div class="al">Correct Outcome</div><div class="bw"><div class="bar a" style="width:${bw(correct)}"></div></div></div>
+    <div class="acard"><div class="av gold">${pct(exact)}</div><div class="al">Exact Score</div><div class="bw"><div class="bar gold" style="width:${bw(exact)}"></div></div></div>
+    <div class="acard"><div class="av r">${pct(wrong)}</div><div class="al">Wrong</div><div class="bw"><div class="bar r" style="width:${bw(wrong)}"></div></div></div>
+  </div>`;
+}
+
+// ── Render History ──
+function renderHistory(B){
+  const results=getR(),hist=getH();
+  const allP={};
+  hist.forEach(e=>{allP[e.id]={...e}});
+  B.matches.forEach(m=>{if(!allP[m.id])allP[m.id]={id:m.id,date:B.dateKey,matchLabel:`${m.home.name} vs ${m.away.name}`,pred:m.pred,confidence:m.confidence}});
+  const entries=Object.values(allP).map(e=>({...e,actual:results[e.id]||null}));
+  entries.sort((a,b)=>(b.date||'').localeCompare(a.date||''));
+  const hasAny=entries.some(e=>e.actual);
+  if(!hasAny)return`<p style="text-align:center;padding:20px 0;font-size:12px;color:var(--t3)">No results entered yet. Enter actual scores above to start tracking.</p>`;
+  const rows=entries.map(e=>{
+    const out=outcome(e.pred,e.actual);
+    const ob={exact:'<span class="be">✓ Exact</span>',correct:'<span class="bc">✓ Outcome</span>',wrong:'<span class="bw2">✗ Wrong</span>',pending:'<span class="bp">Pending</span>'};
+    return`<tr><td>${e.date||'—'}</td><td>${e.matchLabel||e.id}</td><td>${e.pred.h}–${e.pred.a}</td><td>${e.actual?`${e.actual.h}–${e.actual.a}`:'—'}</td><td>${e.confidence||'—'}</td><td>${ob[out]}</td></tr>`;
+  }).join('');
+  return`<table class="ht"><thead><tr><th>Date</th><th>Match</th><th>Predicted</th><th>Actual</th><th>Confidence</th><th>Result</th></tr></thead><tbody>${rows}</tbody></table>`;
+}
+
+// ── Render Players ──
+function renderPlayers(B){
+  return B.players.map(p=>`
+    <div class="pc">
+      <div class="pn">${p.flag} ${p.name}</div>
+      <div class="pt">${p.team}</div>
+      <div class="ps">${p.stat}</div>
+      <div class="pw">👁 ${p.watch}</div>
+    </div>`).join('');
+}
+
+// ── Save to history ──
+function saveToHistory(B){
+  const hist=getH();
+  B.matches.forEach(m=>{
+    if(!hist.find(e=>e.id===m.id))hist.push({id:m.id,date:B.dateKey,matchLabel:`${m.home.name} vs ${m.away.name}`,pred:m.pred,confidence:m.confidence});
+  });
+  localStorage.setItem(HK,JSON.stringify(hist));
+}
+
+// ── Interactive handlers ──
+window.openForm=(id,btn)=>{
+  const f=document.getElementById('rf-'+id);
+  const open=f.classList.toggle('open');
+  btn.textContent=open?'✕ Cancel':'+ Enter Actual Result';
+};
+window.editR=id=>{delR(id);renderAll(window._B)};
+window.submitR=id=>{
+  const h=parseInt(document.getElementById('hi-'+id).value);
+  const a=parseInt(document.getElementById('ai-'+id).value);
+  if(isNaN(h)||isNaN(a)||h<0||a<0){toast('Enter valid scores');return}
+  saveR(id,{h,a});toast('Result saved ✓');renderAll(window._B);
+};
+window.toggleV=btn=>{
+  const b=document.getElementById('vb');
+  const c=btn.querySelector('.vchev');
+  b.classList.toggle('open');c.classList.toggle('open');
+};
+
+// ── Full render ──
+function renderAll(B){
+  window._B=B;
+  const today=new Date().toISOString().split('T')[0];
+  document.getElementById('hdr-date').textContent=B.date;
+  document.getElementById('hdr-live').innerHTML=today===B.dateKey?'<span class="pill">Match Day</span>':'';
+  saveToHistory(B);
+  document.getElementById('app').innerHTML=`
+    <div class="sh mb"><span class="sl">⚡ Today's Predictions</span><div class="sline"></div></div>
+    <div class="mgrid">${renderMatches(B)}</div>
+
+    <div class="sh"><span class="sl">📋 Analyst's Verdict</span><div class="sline"></div></div>
+    <div class="vbox mb">
+      <button class="vtog" onclick="toggleV(this)">
+        <span class="vlbl">🎙 Read Today's Analysis</span>
+        <span class="vchev">▼</span>
+      </button>
+      <div class="vbody" id="vb">
+        <p class="vtxt">${B.verdict}</p>
+        <p class="vsig">— The Analyst</p>
+      </div>
+    </div>
+
+    <div class="sh"><span class="sl">⭐ Players to Watch</span><div class="sline"></div></div>
+    <div class="pgrid mb">${renderPlayers(B)}</div>
+
+    <div class="sh"><span class="sl">📊 Prediction Accuracy</span><div class="sline"></div></div>
+    <div class="abox mb">${renderAccuracy(B)}</div>
+
+    <div class="sh"><span class="sl">📜 Prediction History</span><div class="sline"></div></div>
+    <div class="hbox">${renderHistory(B)}</div>
+  `;
+}
+
+// ── Boot: fetch data.json ──
+fetch('data.json?v='+Date.now())
+  .then(r=>{if(!r.ok)throw new Error('no data');return r.json()})
+  .then(B=>renderAll(B))
+  .catch(()=>{
+    document.getElementById('app').innerHTML=`
+      <div class="loading">
+        <div style="font-size:32px">📭</div>
+        <br>No predictions available yet.<br>
+        <span style="font-size:12px">Check back when today's briefing runs.</span>
+      </div>`;
+  });
+
+// ── Service Worker ──
+if('serviceWorker' in navigator){
+  navigator.serviceWorker.register('sw.js').catch(()=>{});
+}
+</script>
+</body>
+</html>
