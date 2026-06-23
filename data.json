@@ -1,0 +1,105 @@
+{
+  "date": "June 23, 2026",
+  "dateKey": "2026-06-23",
+  "matchday": "Matchday 2 · Groups K & L",
+  "matches": [
+    {
+      "id": "2026-06-23-POR-UZB",
+      "time": "13:00 ET",
+      "venue": "NRG Stadium, Houston",
+      "group": "Group K",
+      "home": { "name": "Portugal", "flag": "🇵🇹", "abbr": "POR" },
+      "away": { "name": "Uzbekistan", "flag": "🇺🇿", "abbr": "UZB" },
+      "pred": { "h": 3, "a": 1 },
+      "scorers": {
+        "h": ["Fernandes 34' (p)", "Conceição 56'", "Neves 78'"],
+        "a": ["Fayzullaev 64'"]
+      },
+      "confidence": "Medium",
+      "moment": "Conceição's diagonal dribble draws a Karimov foul — Fernandes converts from the spot. The 3-back buckles as Portugal press with must-win urgency."
+    },
+    {
+      "id": "2026-06-23-ENG-GHA",
+      "time": "16:00 ET",
+      "venue": "Gillette Stadium, Foxborough",
+      "group": "Group L",
+      "home": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "abbr": "ENG" },
+      "away": { "name": "Ghana", "flag": "🇬🇭", "abbr": "GHA" },
+      "pred": { "h": 2, "a": 0 },
+      "scorers": {
+        "h": ["Kane 54' (hdr)", "Madueke 73'"],
+        "a": []
+      },
+      "confidence": "Medium-High",
+      "moment": "Bellingham's set-piece delivery finds Kane unmarked at the far post. Madueke punishes Ghana on the counter as they push for an equaliser."
+    },
+    {
+      "id": "2026-06-23-PAN-CRO",
+      "time": "19:00 ET",
+      "venue": "BMO Field, Toronto",
+      "group": "Group L",
+      "home": { "name": "Panama", "flag": "🇵🇦", "abbr": "PAN" },
+      "away": { "name": "Croatia", "flag": "🇭🇷", "abbr": "CRO" },
+      "pred": { "h": 1, "a": 1 },
+      "scorers": {
+        "h": ["Rodríguez 81' (fk)"],
+        "a": ["Kramarić 39'"]
+      },
+      "confidence": "Low",
+      "moment": "Godoy fouled 22 yards out in the 80th minute. Rodríguez curls the free kick into the bottom-right corner. A dead ball decides a game neither team could crack in open play."
+    },
+    {
+      "id": "2026-06-23-COL-COD",
+      "time": "22:00 ET",
+      "venue": "Estadio Akron, Guadalajara",
+      "group": "Group K",
+      "home": { "name": "Colombia", "flag": "🇨🇴", "abbr": "COL" },
+      "away": { "name": "DR Congo", "flag": "🇨🇩", "abbr": "COD" },
+      "pred": { "h": 2, "a": 1 },
+      "scorers": {
+        "h": ["Díaz 29'", "J. Rodríguez 58' (p)"],
+        "a": ["Wissa 74'"]
+      },
+      "confidence": "Medium",
+      "moment": "Díaz cuts inside on Wan-Bissaka and drills low into the corner. After Colombia's penalty, Wissa lofts home a long diagonal on the counter — potentially the 2nd African player to score in his first two World Cup matches."
+    }
+  ],
+  "verdict": "Tuesday, June 23 is the day Group K and Group L crystallise into recognisable shapes. Portugal's match against Uzbekistan is a referendum on whether Roberto Martinez's side can recover the attacking intent absent against DR Congo — Uzbekistan's defence conceded three to Colombia, and with Rúben Dias back, Portugal have the cover to press without vulnerability. The only uncertainty is whether Ronaldo contributes anything: his -2.8 post-shot xG over 10 consecutive major tournament appearances is the most damning individual stat at this World Cup. England vs Ghana is the day's most lopsided contest — 2.8 xG generated against Croatia makes 2-0 the data-consistent outcome, not a generous one. Partey's return upgrades Ghana's midfield but does not bridge the talent gap. Panama vs Croatia is the day's most volatile fixture: the market prices Croatia at 64% but their actual tournament xG is 0.71, and the opponent-strength adjustment shows they couldn't score against Czechia-level opposition in qualifying. Panama's set-piece delivery and mutual desperation produce the one draw of the day. Colombia vs DR Congo is the evening showcase — Wissa's goal against Portugal confirmed DR Congo carry a genuine cutting edge, and the 2-1 vs 1-1 call hinges on Colombia's ability to contain his counter-attacking runs in the final 20 minutes.",
+  "players": [
+    {
+      "name": "Bruno Fernandes",
+      "team": "Portugal",
+      "flag": "🇵🇹",
+      "stat": "4 key passes vs DR Congo (WC MD1)",
+      "watch": "Through-ball to Conceição behind Uzbekistan's wide coverage; free-kick delivery"
+    },
+    {
+      "name": "Cristiano Ronaldo",
+      "team": "Portugal",
+      "flag": "🇵🇹",
+      "stat": "-2.8 post-shot xG over last 10 major tournament matches",
+      "watch": "Whether he ends a 10-game major tournament goalless run — the defining story of Portugal's campaign"
+    },
+    {
+      "name": "Jude Bellingham",
+      "team": "England",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "stat": "8 progressive carries vs Croatia (WC MD1)",
+      "watch": "Late surging runs into the box; England's set-piece delivery built around his left foot"
+    },
+    {
+      "name": "Yoane Wissa",
+      "team": "DR Congo",
+      "flag": "🇨🇩",
+      "stat": "0.82 xG vs Portugal (WC MD1) · 8 goals in 37 caps",
+      "watch": "Transition goal — would make him 2nd African player to score in his first two World Cup matches (after Salah 2018)"
+    },
+    {
+      "name": "Luis Díaz",
+      "team": "Colombia",
+      "flag": "🇨🇴",
+      "stat": "22G + 18A across all competitions 2025/26 (club)",
+      "watch": "Combination with James Rodríguez through the half-space; first-touch finish inside the box"
+    }
+  ]
+}
