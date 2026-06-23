@@ -51,20 +51,36 @@ body{background:var(--bg);color:var(--t1);font-family:-apple-system,BlinkMacSyst
 .mc.exact{border-left:3px solid var(--green);border-color:var(--green)}
 .mc.correct{border-left:3px solid var(--amber);border-color:var(--amber)}
 .mc.wrong{border-left:3px solid var(--red);border-color:var(--red)}
+.mc.is-live{border-left:3px solid var(--red);border-color:rgba(239,68,68,.4);animation:livepulse 2s ease-in-out infinite}
+@keyframes livepulse{0%,100%{border-color:rgba(239,68,68,.3)}50%{border-color:rgba(239,68,68,.7)}}
 
 .mc-top{display:flex;align-items:center;justify-content:space-between;padding:8px 13px;background:rgba(0,0,0,.22);border-bottom:1px solid var(--border);flex-wrap:wrap;gap:4px}
 .grp{font-size:9px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;background:var(--gdim);color:var(--green);border:1px solid rgba(16,185,129,.25);padding:2px 7px;border-radius:4px}
 .mt{font-size:10px;color:var(--t2)}
 .mv{font-size:10px;color:var(--t3)}
 
-.mc-body{padding:16px 12px 6px;display:flex;align-items:center;gap:8px}
-.team{flex:1;display:flex;flex-direction:column;align-items:center;gap:4px;text-align:center}
-.tf{font-size:28px;line-height:1}
+/* ── LIVE BADGE ── */
+.live-badge{display:inline-flex;align-items:center;gap:4px;background:var(--red);color:#fff;font-size:8px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;padding:2px 7px;border-radius:20px}
+.live-dot{width:5px;height:5px;background:#fff;border-radius:50%;animation:ldot 1s ease-in-out infinite}
+@keyframes ldot{0%,100%{opacity:1}50%{opacity:.2}}
+
+/* ── FLAG ── */
+.tf{display:block;margin:0 auto}
+img.tf{width:52px;height:35px;object-fit:cover;border-radius:4px;box-shadow:0 1px 6px rgba(0,0,0,.5)}
+span.tf{font-size:28px;line-height:1.2}
+.team{flex:1;display:flex;flex-direction:column;align-items:center;gap:5px;text-align:center}
 .tn{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.3px}
 .ta{font-size:9px;color:var(--t3);letter-spacing:1px}
-.sw{display:flex;align-items:center;gap:5px}
+
+.mc-body{padding:16px 12px 6px;display:flex;align-items:center;gap:8px}
+.sw{display:flex;align-items:center;gap:5px;flex-direction:column}
 .sc{font-size:42px;font-weight:900;color:#fff;line-height:1;font-variant-numeric:tabular-nums}
 .ss{font-size:24px;color:var(--t3);font-weight:200}
+.pred-row{display:flex;align-items:center;gap:5px}
+.live-score-row{display:flex;align-items:center;gap:4px;margin-top:2px}
+.live-sc{font-size:22px;font-weight:900;color:var(--red);font-variant-numeric:tabular-nums;line-height:1}
+.live-sep{font-size:14px;color:var(--red);opacity:.6}
+.live-lbl{font-size:8px;font-weight:800;color:var(--red);letter-spacing:1.5px;text-transform:uppercase;text-align:center}
 
 .mc-det{padding:2px 12px 13px}
 .scorers{display:flex;gap:6px;padding:7px 0 9px;border-bottom:1px solid var(--border);font-size:10.5px}
@@ -101,6 +117,13 @@ body{background:var(--bg);color:var(--t1);font-family:-apple-system,BlinkMacSyst
 .ot-correct{background:rgba(245,158,11,.18);color:var(--amber)}
 .ot-wrong{background:rgba(239,68,68,.18);color:var(--red)}
 .editlnk{font-size:10px;color:var(--t3);cursor:pointer;text-align:right;display:block;margin-top:5px}
+.auto-badge{font-size:9px;color:var(--green);opacity:.7;margin-left:4px}
+
+/* ── LIVE RESULT ZONE ── */
+.live-rzone{background:rgba(239,68,68,.07);border:1px solid rgba(239,68,68,.2);border-radius:8px;padding:10px 12px;margin-top:9px}
+.live-rzone .lr-row{display:flex;justify-content:space-between;font-size:11px;align-items:center}
+.live-rzone .lr-lbl{color:var(--red);font-weight:700;font-size:9px;letter-spacing:.8px;text-transform:uppercase}
+.live-rzone .lr-score{font-size:16px;font-weight:900;color:var(--red);font-variant-numeric:tabular-nums}
 
 /* ── VERDICT ── */
 .vbox{background:var(--card);border:1px solid var(--border);border-radius:14px;overflow:hidden;margin-bottom:32px}
@@ -117,7 +140,10 @@ body{background:var(--bg);color:var(--t1);font-family:-apple-system,BlinkMacSyst
 /* ── PLAYERS ── */
 .pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:10px;margin-bottom:32px}
 .pc{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:13px}
-.pn{font-weight:700;font-size:13px;margin-bottom:2px}
+.pn{font-weight:700;font-size:13px;margin-bottom:2px;display:flex;align-items:center;gap:6px}
+.pflag{display:inline-block}
+img.pflag{width:22px;height:15px;object-fit:cover;border-radius:2px;vertical-align:middle;margin-right:2px}
+span.pflag{font-size:16px;vertical-align:middle}
 .pt{font-size:9px;color:var(--green);text-transform:uppercase;letter-spacing:1.2px;margin-bottom:7px}
 .ps{font-size:11px;color:var(--t2);line-height:1.5}
 .pw{margin-top:8px;font-size:10px;color:var(--t3);padding-top:8px;border-top:1px solid var(--border);line-height:1.5}
@@ -151,7 +177,10 @@ table.ht tr:last-child td{border-bottom:none}
 .spin{display:inline-block;font-size:28px;animation:spin 1s linear infinite;margin-bottom:12px}
 @keyframes spin{to{transform:rotate(360deg)}}
 
-@media(max-width:420px){.sc{font-size:36px}.tf{font-size:24px}.wrap{padding:16px 12px calc(16px + var(--safe-bot))}}
+/* ── REFRESH BAR ── */
+.rfbar{text-align:center;font-size:10px;color:var(--t3);padding:4px 0 12px;opacity:.7}
+
+@media(max-width:420px){.sc{font-size:36px}img.tf{width:44px;height:30px}.wrap{padding:16px 12px calc(16px + var(--safe-bot))}}
 </style>
 </head>
 <body>
@@ -179,6 +208,26 @@ table.ht tr:last-child td{border-bottom:none}
 <div class="toast" id="toast"></div>
 
 <script>
+// ── CDN for flags ──
+const FLAG_CDN = 'https://flagcdn.com/w80/';
+
+function flagImg(team, size) {
+  const w = size === 'sm' ? 'w40' : 'w80';
+  const h = size === 'sm' ? 15 : 35;
+  const ew = size === 'sm' ? 22 : 52;
+  if (team.cc) {
+    return `<img class="tf" src="https://flagcdn.com/${w}/${team.cc}.png" alt="${team.name}" width="${ew}" height="${h}" onerror="this.outerHTML='<span class=\\'tf\\'>${team.flag||'🏴'}</span>'">`;
+  }
+  return `<span class="tf">${team.flag||'🏴'}</span>`;
+}
+
+function playerFlagEl(p) {
+  if (p.cc) {
+    return `<img class="pflag" src="https://flagcdn.com/w40/${p.cc}.png" alt="${p.team}" onerror="this.outerHTML='<span class=\\'pflag\\'>${p.flag||''}</span>'">`;
+  }
+  return `<span class="pflag">${p.flag||''}</span>`;
+}
+
 // ── Storage ──
 const SK='wc2026_r', HK='wc2026_h';
 const getR=()=>{try{return JSON.parse(localStorage.getItem(SK)||'{}')}catch{return{}}};
@@ -207,31 +256,74 @@ function toast(msg){
 function renderMatches(B){
   const results=getR();
   return B.matches.map(m=>{
-    const act=results[m.id]||null;
-    const out=outcome(m.pred,act);
-    const cls=['mc',out==='exact'?'exact':out==='correct'?'correct':out==='wrong'?'wrong':''].filter(Boolean).join(' ');
+    // Auto result from data.json beats manual localStorage entry
+    const autoAct = m.result || null;
+    const manualAct = results[m.id] || null;
+    const act = autoAct || manualAct;
+    const isAuto = !!autoAct;
+    const isLive = m.status === 'live';
+    const liveScore = m.live_score || null;
+
+    // If auto result, persist to localStorage too (for history tracking)
+    if (autoAct && !manualAct) saveR(m.id, { h: autoAct.h, a: autoAct.a });
+
+    const out = outcome(m.pred, act);
+    let cardCls = 'mc';
+    if (isLive) cardCls += ' is-live';
+    else if (out === 'exact') cardCls += ' exact';
+    else if (out === 'correct') cardCls += ' correct';
+    else if (out === 'wrong') cardCls += ' wrong';
+
     const confCls='conf c-'+m.confidence.toLowerCase().replace(/[\s\-]+/g,'-');
     const hS=m.scorers.h.map(s=>`<span class="sn">${s}</span>`).join('')||`<span style="color:var(--t3)">—</span>`;
     const aS=m.scorers.a.map(s=>`<span class="sn">${s}</span>`).join('')||`<span style="color:var(--t3)">—</span>`;
-    const resD=act?`
+
+    const liveBadge = isLive ? `<span class="live-badge"><span class="live-dot"></span>LIVE</span>` : '';
+
+    const liveZone = isLive && liveScore ? `
+      <div class="live-rzone">
+        <div class="lr-row">
+          <span class="lr-lbl">🔴 Live Score</span>
+          <span class="lr-score">${m.home.abbr} ${liveScore.h} – ${liveScore.a} ${m.away.abbr}</span>
+        </div>
+      </div>` : '';
+
+    const resD = act ? `
       <div class="rdisplay on">
         <div class="rrow"><span class="lbl">Predicted</span><span class="val">${m.home.abbr} ${m.pred.h}–${m.pred.a} ${m.away.abbr}</span></div>
-        <div class="rrow"><span class="lbl">Actual</span><span class="val">${m.home.abbr} ${act.h}–${act.a} ${m.away.abbr}</span></div>
+        <div class="rrow"><span class="lbl">Actual${isAuto?'<span class="auto-badge">🤖 auto</span>':''}</span><span class="val">${m.home.abbr} ${act.h}–${act.a} ${m.away.abbr}</span></div>
         <div class="otag ${out==='exact'?'ot-exact':out==='correct'?'ot-correct':'ot-wrong'}">
           ${out==='exact'?'✓ EXACT SCORE HIT':out==='correct'?'✓ CORRECT OUTCOME':'✗ WRONG OUTCOME'}
         </div>
-        <span class="editlnk" onclick="editR('${m.id}')">Edit result</span>
-      </div>`:'';
-    return`<div class="${cls}" id="mc-${m.id}">
+        ${!isAuto?`<span class="editlnk" onclick="editR('${m.id}')">Edit result</span>`:''}
+      </div>` : '';
+
+    const entryZone = !act && !isLive ? `
+      <button class="rbtn" onclick="openForm('${m.id}',this)">+ Enter Actual Result</button>
+      <div class="rform" id="rf-${m.id}">
+        <div class="rinputs">
+          <div class="ig"><label>${m.home.abbr}</label><input type="number" id="hi-${m.id}" min="0" max="20" placeholder="0" inputmode="numeric"></div>
+          <span class="sep">–</span>
+          <div class="ig"><label>${m.away.abbr}</label><input type="number" id="ai-${m.id}" min="0" max="20" placeholder="0" inputmode="numeric"></div>
+          <button class="bsave" onclick="submitR('${m.id}')">Save</button>
+        </div>
+      </div>` :
+      act ? `<button class="rbtn" onclick="editR('${m.id}')">✎ Edit Result</button>` : '';
+
+    return`<div class="${cardCls}" id="mc-${m.id}">
       <div class="mc-top">
         <span class="grp">${m.group}</span>
+        ${liveBadge}
         <span class="mt">${m.time}</span>
         <span class="mv">${m.venue}</span>
       </div>
       <div class="mc-body">
-        <div class="team"><span class="tf">${m.home.flag}</span><span class="tn">${m.home.name}</span><span class="ta">${m.home.abbr}</span></div>
-        <div class="sw"><span class="sc">${m.pred.h}</span><span class="ss">–</span><span class="sc">${m.pred.a}</span></div>
-        <div class="team"><span class="tf">${m.away.flag}</span><span class="tn">${m.away.name}</span><span class="ta">${m.away.abbr}</span></div>
+        <div class="team">${flagImg(m.home)}<span class="tn">${m.home.name}</span><span class="ta">${m.home.abbr}</span></div>
+        <div class="sw">
+          <div class="pred-row"><span class="sc">${m.pred.h}</span><span class="ss">–</span><span class="sc">${m.pred.a}</span></div>
+          ${isLive && liveScore ? `<div class="live-score-row"><span class="live-sc">${liveScore.h}</span><span class="live-sep">–</span><span class="live-sc">${liveScore.a}</span></div><div class="live-lbl">live</div>` : ''}
+        </div>
+        <div class="team">${flagImg(m.away)}<span class="tn">${m.away.name}</span><span class="ta">${m.away.abbr}</span></div>
       </div>
       <div class="mc-det">
         <div class="scorers"><div class="sh2">${hS}</div><div class="sa2">${aS}</div></div>
@@ -240,18 +332,7 @@ function renderMatches(B){
           <span class="moment">${m.moment}</span>
         </div>
         <div class="rzone">
-          ${act
-            ?`<button class="rbtn" onclick="editR('${m.id}')">✎ Edit Result</button>`
-            :`<button class="rbtn" onclick="openForm('${m.id}',this)">+ Enter Actual Result</button>`
-          }
-          <div class="rform" id="rf-${m.id}">
-            <div class="rinputs">
-              <div class="ig"><label>${m.home.abbr}</label><input type="number" id="hi-${m.id}" min="0" max="20" placeholder="0" inputmode="numeric"></div>
-              <span class="sep">–</span>
-              <div class="ig"><label>${m.away.abbr}</label><input type="number" id="ai-${m.id}" min="0" max="20" placeholder="0" inputmode="numeric"></div>
-              <button class="bsave" onclick="submitR('${m.id}')">Save</button>
-            </div>
-          </div>
+          ${entryZone}
           ${resD}
         </div>
       </div>
@@ -274,7 +355,7 @@ function renderAccuracy(B){
   const pct=n=>total>0?Math.round(n/total*100)+'%':'—';
   const bw=n=>total>0?Math.round(n/total*100)+'%':'0%';
   return`<div class="agrid">
-    <div class="acard"><div class="av g" id="s-t">${total||'—'}</div><div class="al">Tracked</div><div class="bw"><div class="bar g" style="width:${total>0?'100%':'0%'}"></div></div></div>
+    <div class="acard"><div class="av g">${total||'—'}</div><div class="al">Tracked</div><div class="bw"><div class="bar g" style="width:${total>0?'100%':'0%'}"></div></div></div>
     <div class="acard"><div class="av a">${pct(correct)}</div><div class="al">Correct Outcome</div><div class="bw"><div class="bar a" style="width:${bw(correct)}"></div></div></div>
     <div class="acard"><div class="av gold">${pct(exact)}</div><div class="al">Exact Score</div><div class="bw"><div class="bar gold" style="width:${bw(exact)}"></div></div></div>
     <div class="acard"><div class="av r">${pct(wrong)}</div><div class="al">Wrong</div><div class="bw"><div class="bar r" style="width:${bw(wrong)}"></div></div></div>
@@ -290,105 +371,4 @@ function renderHistory(B){
   const entries=Object.values(allP).map(e=>({...e,actual:results[e.id]||null}));
   entries.sort((a,b)=>(b.date||'').localeCompare(a.date||''));
   const hasAny=entries.some(e=>e.actual);
-  if(!hasAny)return`<p style="text-align:center;padding:20px 0;font-size:12px;color:var(--t3)">No results entered yet. Enter actual scores above to start tracking.</p>`;
-  const rows=entries.map(e=>{
-    const out=outcome(e.pred,e.actual);
-    const ob={exact:'<span class="be">✓ Exact</span>',correct:'<span class="bc">✓ Outcome</span>',wrong:'<span class="bw2">✗ Wrong</span>',pending:'<span class="bp">Pending</span>'};
-    return`<tr><td>${e.date||'—'}</td><td>${e.matchLabel||e.id}</td><td>${e.pred.h}–${e.pred.a}</td><td>${e.actual?`${e.actual.h}–${e.actual.a}`:'—'}</td><td>${e.confidence||'—'}</td><td>${ob[out]}</td></tr>`;
-  }).join('');
-  return`<table class="ht"><thead><tr><th>Date</th><th>Match</th><th>Predicted</th><th>Actual</th><th>Confidence</th><th>Result</th></tr></thead><tbody>${rows}</tbody></table>`;
-}
-
-// ── Render Players ──
-function renderPlayers(B){
-  return B.players.map(p=>`
-    <div class="pc">
-      <div class="pn">${p.flag} ${p.name}</div>
-      <div class="pt">${p.team}</div>
-      <div class="ps">${p.stat}</div>
-      <div class="pw">👁 ${p.watch}</div>
-    </div>`).join('');
-}
-
-// ── Save to history ──
-function saveToHistory(B){
-  const hist=getH();
-  B.matches.forEach(m=>{
-    if(!hist.find(e=>e.id===m.id))hist.push({id:m.id,date:B.dateKey,matchLabel:`${m.home.name} vs ${m.away.name}`,pred:m.pred,confidence:m.confidence});
-  });
-  localStorage.setItem(HK,JSON.stringify(hist));
-}
-
-// ── Interactive handlers ──
-window.openForm=(id,btn)=>{
-  const f=document.getElementById('rf-'+id);
-  const open=f.classList.toggle('open');
-  btn.textContent=open?'✕ Cancel':'+ Enter Actual Result';
-};
-window.editR=id=>{delR(id);renderAll(window._B)};
-window.submitR=id=>{
-  const h=parseInt(document.getElementById('hi-'+id).value);
-  const a=parseInt(document.getElementById('ai-'+id).value);
-  if(isNaN(h)||isNaN(a)||h<0||a<0){toast('Enter valid scores');return}
-  saveR(id,{h,a});toast('Result saved ✓');renderAll(window._B);
-};
-window.toggleV=btn=>{
-  const b=document.getElementById('vb');
-  const c=btn.querySelector('.vchev');
-  b.classList.toggle('open');c.classList.toggle('open');
-};
-
-// ── Full render ──
-function renderAll(B){
-  window._B=B;
-  const today=new Date().toISOString().split('T')[0];
-  document.getElementById('hdr-date').textContent=B.date;
-  document.getElementById('hdr-live').innerHTML=today===B.dateKey?'<span class="pill">Match Day</span>':'';
-  saveToHistory(B);
-  document.getElementById('app').innerHTML=`
-    <div class="sh mb"><span class="sl">⚡ Today's Predictions</span><div class="sline"></div></div>
-    <div class="mgrid">${renderMatches(B)}</div>
-
-    <div class="sh"><span class="sl">📋 Analyst's Verdict</span><div class="sline"></div></div>
-    <div class="vbox mb">
-      <button class="vtog" onclick="toggleV(this)">
-        <span class="vlbl">🎙 Read Today's Analysis</span>
-        <span class="vchev">▼</span>
-      </button>
-      <div class="vbody" id="vb">
-        <p class="vtxt">${B.verdict}</p>
-        <p class="vsig">— The Analyst</p>
-      </div>
-    </div>
-
-    <div class="sh"><span class="sl">⭐ Players to Watch</span><div class="sline"></div></div>
-    <div class="pgrid mb">${renderPlayers(B)}</div>
-
-    <div class="sh"><span class="sl">📊 Prediction Accuracy</span><div class="sline"></div></div>
-    <div class="abox mb">${renderAccuracy(B)}</div>
-
-    <div class="sh"><span class="sl">📜 Prediction History</span><div class="sline"></div></div>
-    <div class="hbox">${renderHistory(B)}</div>
-  `;
-}
-
-// ── Boot: fetch data.json ──
-fetch('data.json?v='+Date.now())
-  .then(r=>{if(!r.ok)throw new Error('no data');return r.json()})
-  .then(B=>renderAll(B))
-  .catch(()=>{
-    document.getElementById('app').innerHTML=`
-      <div class="loading">
-        <div style="font-size:32px">📭</div>
-        <br>No predictions available yet.<br>
-        <span style="font-size:12px">Check back when today's briefing runs.</span>
-      </div>`;
-  });
-
-// ── Service Worker ──
-if('serviceWorker' in navigator){
-  navigator.serviceWorker.register('sw.js').catch(()=>{});
-}
-</script>
-</body>
-</html>
+  if(!hasAny)return
