@@ -32,7 +32,12 @@
         ]
       },
       "confidence": "Medium",
-      "moment": "Embolo wins an aerial duel and slots from close range; David collects a long-ball over the Swiss defensive line and finishes on the counter as Switzerland push too high chasing a winner."
+      "moment": "Embolo wins an aerial duel and slots from close range; David collects a long-ball over the Swiss defensive line and finishes on the counter as Switzerland push too high chasing a winner.",
+      "status": "live",
+      "live_score": {
+        "h": 0,
+        "a": 0
+      }
     },
     {
       "id": "2026-06-24-BIH-QAT",
