@@ -371,4 +371,125 @@ function renderHistory(B){
   const entries=Object.values(allP).map(e=>({...e,actual:results[e.id]||null}));
   entries.sort((a,b)=>(b.date||'').localeCompare(a.date||''));
   const hasAny=entries.some(e=>e.actual);
-  if(!hasAny)return
+  if(!hasAny)return`<p style="text-align:center;padding:20px 0;font-size:12px;color:var(--t3)">No results yet — they'll appear here automatically once matches finish.</p>`;
+  const rows=entries.map(e=>{
+    const out=outcome(e.pred,e.actual);
+    const ob={exact:'<span class="be">✓ Exact</span>',correct:'<span class="bc">✓ Outcome</span>',wrong:'<span class="bw2">✗ Wrong</span>',pending:'<span class="bp">Pending</span>'};
+    return`<tr><td>${e.date||'—'}</td><td>${e.matchLabel||e.id}</td><td>${e.pred.h}–${e.pred.a}</td><td>${e.actual?`${e.actual.h}–${e.actual.a}`:'—'}</td><td>${e.confidence||'—'}</td><td>${ob[out]}</td></tr>`;
+  }).join('');
+  return`<table class="ht"><thead><tr><th>Date</th><th>Match</th><th>Predicted</th><th>Actual</th><th>Confidence</th><th>Result</th></tr></thead><tbody>${rows}</tbody></table>`;
+}
+
+// ── Render Players ──
+function renderPlayers(B){
+  return B.players.map(p=>`
+    <div class="pc">
+      <div class="pn">${playerFlagEl(p)} ${p.name}</div>
+      <div class="pt">${p.team}</div>
+      <div class="ps">${p.stat}</div>
+      <div class="pw">👁 ${p.watch}</div>
+    </div>`).join('');
+}
+
+// ── Save to history ──
+function saveToHistory(B){
+  const hist=getH();
+  B.matches.forEach(m=>{
+    if(!hist.find(e=>e.id===m.id))hist.push({id:m.id,date:B.dateKey,matchLabel:`${m.home.name} vs ${m.away.name}`,pred:m.pred,confidence:m.confidence});
+  });
+  localStorage.setItem(HK,JSON.stringify(hist));
+}
+
+// ── Interactive handlers ──
+window.openForm=(id,btn)=>{
+  const f=document.getElementById('rf-'+id);
+  const open=f.classList.toggle('open');
+  btn.textContent=open?'✕ Cancel':'+ Enter Actual Result';
+};
+window.editR=id=>{delR(id);renderAll(window._B)};
+window.submitR=id=>{
+  const h=parseInt(document.getElementById('hi-'+id).value);
+  const a=parseInt(document.getElementById('ai-'+id).value);
+  if(isNaN(h)||isNaN(a)||h<0||a<0){toast('Enter valid scores');return}
+  saveR(id,{h,a});toast('Result saved ✓');renderAll(window._B);
+};
+window.toggleV=btn=>{
+  const b=document.getElementById('vb');
+  const c=btn.querySelector('.vchev');
+  b.classList.toggle('open');c.classList.toggle('open');
+};
+
+// ── Full render ──
+function renderAll(B){
+  window._B=B;
+  const today=new Date().toISOString().split('T')[0];
+  document.getElementById('hdr-date').textContent=B.date;
+  const hasLive = B.matches && B.matches.some(m=>m.status==='live');
+  document.getElementById('hdr-live').innerHTML=
+    hasLive ? '<span class="pill" style="background:rgba(239,68,68,.15);color:var(--red);border-color:rgba(239,68,68,.3)">🔴 Live</span>' :
+    today===B.dateKey ? '<span class="pill">Match Day</span>' : '';
+  saveToHistory(B);
+  document.getElementById('app').innerHTML=`
+    <div class="sh mb"><span class="sl">⚡ Today's Predictions</span><div class="sline"></div></div>
+    <div class="mgrid">${renderMatches(B)}</div>
+
+    <div class="sh"><span class="sl">📋 Analyst's Verdict</span><div class="sline"></div></div>
+    <div class="vbox mb">
+      <button class="vtog" onclick="toggleV(this)">
+        <span class="vlbl">🎙 Read Today's Analysis</span>
+        <span class="vchev">▼</span>
+      </button>
+      <div class="vbody" id="vb">
+        <p class="vtxt">${B.verdict}</p>
+        <p class="vsig">— The Analyst</p>
+      </div>
+    </div>
+
+    <div class="sh"><span class="sl">⭐ Players to Watch</span><div class="sline"></div></div>
+    <div class="pgrid mb">${renderPlayers(B)}</div>
+
+    <div class="sh"><span class="sl">📊 Prediction Accuracy</span><div class="sline"></div></div>
+    <div class="abox mb">${renderAccuracy(B)}</div>
+
+    <div class="sh"><span class="sl">📜 Prediction History</span><div class="sline"></div></div>
+    <div class="hbox">${renderHistory(B)}</div>
+    <div class="rfbar" id="rfbar">Auto-refreshes every 5 min · <span id="rfts"></span></div>
+  `;
+  document.getElementById('rfts').textContent = 'Last update: ' + new Date().toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'});
+}
+
+// ── Boot + Auto-refresh ──
+let _lastHash = '';
+
+function loadData(silent){
+  return fetch('./data.json?v='+Date.now())
+    .then(r=>{if(!r.ok)throw new Error('no data');return r.json()})
+    .then(B=>{
+      const hash=JSON.stringify(B);
+      if(hash!==_lastHash){_lastHash=hash;renderAll(B);}
+      else if(!silent){
+        const el=document.getElementById('rfts');
+        if(el)el.textContent='Last update: '+new Date().toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'});
+      }
+    });
+}
+
+loadData(false).catch(()=>{
+  document.getElementById('app').innerHTML=`
+    <div class="loading">
+      <div style="font-size:32px">📭</div>
+      <br>No predictions available yet.<br>
+      <span style="font-size:12px">Check back when today's briefing runs.</span>
+    </div>`;
+});
+
+// Auto-refresh every 5 minutes
+setInterval(()=>loadData(true).catch(()=>{}), 5*60*1000);
+
+// Service Worker
+if('serviceWorker' in navigator){
+  navigator.serviceWorker.register('./sw.js').catch(()=>{});
+}
+</script>
+</body>
+</html>
