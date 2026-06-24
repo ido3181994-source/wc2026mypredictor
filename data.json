@@ -1,180 +1,135 @@
 {
-  "date": "June 23, 2026",
-  "dateKey": "2026-06-23",
-  "matchday": "Matchday 2 · Groups K & L",
+  "date": "June 24, 2026",
+  "dateKey": "2026-06-24",
+  "matchday": "Matchday 3 · Group Stage Finales — Groups A, B & C",
   "matches": [
     {
-      "id": "2026-06-23-POR-UZB",
-      "time": "13:00 ET",
-      "venue": "NRG Stadium, Houston",
-      "group": "Group K",
-      "home": {
-        "name": "Portugal",
-        "flag": "🇵🇹",
-        "abbr": "POR",
-        "cc": "pt"
-      },
-      "away": {
-        "name": "Uzbekistan",
-        "flag": "🇺🇿",
-        "abbr": "UZB",
-        "cc": "uz"
-      },
-      "pred": {
-        "h": 3,
-        "a": 1
-      },
+      "id": "2026-06-24-SUI-CAN",
+      "time": "15:00 ET",
+      "venue": "BC Place, Vancouver",
+      "group": "Group B",
+      "home": { "name": "Switzerland", "flag": "🇨🇭", "abbr": "SUI" },
+      "away": { "name": "Canada", "flag": "🇨🇦", "abbr": "CAN" },
+      "pred": { "h": 1, "a": 1 },
       "scorers": {
-        "h": [
-          "Fernandes 34' (p)",
-          "Conceição 56'",
-          "Neves 78'"
-        ],
-        "a": [
-          "Fayzullaev 64'"
-        ]
+        "h": ["Embolo 58'"],
+        "a": ["David 77'"]
       },
       "confidence": "Medium",
-      "moment": "Conceição's diagonal dribble draws a Karimov foul — Fernandes converts from the spot. The 3-back buckles as Portugal press with must-win urgency."
+      "moment": "Embolo wins an aerial duel and slots from close range; David collects a long-ball over the Swiss defensive line and finishes on the counter as Switzerland push too high chasing a winner."
     },
     {
-      "id": "2026-06-23-ENG-GHA",
-      "time": "16:00 ET",
-      "venue": "Gillette Stadium, Foxborough",
-      "group": "Group L",
-      "home": {
-        "name": "England",
-        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "abbr": "ENG",
-        "cc": "gb-eng"
-      },
-      "away": {
-        "name": "Ghana",
-        "flag": "🇬🇭",
-        "abbr": "GHA",
-        "cc": "gh"
-      },
-      "pred": {
-        "h": 2,
-        "a": 0
-      },
+      "id": "2026-06-24-BIH-QAT",
+      "time": "15:00 ET",
+      "venue": "Lumen Field, Seattle",
+      "group": "Group B",
+      "home": { "name": "Bosnia-Herzegovina", "flag": "🇧🇦", "abbr": "BIH" },
+      "away": { "name": "Qatar", "flag": "🇶🇦", "abbr": "QAT" },
+      "pred": { "h": 2, "a": 0 },
       "scorers": {
-        "h": [
-          "Kane 54' (hdr)",
-          "Madueke 73'"
-        ],
+        "h": ["Džeko 34'", "Demirovič 76'"],
         "a": []
       },
-      "confidence": "Medium-High",
-      "moment": "Bellingham's set-piece delivery finds Kane unmarked at the far post. Madueke punishes Ghana on the counter as they push for an equaliser."
+      "confidence": "Medium",
+      "moment": "Džeko exploits a gap in Qatar's emergency CB pairing from a corner; Demirovič seals it on a second-half break as Qatar's depleted midfield (Madibo suspended) fails to track the runner."
     },
     {
-      "id": "2026-06-23-PAN-CRO",
-      "time": "19:00 ET",
-      "venue": "BMO Field, Toronto",
-      "group": "Group L",
-      "home": {
-        "name": "Panama",
-        "flag": "🇵🇦",
-        "abbr": "PAN",
-        "cc": "pa"
-      },
-      "away": {
-        "name": "Croatia",
-        "flag": "🇭🇷",
-        "abbr": "CRO",
-        "cc": "hr"
-      },
-      "pred": {
-        "h": 1,
-        "a": 1
-      },
+      "id": "2026-06-24-MAR-HAI",
+      "time": "18:00 ET",
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "group": "Group C",
+      "home": { "name": "Morocco", "flag": "🇲🇦", "abbr": "MAR" },
+      "away": { "name": "Haiti", "flag": "🇭🇹", "abbr": "HAI" },
+      "pred": { "h": 3, "a": 0 },
       "scorers": {
-        "h": [
-          "Rodríguez 81' (fk)"
-        ],
-        "a": [
-          "Kramarić 39'"
-        ]
+        "h": ["Saibari 12'", "Ounahi 39'", "El Khannouss 67'"],
+        "a": []
       },
-      "confidence": "Low",
-      "moment": "Godoy fouled 22 yards out in the 80th minute. Rodríguez curls the free kick into the bottom-right corner. A dead ball decides a game neither team could crack in open play."
+      "confidence": "High",
+      "moment": "Saibari latches onto an El Aynaoui through-pass inside 15 minutes; Morocco's pressing system smothers Haiti immediately, with Ounahi and El Khannouss adding second-half goals as Morocco push for maximum GD against Brazil."
     },
     {
-      "id": "2026-06-23-COL-COD",
-      "time": "22:00 ET",
-      "venue": "Estadio Akron, Guadalajara",
-      "group": "Group K",
-      "home": {
-        "name": "Colombia",
-        "flag": "🇨🇴",
-        "abbr": "COL",
-        "cc": "co"
-      },
-      "away": {
-        "name": "DR Congo",
-        "flag": "🇨🇩",
-        "abbr": "COD",
-        "cc": "cd"
-      },
-      "pred": {
-        "h": 2,
-        "a": 1
-      },
+      "id": "2026-06-24-SCO-BRA",
+      "time": "18:00 ET",
+      "venue": "Hard Rock Stadium, Miami",
+      "group": "Group C",
+      "home": { "name": "Scotland", "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿", "abbr": "SCO" },
+      "away": { "name": "Brazil", "flag": "🇧🇷", "abbr": "BRA" },
+      "pred": { "h": 0, "a": 2 },
       "scorers": {
-        "h": [
-          "Díaz 29'",
-          "J. Rodríguez 58' (p)"
-        ],
-        "a": [
-          "Wissa 74'"
-        ]
+        "h": [],
+        "a": ["Vinicius Jr 35'", "Cunha 72'"]
       },
       "confidence": "Medium",
-      "moment": "Díaz cuts inside on Wan-Bissaka and drills low into the corner. After Colombia's penalty, Wissa lofts home a long diagonal on the counter — potentially the 2nd African player to score in his first two World Cup matches."
+      "moment": "Vinicius Jr receives Paqueta's cut-back and fires past the Scottish keeper after sustained pressure; Cunha seals it on a rapid counter-attack after Scotland push men forward seeking a lifeline."
+    },
+    {
+      "id": "2026-06-24-RSA-KOR",
+      "time": "21:00 ET",
+      "venue": "Estadio BBVA, Monterrey",
+      "group": "Group A",
+      "home": { "name": "South Africa", "flag": "🇿🇦", "abbr": "RSA" },
+      "away": { "name": "South Korea", "flag": "🇰🇷", "abbr": "KOR" },
+      "pred": { "h": 0, "a": 1 },
+      "scorers": {
+        "h": [],
+        "a": ["Son 76'"]
+      },
+      "confidence": "Medium",
+      "moment": "South Africa push men forward in the 70th minute with the score deadlocked. Son Heung-min collects a clearance in space — the gap left by Mokoena's suspension — and finishes low as South Africa's desperation attack creates the exact counter-attack space South Korea's system exploits."
+    },
+    {
+      "id": "2026-06-24-CZE-MEX",
+      "time": "21:00 ET",
+      "venue": "Estadio Banorte, Culiacán",
+      "group": "Group A",
+      "home": { "name": "Czechia", "flag": "🇨🇿", "abbr": "CZE" },
+      "away": { "name": "Mexico", "flag": "🇲🇽", "abbr": "MEX" },
+      "pred": { "h": 2, "a": 1 },
+      "scorers": {
+        "h": ["Schick 29'(p)", "Krejci 56'"],
+        "a": ["Gimenez 84'"]
+      },
+      "confidence": "Low",
+      "moment": "Mexico's rotated backline fouls Schick inside the box; Schick converts the penalty. Krejci drills a long-range effort through Mexico's disorganized shape. Gimenez grabs a late consolation as Czech legs tire, but the result stands."
     }
   ],
-  "verdict": "Tuesday, June 23 is the day Group K and Group L crystallise into recognisable shapes. Portugal's match against Uzbekistan is a referendum on whether Roberto Martinez's side can recover the attacking intent absent against DR Congo — Uzbekistan's defence conceded three to Colombia, and with Rúben Dias back, Portugal have the cover to press without vulnerability. The only uncertainty is whether Ronaldo contributes anything: his -2.8 post-shot xG over 10 consecutive major tournament appearances is the most damning individual stat at this World Cup. England vs Ghana is the day's most lopsided contest — 2.8 xG generated against Croatia makes 2-0 the data-consistent outcome, not a generous one. Partey's return upgrades Ghana's midfield but does not bridge the talent gap. Panama vs Croatia is the day's most volatile fixture: the market prices Croatia at 64% but their actual tournament xG is 0.71, and the opponent-strength adjustment shows they couldn't score against Czechia-level opposition in qualifying. Panama's set-piece delivery and mutual desperation produce the one draw of the day. Colombia vs DR Congo is the evening showcase — Wissa's goal against Portugal confirmed DR Congo carry a genuine cutting edge, and the 2-1 vs 1-1 call hinges on Colombia's ability to contain his counter-attacking runs in the final 20 minutes.",
+  "verdict": "Today's six fixtures constitute the most consequential single day of group-stage football in the 2026 World Cup so far, with four teams fighting for survival and two groups resolving their final seedings. Brazil and Morocco will almost certainly both advance from Group C — the real contest is for first place, and the simultaneous scheduling means neither side can game the situation in real time. Morocco's GD deficit (−2 behind Brazil) demands they attack Haiti relentlessly, while Brazil have enough quality to dispatch Scotland without needing to over-extend. In Group B, Switzerland faces a structural problem: they must win a match that Canada is perfectly content to draw, and Canada's defensive organization makes that task harder than the odds imply. The draw is the most likely single outcome, and both sides advance. South Korea simply need a point to confirm their place in the Round of 32; South Africa's loss of Mokoena in midfield is the crippling tactical handicap that makes Son Heung-min's counter-attack scenario highly executable. The day's highest-variance match — Czechia vs Mexico in Culiacán — hinges on how heavily Aguirre rotates, and whether his B-team absorbs or capitulates under Czech pressure. Schick has the quality to punish any weakness. The day's results will send nine teams into the knockout rounds and eliminate three others, with the bracket picture crystallizing toward a Round of 32 defined by northern hemisphere heavyweights on one side and African and Asian advancement stories on the other. — The Analyst.",
   "players": [
     {
-      "name": "Bruno Fernandes",
-      "team": "Portugal",
-      "flag": "🇵🇹",
-      "stat": "4 key passes vs DR Congo (WC MD1)",
-      "watch": "Through-ball to Conceição behind Uzbekistan's wide coverage; free-kick delivery",
-      "cc": "pt"
+      "name": "Ismael Saibari",
+      "team": "Morocco",
+      "flag": "🇲🇦",
+      "stat": "2 goals in tournament (both decisive); fastest WC 2026 goal (70 seconds); 107 defensive pressures, 145 sprints",
+      "watch": "A hat-trick — Saibari has scored in both Morocco games and Morocco's GD incentive means they funnel the ball through their most clinical finisher against an eliminated Haiti side"
     },
     {
-      "name": "Cristiano Ronaldo",
-      "team": "Portugal",
-      "flag": "🇵🇹",
-      "stat": "-2.8 post-shot xG over last 10 major tournament matches",
-      "watch": "Whether he ends a 10-game major tournament goalless run — the defining story of Portugal's campaign",
-      "cc": "pt"
+      "name": "Vinicius Júnior",
+      "team": "Brazil",
+      "flag": "🇧🇷",
+      "stat": "2G + 1A in tournament; 3 shots on target; 0.43 xG (tournament)",
+      "watch": "The opener against Scotland — his direct running from the left obliterates defensive lines, and the Robertson vs Vinicius Jr. duel is the key physical matchup of the entire day"
     },
     {
-      "name": "Jude Bellingham",
-      "team": "England",
-      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "stat": "8 progressive carries vs Croatia (WC MD1)",
-      "watch": "Late surging runs into the box; England's set-piece delivery built around his left foot",
-      "cc": "gb-eng"
+      "name": "Jonathan David",
+      "team": "Canada",
+      "flag": "🇨🇦",
+      "stat": "4 goals in tournament including hat-trick vs Qatar (MD2); clinical inside-the-box finishing",
+      "watch": "The sucker-punch counter-attack goal — Canada's instruction is hold and hit; David's movement in behind Switzerland's committed attacking lines is their primary scoring route"
     },
     {
-      "name": "Yoane Wissa",
-      "team": "DR Congo",
-      "flag": "🇨🇩",
-      "stat": "0.82 xG vs Portugal (WC MD1) · 8 goals in 37 caps",
-      "watch": "Transition goal — would make him 2nd African player to score in his first two World Cup matches (after Salah 2018)",
-      "cc": "cd"
+      "name": "Son Heung-min",
+      "team": "South Korea",
+      "flag": "🇰🇷",
+      "stat": "56 international goals; 10 goals in WC qualifying; 9 MLS assists in 2026",
+      "watch": "The late counter-attack winner — as South Africa push men forward desperately, Son receives in the space left by the suspended Mokoena and finishes to send South Korea through"
     },
     {
-      "name": "Luis Díaz",
-      "team": "Colombia",
-      "flag": "🇨🇴",
-      "stat": "22G + 18A across all competitions 2025/26 (club)",
-      "watch": "Combination with James Rodríguez through the half-space; first-touch finish inside the box",
-      "cc": "co"
+      "name": "Patrik Schick",
+      "team": "Czechia",
+      "flag": "🇨🇿",
+      "stat": "1 WC 2026 goal; Bundesliga-caliber finishing (Bayer Leverkusen); EURO 2020 golden boot contender",
+      "watch": "The penalty — Schick's movement inside the box will draw contact from Mexico's unorganized rotated backline; if he gets to the spot, he converts"
     }
   ]
 }
