@@ -33,10 +33,11 @@
       },
       "confidence": "Medium",
       "moment": "Embolo wins an aerial duel and slots from close range; David collects a long-ball over the Swiss defensive line and finishes on the counter as Switzerland push too high chasing a winner.",
-      "status": "live",
-      "live_score": {
-        "h": 0,
-        "a": 0
+      "status": "FT",
+      "result": {
+        "h": 2,
+        "a": 1,
+        "status": "FT"
       }
     },
     {
@@ -69,10 +70,11 @@
       },
       "confidence": "Medium",
       "moment": "Džeko exploits a gap in Qatar's emergency CB pairing from a corner; Demirovič seals it on a second-half break as Qatar's depleted midfield (Madibo suspended) fails to track the runner.",
-      "status": "live",
-      "live_score": {
-        "h": 2,
-        "a": 1
+      "status": "FT",
+      "result": {
+        "h": 3,
+        "a": 1,
+        "status": "FT"
       }
     },
     {
