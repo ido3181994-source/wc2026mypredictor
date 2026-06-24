@@ -106,7 +106,12 @@
         "a": []
       },
       "confidence": "High",
-      "moment": "Saibari latches onto an El Aynaoui through-pass inside 15 minutes; Morocco's pressing system smothers Haiti immediately, with Ounahi and El Khannouss adding second-half goals as Morocco push for maximum GD against Brazil."
+      "moment": "Saibari latches onto an El Aynaoui through-pass inside 15 minutes; Morocco's pressing system smothers Haiti immediately, with Ounahi and El Khannouss adding second-half goals as Morocco push for maximum GD against Brazil.",
+      "status": "live",
+      "live_score": {
+        "h": 2,
+        "a": 2
+      }
     },
     {
       "id": "2026-06-24-SCO-BRA",
@@ -137,7 +142,12 @@
         ]
       },
       "confidence": "Medium",
-      "moment": "Vinicius Jr receives Paqueta's cut-back and fires past the Scottish keeper after sustained pressure; Cunha seals it on a rapid counter-attack after Scotland push men forward seeking a lifeline."
+      "moment": "Vinicius Jr receives Paqueta's cut-back and fires past the Scottish keeper after sustained pressure; Cunha seals it on a rapid counter-attack after Scotland push men forward seeking a lifeline.",
+      "status": "live",
+      "live_score": {
+        "h": 0,
+        "a": 2
+      }
     },
     {
       "id": "2026-06-24-RSA-KOR",
