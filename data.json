@@ -16,7 +16,8 @@
       "away": {
         "name": "Canada",
         "flag": "🇨🇦",
-        "abbr": "CAN"
+        "abbr": "CAN",
+        "cc": "ca"
       },
       "pred": {
         "h": 1,
@@ -41,12 +42,14 @@
       "home": {
         "name": "Bosnia-Herzegovina",
         "flag": "🇧🇦",
-        "abbr": "BIH"
+        "abbr": "BIH",
+        "cc": "ba"
       },
       "away": {
         "name": "Qatar",
         "flag": "🇶🇦",
-        "abbr": "QAT"
+        "abbr": "QAT",
+        "cc": "qa"
       },
       "pred": {
         "h": 2,
@@ -75,7 +78,8 @@
       "home": {
         "name": "Morocco",
         "flag": "🇲🇦",
-        "abbr": "MAR"
+        "abbr": "MAR",
+        "cc": "ma"
       },
       "away": {
         "name": "Haiti",
@@ -105,12 +109,14 @@
       "home": {
         "name": "Scotland",
         "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-        "abbr": "SCO"
+        "abbr": "SCO",
+        "cc": "gb-sct"
       },
       "away": {
         "name": "Brazil",
         "flag": "🇧🇷",
-        "abbr": "BRA"
+        "abbr": "BRA",
+        "cc": "br"
       },
       "pred": {
         "h": 0,
@@ -139,7 +145,8 @@
       "away": {
         "name": "South Korea",
         "flag": "🇰🇷",
-        "abbr": "KOR"
+        "abbr": "KOR",
+        "cc": "kr"
       },
       "pred": {
         "h": 0,
@@ -162,12 +169,14 @@
       "home": {
         "name": "Czechia",
         "flag": "🇨🇿",
-        "abbr": "CZE"
+        "abbr": "CZE",
+        "cc": "cz"
       },
       "away": {
         "name": "Mexico",
         "flag": "🇲🇽",
-        "abbr": "MEX"
+        "abbr": "MEX",
+        "cc": "mx"
       },
       "pred": {
         "h": 2,
@@ -193,21 +202,24 @@
       "team": "Morocco",
       "flag": "🇲🇦",
       "stat": "2 goals in tournament (both decisive); fastest WC 2026 goal (70 seconds); 107 defensive pressures, 145 sprints",
-      "watch": "A hat-trick — Saibari has scored in both Morocco games and Morocco's GD incentive means they funnel the ball through their most clinical finisher against an eliminated Haiti side"
+      "watch": "A hat-trick — Saibari has scored in both Morocco games and Morocco's GD incentive means they funnel the ball through their most clinical finisher against an eliminated Haiti side",
+      "cc": "ma"
     },
     {
       "name": "Vinicius Júnior",
       "team": "Brazil",
       "flag": "🇧🇷",
       "stat": "2G + 1A in tournament; 3 shots on target; 0.43 xG (tournament)",
-      "watch": "The opener against Scotland — his direct running from the left obliterates defensive lines, and the Robertson vs Vinicius Jr. duel is the key physical matchup of the entire day"
+      "watch": "The opener against Scotland — his direct running from the left obliterates defensive lines, and the Robertson vs Vinicius Jr. duel is the key physical matchup of the entire day",
+      "cc": "br"
     },
     {
       "name": "Jonathan David",
       "team": "Canada",
       "flag": "🇨🇦",
       "stat": "4 goals in tournament including hat-trick vs Qatar (MD2); clinical inside-the-box finishing",
-      "watch": "The sucker-punch counter-attack goal — Canada's instruction is hold and hit; David's movement in behind Switzerland's committed attacking lines is their primary scoring route"
+      "watch": "The sucker-punch counter-attack goal — Canada's instruction is hold and hit; David's movement in behind Switzerland's committed attacking lines is their primary scoring route",
+      "cc": "ca"
     },
     {
       "name": "Son Heung-min",
