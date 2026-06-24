@@ -8,12 +8,27 @@
       "time": "15:00 ET",
       "venue": "BC Place, Vancouver",
       "group": "Group B",
-      "home": { "name": "Switzerland", "flag": "🇨🇭", "abbr": "SUI" },
-      "away": { "name": "Canada", "flag": "🇨🇦", "abbr": "CAN" },
-      "pred": { "h": 1, "a": 1 },
+      "home": {
+        "name": "Switzerland",
+        "flag": "🇨🇭",
+        "abbr": "SUI"
+      },
+      "away": {
+        "name": "Canada",
+        "flag": "🇨🇦",
+        "abbr": "CAN"
+      },
+      "pred": {
+        "h": 1,
+        "a": 1
+      },
       "scorers": {
-        "h": ["Embolo 58'"],
-        "a": ["David 77'"]
+        "h": [
+          "Embolo 58'"
+        ],
+        "a": [
+          "David 77'"
+        ]
       },
       "confidence": "Medium",
       "moment": "Embolo wins an aerial duel and slots from close range; David collects a long-ball over the Swiss defensive line and finishes on the counter as Switzerland push too high chasing a winner."
@@ -23,26 +38,60 @@
       "time": "15:00 ET",
       "venue": "Lumen Field, Seattle",
       "group": "Group B",
-      "home": { "name": "Bosnia-Herzegovina", "flag": "🇧🇦", "abbr": "BIH" },
-      "away": { "name": "Qatar", "flag": "🇶🇦", "abbr": "QAT" },
-      "pred": { "h": 2, "a": 0 },
+      "home": {
+        "name": "Bosnia-Herzegovina",
+        "flag": "🇧🇦",
+        "abbr": "BIH"
+      },
+      "away": {
+        "name": "Qatar",
+        "flag": "🇶🇦",
+        "abbr": "QAT"
+      },
+      "pred": {
+        "h": 2,
+        "a": 0
+      },
       "scorers": {
-        "h": ["Džeko 34'", "Demirovič 76'"],
+        "h": [
+          "Džeko 34'",
+          "Demirovič 76'"
+        ],
         "a": []
       },
       "confidence": "Medium",
-      "moment": "Džeko exploits a gap in Qatar's emergency CB pairing from a corner; Demirovič seals it on a second-half break as Qatar's depleted midfield (Madibo suspended) fails to track the runner."
+      "moment": "Džeko exploits a gap in Qatar's emergency CB pairing from a corner; Demirovič seals it on a second-half break as Qatar's depleted midfield (Madibo suspended) fails to track the runner.",
+      "status": "live",
+      "live_score": {
+        "h": 0,
+        "a": 0
+      }
     },
     {
       "id": "2026-06-24-MAR-HAI",
       "time": "18:00 ET",
       "venue": "Mercedes-Benz Stadium, Atlanta",
       "group": "Group C",
-      "home": { "name": "Morocco", "flag": "🇲🇦", "abbr": "MAR" },
-      "away": { "name": "Haiti", "flag": "🇭🇹", "abbr": "HAI" },
-      "pred": { "h": 3, "a": 0 },
+      "home": {
+        "name": "Morocco",
+        "flag": "🇲🇦",
+        "abbr": "MAR"
+      },
+      "away": {
+        "name": "Haiti",
+        "flag": "🇭🇹",
+        "abbr": "HAI"
+      },
+      "pred": {
+        "h": 3,
+        "a": 0
+      },
       "scorers": {
-        "h": ["Saibari 12'", "Ounahi 39'", "El Khannouss 67'"],
+        "h": [
+          "Saibari 12'",
+          "Ounahi 39'",
+          "El Khannouss 67'"
+        ],
         "a": []
       },
       "confidence": "High",
@@ -53,12 +102,26 @@
       "time": "18:00 ET",
       "venue": "Hard Rock Stadium, Miami",
       "group": "Group C",
-      "home": { "name": "Scotland", "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿", "abbr": "SCO" },
-      "away": { "name": "Brazil", "flag": "🇧🇷", "abbr": "BRA" },
-      "pred": { "h": 0, "a": 2 },
+      "home": {
+        "name": "Scotland",
+        "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+        "abbr": "SCO"
+      },
+      "away": {
+        "name": "Brazil",
+        "flag": "🇧🇷",
+        "abbr": "BRA"
+      },
+      "pred": {
+        "h": 0,
+        "a": 2
+      },
       "scorers": {
         "h": [],
-        "a": ["Vinicius Jr 35'", "Cunha 72'"]
+        "a": [
+          "Vinicius Jr 35'",
+          "Cunha 72'"
+        ]
       },
       "confidence": "Medium",
       "moment": "Vinicius Jr receives Paqueta's cut-back and fires past the Scottish keeper after sustained pressure; Cunha seals it on a rapid counter-attack after Scotland push men forward seeking a lifeline."
@@ -68,12 +131,25 @@
       "time": "21:00 ET",
       "venue": "Estadio BBVA, Monterrey",
       "group": "Group A",
-      "home": { "name": "South Africa", "flag": "🇿🇦", "abbr": "RSA" },
-      "away": { "name": "South Korea", "flag": "🇰🇷", "abbr": "KOR" },
-      "pred": { "h": 0, "a": 1 },
+      "home": {
+        "name": "South Africa",
+        "flag": "🇿🇦",
+        "abbr": "RSA"
+      },
+      "away": {
+        "name": "South Korea",
+        "flag": "🇰🇷",
+        "abbr": "KOR"
+      },
+      "pred": {
+        "h": 0,
+        "a": 1
+      },
       "scorers": {
         "h": [],
-        "a": ["Son 76'"]
+        "a": [
+          "Son 76'"
+        ]
       },
       "confidence": "Medium",
       "moment": "South Africa push men forward in the 70th minute with the score deadlocked. Son Heung-min collects a clearance in space — the gap left by Mokoena's suspension — and finishes low as South Africa's desperation attack creates the exact counter-attack space South Korea's system exploits."
@@ -83,12 +159,28 @@
       "time": "21:00 ET",
       "venue": "Estadio Banorte, Culiacán",
       "group": "Group A",
-      "home": { "name": "Czechia", "flag": "🇨🇿", "abbr": "CZE" },
-      "away": { "name": "Mexico", "flag": "🇲🇽", "abbr": "MEX" },
-      "pred": { "h": 2, "a": 1 },
+      "home": {
+        "name": "Czechia",
+        "flag": "🇨🇿",
+        "abbr": "CZE"
+      },
+      "away": {
+        "name": "Mexico",
+        "flag": "🇲🇽",
+        "abbr": "MEX"
+      },
+      "pred": {
+        "h": 2,
+        "a": 1
+      },
       "scorers": {
-        "h": ["Schick 29'(p)", "Krejci 56'"],
-        "a": ["Gimenez 84'"]
+        "h": [
+          "Schick 29'(p)",
+          "Krejci 56'"
+        ],
+        "a": [
+          "Gimenez 84'"
+        ]
       },
       "confidence": "Low",
       "moment": "Mexico's rotated backline fouls Schick inside the box; Schick converts the penalty. Krejci drills a long-range effort through Mexico's disorganized shape. Gimenez grabs a late consolation as Czech legs tire, but the result stands."
