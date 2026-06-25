@@ -33,10 +33,11 @@
       },
       "confidence": "Medium",
       "moment": "Diallo's direct run splits the Curacoa right side in the 38th; Adingra punishes a tired defensive shape late.",
-      "status": "live",
-      "live_score": {
+      "status": "FT",
+      "result": {
         "h": 0,
-        "a": 1
+        "a": 2,
+        "status": "FT"
       }
     },
     {
@@ -70,10 +71,11 @@
       },
       "confidence": "Medium",
       "moment": "Germany scored 3+ in 8 of their last 9 internationals; Ecuador have 0 goals across 2 games with their creator suspended.",
-      "status": "live",
-      "live_score": {
-        "h": 1,
-        "a": 1
+      "status": "FT",
+      "result": {
+        "h": 2,
+        "a": 1,
+        "status": "FT"
       }
     },
     {
