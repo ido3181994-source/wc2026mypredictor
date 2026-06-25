@@ -10,13 +10,13 @@
       "group": "Group E",
       "home": { "name": "Curaçao", "flag": "🇨🇼", "abbr": "CUW" },
       "away": { "name": "Ivory Coast", "flag": "🇨🇮", "abbr": "CIV" },
-      "pred": { "h": 0, "a": 1 },
+      "pred": { "h": 0, "a": 2 },
       "scorers": {
         "h": [],
-        "a": ["Diallo 58'"]
+        "a": ["Diallo 38'", "Adingra 74'"]
       },
       "confidence": "Medium",
-      "moment": "A Kessié free kick forces Room into a parried save; Diallo attacks the rebound before the defensive recovery is complete."
+      "moment": "Diallo's direct run splits the Curaçao right side in the 38th; Adingra punishes a tired defensive shape late — Room was extraordinary vs. Ecuador but one extraordinary performance is variance, not baseline."
     },
     {
       "id": "2026-06-25-ECU-GER",
@@ -25,13 +25,13 @@
       "group": "Group E",
       "home": { "name": "Ecuador", "flag": "🇪🇨", "abbr": "ECU" },
       "away": { "name": "Germany", "flag": "🇩🇪", "abbr": "GER" },
-      "pred": { "h": 0, "a": 2 },
+      "pred": { "h": 0, "a": 3 },
       "scorers": {
         "h": [],
-        "a": ["Undav 34'(p)", "Beier 71'"]
+        "a": ["Undav 27'", "Beier 55'", "Goretzka 78'"]
       },
       "confidence": "Medium",
-      "moment": "Ecuador push forward desperately after HT; Reijnders drives into the vacated central space; Undav is fouled in the box — penalty converted; Beier's late counter seals it as ECU are exposed at the back."
+      "moment": "Germany scored 3+ in 8 of their last 9 internationals; Ecuador have 0 goals across 2 games with their creator suspended — Undav opens early, ECU chase the game and collapse defensively, Beier and Goretzka punish the space."
     },
     {
       "id": "2026-06-25-JPN-SWE",
@@ -40,13 +40,13 @@
       "group": "Group F",
       "home": { "name": "Japan", "flag": "🇯🇵", "abbr": "JPN" },
       "away": { "name": "Sweden", "flag": "🇸🇪", "abbr": "SWE" },
-      "pred": { "h": 2, "a": 1 },
+      "pred": { "h": 3, "a": 1 },
       "scorers": {
-        "h": ["Ueda 29'", "Kamada 68'"],
-        "a": ["Isak 51'"]
+        "h": ["Ueda 18'", "Kamada 51'", "Doan 83'"],
+        "a": ["Isak 38'"]
       },
       "confidence": "Medium",
-      "moment": "Sweden equalize through Isak on a quick transition, briefly threatening upset; Kamada punishes Sweden's high defensive line on a precisely-timed run in the 68th minute."
+      "moment": "Sweden's must-win desperation forces them to push 5 men forward from the 60th minute — Japan's 3-4-3 transitions become lethal; Doan's late counter kills the game as Sweden's defensive line is stranded."
     },
     {
       "id": "2026-06-25-TUN-NED",
@@ -55,13 +55,13 @@
       "group": "Group F",
       "home": { "name": "Tunisia", "flag": "🇹🇳", "abbr": "TUN" },
       "away": { "name": "Netherlands", "flag": "🇳🇱", "abbr": "NED" },
-      "pred": { "h": 0, "a": 3 },
+      "pred": { "h": 0, "a": 4 },
       "scorers": {
         "h": [],
-        "a": ["Gakpo 17'", "Brobbey 44'", "Summerville 79'"]
+        "a": ["Gakpo 12'", "Brobbey 35'", "Reijnders 58'", "Summerville 82'"]
       },
       "confidence": "High",
-      "moment": "Netherlands learn Japan are winning in parallel at halftime; Koeman pushes for a 4th — Dumfries' overlapping run creates the third, neutralizing Japan's GD calculation."
+      "moment": "Tunisia conceded 5 to Sweden and 4 to Japan — Japan scored 4 here at this same tournament. Netherlands' GD race with Japan means Koeman keeps pushing long after the result is settled; Summerville adds the 4th in the 82nd."
     },
     {
       "id": "2026-06-25-TUR-USA",
@@ -70,13 +70,13 @@
       "group": "Group D",
       "home": { "name": "Türkiye", "flag": "🇹🇷", "abbr": "TUR" },
       "away": { "name": "United States", "flag": "🇺🇸", "abbr": "USA" },
-      "pred": { "h": 1, "a": 1 },
+      "pred": { "h": 1, "a": 2 },
       "scorers": {
-        "h": ["Güler 71'"],
-        "a": ["Pepi 22'"]
+        "h": ["Güler 67'"],
+        "a": ["Pepi 14'", "Balogun 58'"]
       },
       "confidence": "Low",
-      "moment": "USA score early on a Freeman delivery set piece; Güler — the tournament's most creative player with 0 goals to show for it — finally converts a curling shot from 20m after Çalhanoğlu's diagonal releases him."
+      "moment": "USA scored 4 and 2 in their first two games — even rotating they finish. Güler finally gets his tournament goal but the USA's superior finishing efficiency (6 goals on 2.47 xG vs Turkey's 0 on ~2.5 xG) decides it."
     },
     {
       "id": "2026-06-25-PAR-AUS",
@@ -94,49 +94,49 @@
       "moment": "A Paraguay corner from the right — Romero's flick creates chaos in the six-yard box; Gómez pounces on the second ball after Souttar's clearance falls short; Australia's shape collapses for the only time in the match."
     }
   ],
-  "verdict": "Today is the day the World Cup gets real. Six simultaneous final group-stage matches across three groups produce a day defined not by star power but by structural incentives and their consequences. The story of Groups D, E, and F entering today is one of remarkable compression: in Group D, two teams at three points each fight for one knockout spot while a technically gifted Türkiye side — with the creative trio of Güler, Çalhanoğlu, and Yıldız — leaves the tournament having created more chances than their zero goals suggest and finding their most deserved return only when it no longer matters. In Group E, the Ecuador experiment collapses under the weight of zero tournament goals and the absence of Kendry Páez, the one player who could have troubled a rotating Germany side; Germany advance with the kind of unremarkable 2-0 that conceals an enormous talent reserve, and Ivory Coast grind out the result they need against a Curaçao side whose goalkeeper Eloy Room produced the most extraordinary individual defensive performance of this tournament so far. Group F resolves cleanly: the Netherlands' goal-difference ambitions drive them to a wide margin against an already-eliminated Tunisia; Japan's counter-attacking precision produces exactly the efficient win their system is designed to deliver; and Sweden — carrying Gyökeres and Isak but lacking the tactical discipline to survive a knockout-style pressure match — exit with a 2-1 defeat that reflects their honest place in the tournament hierarchy. The Day 11 slate confirms what the xG data has been saying since matchday 1: at this World Cup, systems beat individuals in group play. Ecuador had Caicedo. Turkey had Güler. Both go home. Germany and Japan, teams that suppressed their individual talent within functional structures, advance with clean profiles and energy preserved for the rounds that matter. — The Analyst.",
+  "verdict": "This tournament is averaging 3.1 goals per game — the highest group-stage rate in decades — and today's six-match final slate will not be an exception. The pattern is brutal and consistent: Germany have scored 3+ in eight of their last nine internationals, and against an Ecuador side that has produced zero goals across two matches and now plays without its primary creator in Páez, a 3-0 is the minimum honest projection, not a ceiling. The Netherlands face a Tunisia defence that has leaked nine goals in two games, with a goal-difference race against Japan providing the exact motivation needed to keep pushing long after the result is settled — 4-0 is where the data points. Japan's counter-attacking system, already devastating against a weaker Tunisia, becomes a scoring machine when Sweden must commit forwards in the 60th minute to stay alive. The USA, for all the rotation caution, have still outscored their xG at a remarkable rate across this group stage and finish this group as they started it — by scoring more than the opposition. The single genuinely tight match is Paraguay versus Australia, where Almirón's suspension and Australia's structural incentive to park the bus create the one legitimate case for a 1-0 result. Everywhere else today, the goals are coming. — The Analyst.",
   "players": [
     {
       "name": "Ayase Ueda",
       "team": "Japan",
       "flag": "🇯🇵",
       "stat": "2 goals this tournament (both vs. Tunisia)",
-      "watch": "Exploit Sweden's high defensive line on Japan's third-man runs; aerial threat on set pieces"
+      "watch": "Exploit Sweden's high defensive line on Japan's third-man runs — scores in the 18th before Sweden can even establish their shape"
     },
     {
       "name": "Arda Güler",
       "team": "Türkiye",
       "flag": "🇹🇷",
       "stat": "0 tournament goals, est. 1.3 xG/game created — most creative on an eliminated side",
-      "watch": "The tournament goal that was coming — 20-25m curling finish after Çalhanoğlu build-up"
+      "watch": "The tournament goal that was coming — curling finish from 20m after Çalhanoğlu diagonal; arrives too late to change the result"
     },
     {
       "name": "Cody Gakpo",
       "team": "Netherlands",
       "flag": "🇳🇱",
-      "stat": "1 tournament goal; NED averaging 1.70 xG/game",
-      "watch": "First goal of the match to settle Netherlands and start the GD accumulation process"
+      "stat": "1 tournament goal; NED averaging 1.70 xG/game; market over/under vs. TUN set at 3.5",
+      "watch": "Opens the scoring in the 12th — Netherlands start fast to bank GD before Japan can set a high target in the parallel game"
     },
     {
       "name": "Deniz Undav",
       "team": "Germany",
       "flag": "🇩🇪",
-      "stat": "5 sub goal contributions this tournament (ties Roger Milla's all-time WC bench record)",
-      "watch": "Starting today vs. Ecuador — first full 90 minutes; intelligent movement in and around Ecuador's 3-5-2"
+      "stat": "5 sub goal contributions this tournament (ties Roger Milla's all-time WC bench record); starts today",
+      "watch": "First full 90 vs. Ecuador — scores early to end any lingering ECU hope; frees Germany to control the rest"
     },
     {
       "name": "Viktor Gyökeres",
       "team": "Sweden",
       "flag": "🇸🇪",
-      "stat": "7 goals in qualifying campaign (fallback — no WC tournament goals yet)",
-      "watch": "Must-win final group game; Sweden's tournament ends without him delivering against Japan"
+      "stat": "7 qualifying goals (fallback — 0 WC tournament goals yet)",
+      "watch": "Scores through Isak to make it 1-1 at 38' but Sweden's defensive exposure on the counter undoes the fight"
     },
     {
-      "name": "Diego Gómez",
-      "team": "Paraguay",
-      "flag": "🇵🇾",
-      "stat": "0 tournament goals; stepping up with Almirón suspended",
-      "watch": "The decisive second-ball moment from a set piece — the one Paraguay goal that keeps their World Cup alive"
+      "name": "Simon Adingra",
+      "team": "Ivory Coast",
+      "flag": "🇨🇮",
+      "stat": "Regular PL starter for Brighton 2025/26 — pace and direct running on the left",
+      "watch": "Punishes Curaçao's tired legs in the 74th minute — Room made 15 saves vs. Ecuador; this time the volume breaks through"
     }
   ]
 }
