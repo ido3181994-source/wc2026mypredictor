@@ -143,7 +143,12 @@
         ]
       },
       "confidence": "High",
-      "moment": "Tunisia conceded 5 to Sweden and 4 to Japan. Netherlands' GD race means Koeman keeps pushing; Summerville adds the 4th in the 82nd."
+      "moment": "Tunisia conceded 5 to Sweden and 4 to Japan. Netherlands' GD race means Koeman keeps pushing; Summerville adds the 4th in the 82nd.",
+      "status": "live",
+      "live_score": {
+        "h": 0,
+        "a": 1
+      }
     },
     {
       "id": "2026-06-25-TUR-USA",
