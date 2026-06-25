@@ -8,22 +8,66 @@
       "time": "16:00 ET",
       "venue": "Lincoln Financial Field, Philadelphia",
       "group": "Group E",
-      "home": { "name": "Curacoa", "flag": "CW", "abbr": "CUW", "cc": "cw" },
-      "away": { "name": "Ivory Coast", "flag": "CI", "abbr": "CIV", "cc": "ci" },
-      "pred": { "h": 0, "a": 2 },
-      "scorers": { "h": [], "a": ["Diallo 38'", "Adingra 74'"] },
+      "home": {
+        "name": "Curacoa",
+        "flag": "CW",
+        "abbr": "CUW",
+        "cc": "cw"
+      },
+      "away": {
+        "name": "Ivory Coast",
+        "flag": "CI",
+        "abbr": "CIV",
+        "cc": "ci"
+      },
+      "pred": {
+        "h": 0,
+        "a": 2
+      },
+      "scorers": {
+        "h": [],
+        "a": [
+          "Diallo 38'",
+          "Adingra 74'"
+        ]
+      },
       "confidence": "Medium",
-      "moment": "Diallo's direct run splits the Curacoa right side in the 38th; Adingra punishes a tired defensive shape late."
+      "moment": "Diallo's direct run splits the Curacoa right side in the 38th; Adingra punishes a tired defensive shape late.",
+      "status": "live",
+      "live_score": {
+        "h": 0,
+        "a": 0
+      }
     },
     {
       "id": "2026-06-25-ECU-GER",
       "time": "16:00 ET",
       "venue": "MetLife Stadium, East Rutherford",
       "group": "Group E",
-      "home": { "name": "Ecuador", "flag": "EC", "abbr": "ECU", "cc": "ec" },
-      "away": { "name": "Germany", "flag": "DE", "abbr": "GER", "cc": "de" },
-      "pred": { "h": 0, "a": 3 },
-      "scorers": { "h": [], "a": ["Undav 27'", "Beier 55'", "Goretzka 78'"] },
+      "home": {
+        "name": "Ecuador",
+        "flag": "EC",
+        "abbr": "ECU",
+        "cc": "ec"
+      },
+      "away": {
+        "name": "Germany",
+        "flag": "DE",
+        "abbr": "GER",
+        "cc": "de"
+      },
+      "pred": {
+        "h": 0,
+        "a": 3
+      },
+      "scorers": {
+        "h": [],
+        "a": [
+          "Undav 27'",
+          "Beier 55'",
+          "Goretzka 78'"
+        ]
+      },
       "confidence": "Medium",
       "moment": "Germany scored 3+ in 8 of their last 9 internationals; Ecuador have 0 goals across 2 games with their creator suspended."
     },
@@ -32,10 +76,32 @@
       "time": "19:00 ET",
       "venue": "AT&T Stadium, Arlington",
       "group": "Group F",
-      "home": { "name": "Japan", "flag": "JP", "abbr": "JPN", "cc": "jp" },
-      "away": { "name": "Sweden", "flag": "SE", "abbr": "SWE", "cc": "se" },
-      "pred": { "h": 3, "a": 1 },
-      "scorers": { "h": ["Ueda 18'", "Kamada 51'", "Doan 83'"], "a": ["Isak 38'"] },
+      "home": {
+        "name": "Japan",
+        "flag": "JP",
+        "abbr": "JPN",
+        "cc": "jp"
+      },
+      "away": {
+        "name": "Sweden",
+        "flag": "SE",
+        "abbr": "SWE",
+        "cc": "se"
+      },
+      "pred": {
+        "h": 3,
+        "a": 1
+      },
+      "scorers": {
+        "h": [
+          "Ueda 18'",
+          "Kamada 51'",
+          "Doan 83'"
+        ],
+        "a": [
+          "Isak 38'"
+        ]
+      },
       "confidence": "Medium",
       "moment": "Sweden's must-win desperation forces them to push 5 men forward from the 60th minute -- Japan's transitions become lethal."
     },
@@ -44,10 +110,31 @@
       "time": "19:00 ET",
       "venue": "Arrowhead Stadium, Kansas City",
       "group": "Group F",
-      "home": { "name": "Tunisia", "flag": "TN", "abbr": "TUN", "cc": "tn" },
-      "away": { "name": "Netherlands", "flag": "NL", "abbr": "NED", "cc": "nl" },
-      "pred": { "h": 0, "a": 4 },
-      "scorers": { "h": [], "a": ["Gakpo 12'", "Brobbey 35'", "Reijnders 58'", "Summerville 82'"] },
+      "home": {
+        "name": "Tunisia",
+        "flag": "TN",
+        "abbr": "TUN",
+        "cc": "tn"
+      },
+      "away": {
+        "name": "Netherlands",
+        "flag": "NL",
+        "abbr": "NED",
+        "cc": "nl"
+      },
+      "pred": {
+        "h": 0,
+        "a": 4
+      },
+      "scorers": {
+        "h": [],
+        "a": [
+          "Gakpo 12'",
+          "Brobbey 35'",
+          "Reijnders 58'",
+          "Summerville 82'"
+        ]
+      },
       "confidence": "High",
       "moment": "Tunisia conceded 5 to Sweden and 4 to Japan. Netherlands' GD race means Koeman keeps pushing; Summerville adds the 4th in the 82nd."
     },
@@ -56,10 +143,31 @@
       "time": "22:00 ET",
       "venue": "SoFi Stadium, Inglewood",
       "group": "Group D",
-      "home": { "name": "Turkiye", "flag": "TR", "abbr": "TUR", "cc": "tr" },
-      "away": { "name": "United States", "flag": "US", "abbr": "USA", "cc": "us" },
-      "pred": { "h": 1, "a": 2 },
-      "scorers": { "h": ["Guler 67'"], "a": ["Pepi 14'", "Balogun 58'"] },
+      "home": {
+        "name": "Turkiye",
+        "flag": "TR",
+        "abbr": "TUR",
+        "cc": "tr"
+      },
+      "away": {
+        "name": "United States",
+        "flag": "US",
+        "abbr": "USA",
+        "cc": "us"
+      },
+      "pred": {
+        "h": 1,
+        "a": 2
+      },
+      "scorers": {
+        "h": [
+          "Guler 67'"
+        ],
+        "a": [
+          "Pepi 14'",
+          "Balogun 58'"
+        ]
+      },
       "confidence": "Low",
       "moment": "USA scored 4 and 2 in their first two games -- even rotating they finish. Guler gets his tournament goal but too late."
     },
@@ -68,10 +176,28 @@
       "time": "22:00 ET",
       "venue": "Levi's Stadium, Santa Clara",
       "group": "Group D",
-      "home": { "name": "Paraguay", "flag": "PY", "abbr": "PAR", "cc": "py" },
-      "away": { "name": "Australia", "flag": "AU", "abbr": "AUS", "cc": "au" },
-      "pred": { "h": 1, "a": 0 },
-      "scorers": { "h": ["Gomez 63'"], "a": [] },
+      "home": {
+        "name": "Paraguay",
+        "flag": "PY",
+        "abbr": "PAR",
+        "cc": "py"
+      },
+      "away": {
+        "name": "Australia",
+        "flag": "AU",
+        "abbr": "AUS",
+        "cc": "au"
+      },
+      "pred": {
+        "h": 1,
+        "a": 0
+      },
+      "scorers": {
+        "h": [
+          "Gomez 63'"
+        ],
+        "a": []
+      },
       "confidence": "Low",
       "moment": "A Paraguay corner creates chaos in the six-yard box; Gomez pounces on the second ball after Souttar's clearance falls short."
     }
