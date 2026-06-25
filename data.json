@@ -1,256 +1,142 @@
 {
-  "date": "June 24, 2026",
-  "dateKey": "2026-06-24",
-  "matchday": "Matchday 3 · Group Stage Finales — Groups A, B & C",
+  "date": "June 25, 2026",
+  "dateKey": "2026-06-25",
+  "matchday": "Matchday 3 · Groups D, E & F",
   "matches": [
     {
-      "id": "2026-06-24-SUI-CAN",
-      "time": "15:00 ET",
-      "venue": "BC Place, Vancouver",
-      "group": "Group B",
-      "home": {
-        "name": "Switzerland",
-        "flag": "🇨🇭",
-        "abbr": "SUI"
-      },
-      "away": {
-        "name": "Canada",
-        "flag": "🇨🇦",
-        "abbr": "CAN",
-        "cc": "ca"
-      },
-      "pred": {
-        "h": 1,
-        "a": 1
-      },
+      "id": "2026-06-25-CIV-CUW",
+      "time": "16:00 ET",
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "group": "Group E",
+      "home": { "name": "Curaçao", "flag": "🇨🇼", "abbr": "CUW" },
+      "away": { "name": "Ivory Coast", "flag": "🇨🇮", "abbr": "CIV" },
+      "pred": { "h": 0, "a": 1 },
       "scorers": {
-        "h": [
-          "Embolo 58'"
-        ],
-        "a": [
-          "David 77'"
-        ]
+        "h": [],
+        "a": ["Diallo 58'"]
       },
       "confidence": "Medium",
-      "moment": "Embolo wins an aerial duel and slots from close range; David collects a long-ball over the Swiss defensive line and finishes on the counter as Switzerland push too high chasing a winner.",
-      "status": "FT",
-      "result": {
-        "h": 2,
-        "a": 1,
-        "status": "FT"
-      }
+      "moment": "A Kessié free kick forces Room into a parried save; Diallo attacks the rebound before the defensive recovery is complete."
     },
     {
-      "id": "2026-06-24-BIH-QAT",
-      "time": "15:00 ET",
-      "venue": "Lumen Field, Seattle",
-      "group": "Group B",
-      "home": {
-        "name": "Bosnia-Herzegovina",
-        "flag": "🇧🇦",
-        "abbr": "BIH",
-        "cc": "ba"
-      },
-      "away": {
-        "name": "Qatar",
-        "flag": "🇶🇦",
-        "abbr": "QAT",
-        "cc": "qa"
-      },
-      "pred": {
-        "h": 2,
-        "a": 0
-      },
+      "id": "2026-06-25-ECU-GER",
+      "time": "16:00 ET",
+      "venue": "MetLife Stadium, East Rutherford",
+      "group": "Group E",
+      "home": { "name": "Ecuador", "flag": "🇪🇨", "abbr": "ECU" },
+      "away": { "name": "Germany", "flag": "🇩🇪", "abbr": "GER" },
+      "pred": { "h": 0, "a": 2 },
       "scorers": {
-        "h": [
-          "Džeko 34'",
-          "Demirovič 76'"
-        ],
-        "a": []
+        "h": [],
+        "a": ["Undav 34'(p)", "Beier 71'"]
       },
       "confidence": "Medium",
-      "moment": "Džeko exploits a gap in Qatar's emergency CB pairing from a corner; Demirovič seals it on a second-half break as Qatar's depleted midfield (Madibo suspended) fails to track the runner.",
-      "status": "FT",
-      "result": {
-        "h": 3,
-        "a": 1,
-        "status": "FT"
-      }
+      "moment": "Ecuador push forward desperately after HT; Reijnders drives into the vacated central space; Undav is fouled in the box — penalty converted; Beier's late counter seals it as ECU are exposed at the back."
     },
     {
-      "id": "2026-06-24-MAR-HAI",
-      "time": "18:00 ET",
-      "venue": "Mercedes-Benz Stadium, Atlanta",
-      "group": "Group C",
-      "home": {
-        "name": "Morocco",
-        "flag": "🇲🇦",
-        "abbr": "MAR",
-        "cc": "ma"
-      },
-      "away": {
-        "name": "Haiti",
-        "flag": "🇭🇹",
-        "abbr": "HAI"
-      },
-      "pred": {
-        "h": 3,
-        "a": 0
-      },
+      "id": "2026-06-25-JPN-SWE",
+      "time": "19:00 ET",
+      "venue": "AT&T Stadium, Arlington",
+      "group": "Group F",
+      "home": { "name": "Japan", "flag": "🇯🇵", "abbr": "JPN" },
+      "away": { "name": "Sweden", "flag": "🇸🇪", "abbr": "SWE" },
+      "pred": { "h": 2, "a": 1 },
       "scorers": {
-        "h": [
-          "Saibari 12'",
-          "Ounahi 39'",
-          "El Khannouss 67'"
-        ],
-        "a": []
+        "h": ["Ueda 29'", "Kamada 68'"],
+        "a": ["Isak 51'"]
+      },
+      "confidence": "Medium",
+      "moment": "Sweden equalize through Isak on a quick transition, briefly threatening upset; Kamada punishes Sweden's high defensive line on a precisely-timed run in the 68th minute."
+    },
+    {
+      "id": "2026-06-25-TUN-NED",
+      "time": "19:00 ET",
+      "venue": "Arrowhead Stadium, Kansas City",
+      "group": "Group F",
+      "home": { "name": "Tunisia", "flag": "🇹🇳", "abbr": "TUN" },
+      "away": { "name": "Netherlands", "flag": "🇳🇱", "abbr": "NED" },
+      "pred": { "h": 0, "a": 3 },
+      "scorers": {
+        "h": [],
+        "a": ["Gakpo 17'", "Brobbey 44'", "Summerville 79'"]
       },
       "confidence": "High",
-      "moment": "Saibari latches onto an El Aynaoui through-pass inside 15 minutes; Morocco's pressing system smothers Haiti immediately, with Ounahi and El Khannouss adding second-half goals as Morocco push for maximum GD against Brazil.",
-      "status": "live",
-      "live_score": {
-        "h": 2,
-        "a": 2
-      }
+      "moment": "Netherlands learn Japan are winning in parallel at halftime; Koeman pushes for a 4th — Dumfries' overlapping run creates the third, neutralizing Japan's GD calculation."
     },
     {
-      "id": "2026-06-24-SCO-BRA",
-      "time": "18:00 ET",
-      "venue": "Hard Rock Stadium, Miami",
-      "group": "Group C",
-      "home": {
-        "name": "Scotland",
-        "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-        "abbr": "SCO",
-        "cc": "gb-sct"
-      },
-      "away": {
-        "name": "Brazil",
-        "flag": "🇧🇷",
-        "abbr": "BRA",
-        "cc": "br"
-      },
-      "pred": {
-        "h": 0,
-        "a": 2
-      },
+      "id": "2026-06-25-TUR-USA",
+      "time": "22:00 ET",
+      "venue": "SoFi Stadium, Inglewood",
+      "group": "Group D",
+      "home": { "name": "Türkiye", "flag": "🇹🇷", "abbr": "TUR" },
+      "away": { "name": "United States", "flag": "🇺🇸", "abbr": "USA" },
+      "pred": { "h": 1, "a": 1 },
       "scorers": {
-        "h": [],
-        "a": [
-          "Vinicius Jr 35'",
-          "Cunha 72'"
-        ]
-      },
-      "confidence": "Medium",
-      "moment": "Vinicius Jr receives Paqueta's cut-back and fires past the Scottish keeper after sustained pressure; Cunha seals it on a rapid counter-attack after Scotland push men forward seeking a lifeline.",
-      "status": "live",
-      "live_score": {
-        "h": 0,
-        "a": 2
-      }
-    },
-    {
-      "id": "2026-06-24-RSA-KOR",
-      "time": "21:00 ET",
-      "venue": "Estadio BBVA, Monterrey",
-      "group": "Group A",
-      "home": {
-        "name": "South Africa",
-        "flag": "🇿🇦",
-        "abbr": "RSA"
-      },
-      "away": {
-        "name": "South Korea",
-        "flag": "🇰🇷",
-        "abbr": "KOR",
-        "cc": "kr"
-      },
-      "pred": {
-        "h": 0,
-        "a": 1
-      },
-      "scorers": {
-        "h": [],
-        "a": [
-          "Son 76'"
-        ]
-      },
-      "confidence": "Medium",
-      "moment": "South Africa push men forward in the 70th minute with the score deadlocked. Son Heung-min collects a clearance in space — the gap left by Mokoena's suspension — and finishes low as South Africa's desperation attack creates the exact counter-attack space South Korea's system exploits."
-    },
-    {
-      "id": "2026-06-24-CZE-MEX",
-      "time": "21:00 ET",
-      "venue": "Estadio Banorte, Culiacán",
-      "group": "Group A",
-      "home": {
-        "name": "Czechia",
-        "flag": "🇨🇿",
-        "abbr": "CZE",
-        "cc": "cz"
-      },
-      "away": {
-        "name": "Mexico",
-        "flag": "🇲🇽",
-        "abbr": "MEX",
-        "cc": "mx"
-      },
-      "pred": {
-        "h": 2,
-        "a": 1
-      },
-      "scorers": {
-        "h": [
-          "Schick 29'(p)",
-          "Krejci 56'"
-        ],
-        "a": [
-          "Gimenez 84'"
-        ]
+        "h": ["Güler 71'"],
+        "a": ["Pepi 22'"]
       },
       "confidence": "Low",
-      "moment": "Mexico's rotated backline fouls Schick inside the box; Schick converts the penalty. Krejci drills a long-range effort through Mexico's disorganized shape. Gimenez grabs a late consolation as Czech legs tire, but the result stands."
+      "moment": "USA score early on a Freeman delivery set piece; Güler — the tournament's most creative player with 0 goals to show for it — finally converts a curling shot from 20m after Çalhanoğlu's diagonal releases him."
+    },
+    {
+      "id": "2026-06-25-PAR-AUS",
+      "time": "22:00 ET",
+      "venue": "Levi's Stadium, Santa Clara",
+      "group": "Group D",
+      "home": { "name": "Paraguay", "flag": "🇵🇾", "abbr": "PAR" },
+      "away": { "name": "Australia", "flag": "🇦🇺", "abbr": "AUS" },
+      "pred": { "h": 1, "a": 0 },
+      "scorers": {
+        "h": ["Gómez 63'"],
+        "a": []
+      },
+      "confidence": "Low",
+      "moment": "A Paraguay corner from the right — Romero's flick creates chaos in the six-yard box; Gómez pounces on the second ball after Souttar's clearance falls short; Australia's shape collapses for the only time in the match."
     }
   ],
-  "verdict": "Today's six fixtures constitute the most consequential single day of group-stage football in the 2026 World Cup so far, with four teams fighting for survival and two groups resolving their final seedings. Brazil and Morocco will almost certainly both advance from Group C — the real contest is for first place, and the simultaneous scheduling means neither side can game the situation in real time. Morocco's GD deficit (−2 behind Brazil) demands they attack Haiti relentlessly, while Brazil have enough quality to dispatch Scotland without needing to over-extend. In Group B, Switzerland faces a structural problem: they must win a match that Canada is perfectly content to draw, and Canada's defensive organization makes that task harder than the odds imply. The draw is the most likely single outcome, and both sides advance. South Korea simply need a point to confirm their place in the Round of 32; South Africa's loss of Mokoena in midfield is the crippling tactical handicap that makes Son Heung-min's counter-attack scenario highly executable. The day's highest-variance match — Czechia vs Mexico in Culiacán — hinges on how heavily Aguirre rotates, and whether his B-team absorbs or capitulates under Czech pressure. Schick has the quality to punish any weakness. The day's results will send nine teams into the knockout rounds and eliminate three others, with the bracket picture crystallizing toward a Round of 32 defined by northern hemisphere heavyweights on one side and African and Asian advancement stories on the other. — The Analyst.",
+  "verdict": "Today is the day the World Cup gets real. Six simultaneous final group-stage matches across three groups produce a day defined not by star power but by structural incentives and their consequences. The story of Groups D, E, and F entering today is one of remarkable compression: in Group D, two teams at three points each fight for one knockout spot while a technically gifted Türkiye side — with the creative trio of Güler, Çalhanoğlu, and Yıldız — leaves the tournament having created more chances than their zero goals suggest and finding their most deserved return only when it no longer matters. In Group E, the Ecuador experiment collapses under the weight of zero tournament goals and the absence of Kendry Páez, the one player who could have troubled a rotating Germany side; Germany advance with the kind of unremarkable 2-0 that conceals an enormous talent reserve, and Ivory Coast grind out the result they need against a Curaçao side whose goalkeeper Eloy Room produced the most extraordinary individual defensive performance of this tournament so far. Group F resolves cleanly: the Netherlands' goal-difference ambitions drive them to a wide margin against an already-eliminated Tunisia; Japan's counter-attacking precision produces exactly the efficient win their system is designed to deliver; and Sweden — carrying Gyökeres and Isak but lacking the tactical discipline to survive a knockout-style pressure match — exit with a 2-1 defeat that reflects their honest place in the tournament hierarchy. The Day 11 slate confirms what the xG data has been saying since matchday 1: at this World Cup, systems beat individuals in group play. Ecuador had Caicedo. Turkey had Güler. Both go home. Germany and Japan, teams that suppressed their individual talent within functional structures, advance with clean profiles and energy preserved for the rounds that matter. — The Analyst.",
   "players": [
     {
-      "name": "Ismael Saibari",
-      "team": "Morocco",
-      "flag": "🇲🇦",
-      "stat": "2 goals in tournament (both decisive); fastest WC 2026 goal (70 seconds); 107 defensive pressures, 145 sprints",
-      "watch": "A hat-trick — Saibari has scored in both Morocco games and Morocco's GD incentive means they funnel the ball through their most clinical finisher against an eliminated Haiti side",
-      "cc": "ma"
+      "name": "Ayase Ueda",
+      "team": "Japan",
+      "flag": "🇯🇵",
+      "stat": "2 goals this tournament (both vs. Tunisia)",
+      "watch": "Exploit Sweden's high defensive line on Japan's third-man runs; aerial threat on set pieces"
     },
     {
-      "name": "Vinicius Júnior",
-      "team": "Brazil",
-      "flag": "🇧🇷",
-      "stat": "2G + 1A in tournament; 3 shots on target; 0.43 xG (tournament)",
-      "watch": "The opener against Scotland — his direct running from the left obliterates defensive lines, and the Robertson vs Vinicius Jr. duel is the key physical matchup of the entire day",
-      "cc": "br"
+      "name": "Arda Güler",
+      "team": "Türkiye",
+      "flag": "🇹🇷",
+      "stat": "0 tournament goals, est. 1.3 xG/game created — most creative on an eliminated side",
+      "watch": "The tournament goal that was coming — 20-25m curling finish after Çalhanoğlu build-up"
     },
     {
-      "name": "Jonathan David",
-      "team": "Canada",
-      "flag": "🇨🇦",
-      "stat": "4 goals in tournament including hat-trick vs Qatar (MD2); clinical inside-the-box finishing",
-      "watch": "The sucker-punch counter-attack goal — Canada's instruction is hold and hit; David's movement in behind Switzerland's committed attacking lines is their primary scoring route",
-      "cc": "ca"
+      "name": "Cody Gakpo",
+      "team": "Netherlands",
+      "flag": "🇳🇱",
+      "stat": "1 tournament goal; NED averaging 1.70 xG/game",
+      "watch": "First goal of the match to settle Netherlands and start the GD accumulation process"
     },
     {
-      "name": "Son Heung-min",
-      "team": "South Korea",
-      "flag": "🇰🇷",
-      "stat": "56 international goals; 10 goals in WC qualifying; 9 MLS assists in 2026",
-      "watch": "The late counter-attack winner — as South Africa push men forward desperately, Son receives in the space left by the suspended Mokoena and finishes to send South Korea through"
+      "name": "Deniz Undav",
+      "team": "Germany",
+      "flag": "🇩🇪",
+      "stat": "5 sub goal contributions this tournament (ties Roger Milla's all-time WC bench record)",
+      "watch": "Starting today vs. Ecuador — first full 90 minutes; intelligent movement in and around Ecuador's 3-5-2"
     },
     {
-      "name": "Patrik Schick",
-      "team": "Czechia",
-      "flag": "🇨🇿",
-      "stat": "1 WC 2026 goal; Bundesliga-caliber finishing (Bayer Leverkusen); EURO 2020 golden boot contender",
-      "watch": "The penalty — Schick's movement inside the box will draw contact from Mexico's unorganized rotated backline; if he gets to the spot, he converts"
+      "name": "Viktor Gyökeres",
+      "team": "Sweden",
+      "flag": "🇸🇪",
+      "stat": "7 goals in qualifying campaign (fallback — no WC tournament goals yet)",
+      "watch": "Must-win final group game; Sweden's tournament ends without him delivering against Japan"
+    },
+    {
+      "name": "Diego Gómez",
+      "team": "Paraguay",
+      "flag": "🇵🇾",
+      "stat": "0 tournament goals; stepping up with Almirón suspended",
+      "watch": "The decisive second-ball moment from a set piece — the one Paraguay goal that keeps their World Cup alive"
     }
   ]
 }
