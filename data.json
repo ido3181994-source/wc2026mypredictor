@@ -69,7 +69,12 @@
         ]
       },
       "confidence": "Medium",
-      "moment": "Germany scored 3+ in 8 of their last 9 internationals; Ecuador have 0 goals across 2 games with their creator suspended."
+      "moment": "Germany scored 3+ in 8 of their last 9 internationals; Ecuador have 0 goals across 2 games with their creator suspended.",
+      "status": "live",
+      "live_score": {
+        "h": 1,
+        "a": 1
+      }
     },
     {
       "id": "2026-06-25-JPN-SWE",
