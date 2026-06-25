@@ -1,142 +1,130 @@
 {
   "date": "June 25, 2026",
   "dateKey": "2026-06-25",
-  "matchday": "Matchday 3 · Groups D, E & F",
+  "matchday": "Matchday 3 - Groups D, E & F",
   "matches": [
     {
       "id": "2026-06-25-CIV-CUW",
       "time": "16:00 ET",
       "venue": "Lincoln Financial Field, Philadelphia",
       "group": "Group E",
-      "home": { "name": "Curaçao", "flag": "🇨🇼", "abbr": "CUW" },
-      "away": { "name": "Ivory Coast", "flag": "🇨🇮", "abbr": "CIV" },
+      "home": { "name": "Curacoa", "flag": "CW", "abbr": "CUW", "cc": "cw" },
+      "away": { "name": "Ivory Coast", "flag": "CI", "abbr": "CIV", "cc": "ci" },
       "pred": { "h": 0, "a": 2 },
-      "scorers": {
-        "h": [],
-        "a": ["Diallo 38'", "Adingra 74'"]
-      },
+      "scorers": { "h": [], "a": ["Diallo 38'", "Adingra 74'"] },
       "confidence": "Medium",
-      "moment": "Diallo's direct run splits the Curaçao right side in the 38th; Adingra punishes a tired defensive shape late — Room was extraordinary vs. Ecuador but one extraordinary performance is variance, not baseline."
+      "moment": "Diallo's direct run splits the Curacoa right side in the 38th; Adingra punishes a tired defensive shape late."
     },
     {
       "id": "2026-06-25-ECU-GER",
       "time": "16:00 ET",
       "venue": "MetLife Stadium, East Rutherford",
       "group": "Group E",
-      "home": { "name": "Ecuador", "flag": "🇪🇨", "abbr": "ECU" },
-      "away": { "name": "Germany", "flag": "🇩🇪", "abbr": "GER" },
+      "home": { "name": "Ecuador", "flag": "EC", "abbr": "ECU", "cc": "ec" },
+      "away": { "name": "Germany", "flag": "DE", "abbr": "GER", "cc": "de" },
       "pred": { "h": 0, "a": 3 },
-      "scorers": {
-        "h": [],
-        "a": ["Undav 27'", "Beier 55'", "Goretzka 78'"]
-      },
+      "scorers": { "h": [], "a": ["Undav 27'", "Beier 55'", "Goretzka 78'"] },
       "confidence": "Medium",
-      "moment": "Germany scored 3+ in 8 of their last 9 internationals; Ecuador have 0 goals across 2 games with their creator suspended — Undav opens early, ECU chase the game and collapse defensively, Beier and Goretzka punish the space."
+      "moment": "Germany scored 3+ in 8 of their last 9 internationals; Ecuador have 0 goals across 2 games with their creator suspended."
     },
     {
       "id": "2026-06-25-JPN-SWE",
       "time": "19:00 ET",
       "venue": "AT&T Stadium, Arlington",
       "group": "Group F",
-      "home": { "name": "Japan", "flag": "🇯🇵", "abbr": "JPN" },
-      "away": { "name": "Sweden", "flag": "🇸🇪", "abbr": "SWE" },
+      "home": { "name": "Japan", "flag": "JP", "abbr": "JPN", "cc": "jp" },
+      "away": { "name": "Sweden", "flag": "SE", "abbr": "SWE", "cc": "se" },
       "pred": { "h": 3, "a": 1 },
-      "scorers": {
-        "h": ["Ueda 18'", "Kamada 51'", "Doan 83'"],
-        "a": ["Isak 38'"]
-      },
+      "scorers": { "h": ["Ueda 18'", "Kamada 51'", "Doan 83'"], "a": ["Isak 38'"] },
       "confidence": "Medium",
-      "moment": "Sweden's must-win desperation forces them to push 5 men forward from the 60th minute — Japan's 3-4-3 transitions become lethal; Doan's late counter kills the game as Sweden's defensive line is stranded."
+      "moment": "Sweden's must-win desperation forces them to push 5 men forward from the 60th minute -- Japan's transitions become lethal."
     },
     {
       "id": "2026-06-25-TUN-NED",
       "time": "19:00 ET",
       "venue": "Arrowhead Stadium, Kansas City",
       "group": "Group F",
-      "home": { "name": "Tunisia", "flag": "🇹🇳", "abbr": "TUN" },
-      "away": { "name": "Netherlands", "flag": "🇳🇱", "abbr": "NED" },
+      "home": { "name": "Tunisia", "flag": "TN", "abbr": "TUN", "cc": "tn" },
+      "away": { "name": "Netherlands", "flag": "NL", "abbr": "NED", "cc": "nl" },
       "pred": { "h": 0, "a": 4 },
-      "scorers": {
-        "h": [],
-        "a": ["Gakpo 12'", "Brobbey 35'", "Reijnders 58'", "Summerville 82'"]
-      },
+      "scorers": { "h": [], "a": ["Gakpo 12'", "Brobbey 35'", "Reijnders 58'", "Summerville 82'"] },
       "confidence": "High",
-      "moment": "Tunisia conceded 5 to Sweden and 4 to Japan — Japan scored 4 here at this same tournament. Netherlands' GD race with Japan means Koeman keeps pushing long after the result is settled; Summerville adds the 4th in the 82nd."
+      "moment": "Tunisia conceded 5 to Sweden and 4 to Japan. Netherlands' GD race means Koeman keeps pushing; Summerville adds the 4th in the 82nd."
     },
     {
       "id": "2026-06-25-TUR-USA",
       "time": "22:00 ET",
       "venue": "SoFi Stadium, Inglewood",
       "group": "Group D",
-      "home": { "name": "Türkiye", "flag": "🇹🇷", "abbr": "TUR" },
-      "away": { "name": "United States", "flag": "🇺🇸", "abbr": "USA" },
+      "home": { "name": "Turkiye", "flag": "TR", "abbr": "TUR", "cc": "tr" },
+      "away": { "name": "United States", "flag": "US", "abbr": "USA", "cc": "us" },
       "pred": { "h": 1, "a": 2 },
-      "scorers": {
-        "h": ["Güler 67'"],
-        "a": ["Pepi 14'", "Balogun 58'"]
-      },
+      "scorers": { "h": ["Guler 67'"], "a": ["Pepi 14'", "Balogun 58'"] },
       "confidence": "Low",
-      "moment": "USA scored 4 and 2 in their first two games — even rotating they finish. Güler finally gets his tournament goal but the USA's superior finishing efficiency (6 goals on 2.47 xG vs Turkey's 0 on ~2.5 xG) decides it."
+      "moment": "USA scored 4 and 2 in their first two games -- even rotating they finish. Guler gets his tournament goal but too late."
     },
     {
       "id": "2026-06-25-PAR-AUS",
       "time": "22:00 ET",
       "venue": "Levi's Stadium, Santa Clara",
       "group": "Group D",
-      "home": { "name": "Paraguay", "flag": "🇵🇾", "abbr": "PAR" },
-      "away": { "name": "Australia", "flag": "🇦🇺", "abbr": "AUS" },
+      "home": { "name": "Paraguay", "flag": "PY", "abbr": "PAR", "cc": "py" },
+      "away": { "name": "Australia", "flag": "AU", "abbr": "AUS", "cc": "au" },
       "pred": { "h": 1, "a": 0 },
-      "scorers": {
-        "h": ["Gómez 63'"],
-        "a": []
-      },
+      "scorers": { "h": ["Gomez 63'"], "a": [] },
       "confidence": "Low",
-      "moment": "A Paraguay corner from the right — Romero's flick creates chaos in the six-yard box; Gómez pounces on the second ball after Souttar's clearance falls short; Australia's shape collapses for the only time in the match."
+      "moment": "A Paraguay corner creates chaos in the six-yard box; Gomez pounces on the second ball after Souttar's clearance falls short."
     }
   ],
-  "verdict": "This tournament is averaging 3.1 goals per game — the highest group-stage rate in decades — and today's six-match final slate will not be an exception. The pattern is brutal and consistent: Germany have scored 3+ in eight of their last nine internationals, and against an Ecuador side that has produced zero goals across two matches and now plays without its primary creator in Páez, a 3-0 is the minimum honest projection, not a ceiling. The Netherlands face a Tunisia defence that has leaked nine goals in two games, with a goal-difference race against Japan providing the exact motivation needed to keep pushing long after the result is settled — 4-0 is where the data points. Japan's counter-attacking system, already devastating against a weaker Tunisia, becomes a scoring machine when Sweden must commit forwards in the 60th minute to stay alive. The USA, for all the rotation caution, have still outscored their xG at a remarkable rate across this group stage and finish this group as they started it — by scoring more than the opposition. The single genuinely tight match is Paraguay versus Australia, where Almirón's suspension and Australia's structural incentive to park the bus create the one legitimate case for a 1-0 result. Everywhere else today, the goals are coming. — The Analyst.",
+  "verdict": "This tournament is averaging 3.1 goals per game -- the highest group-stage rate in decades -- and today's six-match final slate will not be an exception. Germany have scored 3+ in eight of their last nine internationals against an Ecuador side with zero goals in two games. The Netherlands face a Tunisia defence that has leaked nine goals in two games, with a GD race providing motivation to keep pushing -- 4-0 is where the data points. Japan's counter-attacking system becomes a scoring machine when Sweden must commit forwards in the 60th minute. The single genuinely tight match is Paraguay vs Australia, where Almiron's suspension and Australia's structural incentive to park the bus create the one legitimate case for a 1-0. Everywhere else today, the goals are coming. -- The Analyst.",
   "players": [
     {
       "name": "Ayase Ueda",
       "team": "Japan",
-      "flag": "🇯🇵",
+      "flag": "JP",
+      "cc": "jp",
       "stat": "2 goals this tournament (both vs. Tunisia)",
-      "watch": "Exploit Sweden's high defensive line on Japan's third-man runs — scores in the 18th before Sweden can even establish their shape"
+      "watch": "Exploit Sweden's high defensive line on Japan's third-man runs -- scores in the 18th before Sweden can establish their shape"
     },
     {
-      "name": "Arda Güler",
-      "team": "Türkiye",
-      "flag": "🇹🇷",
-      "stat": "0 tournament goals, est. 1.3 xG/game created — most creative on an eliminated side",
-      "watch": "The tournament goal that was coming — curling finish from 20m after Çalhanoğlu diagonal; arrives too late to change the result"
+      "name": "Arda Guler",
+      "team": "Turkiye",
+      "flag": "TR",
+      "cc": "tr",
+      "stat": "0 tournament goals, est. 1.3 xG/game created -- most creative on an eliminated side",
+      "watch": "The tournament goal that was coming -- curling finish from 20m; arrives too late to change the result"
     },
     {
       "name": "Cody Gakpo",
       "team": "Netherlands",
-      "flag": "🇳🇱",
+      "flag": "NL",
+      "cc": "nl",
       "stat": "1 tournament goal; NED averaging 1.70 xG/game; market over/under vs. TUN set at 3.5",
-      "watch": "Opens the scoring in the 12th — Netherlands start fast to bank GD before Japan can set a high target in the parallel game"
+      "watch": "Opens the scoring in the 12th -- Netherlands start fast to bank GD before Japan can set a high target"
     },
     {
       "name": "Deniz Undav",
       "team": "Germany",
-      "flag": "🇩🇪",
-      "stat": "5 sub goal contributions this tournament (ties Roger Milla's all-time WC bench record); starts today",
-      "watch": "First full 90 vs. Ecuador — scores early to end any lingering ECU hope; frees Germany to control the rest"
+      "flag": "DE",
+      "cc": "de",
+      "stat": "5 sub goal contributions this tournament; starts today",
+      "watch": "First full 90 vs. Ecuador -- scores early to end any lingering ECU hope"
     },
     {
-      "name": "Viktor Gyökeres",
+      "name": "Viktor Gyokeres",
       "team": "Sweden",
-      "flag": "🇸🇪",
-      "stat": "7 qualifying goals (fallback — 0 WC tournament goals yet)",
+      "flag": "SE",
+      "cc": "se",
+      "stat": "7 qualifying goals (0 WC tournament goals yet)",
       "watch": "Scores through Isak to make it 1-1 at 38' but Sweden's defensive exposure on the counter undoes the fight"
     },
     {
       "name": "Simon Adingra",
       "team": "Ivory Coast",
-      "flag": "🇨🇮",
-      "stat": "Regular PL starter for Brighton 2025/26 — pace and direct running on the left",
-      "watch": "Punishes Curaçao's tired legs in the 74th minute — Room made 15 saves vs. Ecuador; this time the volume breaks through"
+      "flag": "CI",
+      "cc": "ci",
+      "stat": "Regular PL starter for Brighton 2025/26 -- pace and direct running on the left",
+      "watch": "Punishes Curacoa's tired legs in the 74th minute -- Room made 15 saves vs. Ecuador; this time the volume breaks through"
     }
   ]
 }
