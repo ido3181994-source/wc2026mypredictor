@@ -1,268 +1,127 @@
 {
-  "date": "June 25, 2026",
-  "dateKey": "2026-06-25",
-  "matchday": "Matchday 3 - Groups D, E & F",
+  "date": "June 26, 2026",
+  "dateKey": "2026-06-26",
+  "matchday": "Matchday 3 · Groups G, H & I",
   "matches": [
     {
-      "id": "2026-06-25-CIV-CUW",
-      "time": "16:00 ET",
-      "venue": "Lincoln Financial Field, Philadelphia",
-      "group": "Group E",
-      "home": {
-        "name": "Curacoa",
-        "flag": "CW",
-        "abbr": "CUW",
-        "cc": "cw"
-      },
-      "away": {
-        "name": "Ivory Coast",
-        "flag": "CI",
-        "abbr": "CIV",
-        "cc": "ci"
-      },
-      "pred": {
-        "h": 0,
-        "a": 2
-      },
+      "id": "2026-06-26-NOR-FRA",
+      "time": "15:00 ET",
+      "venue": "Gillette Stadium, Foxborough",
+      "group": "Group I",
+      "home": { "name": "Norway", "flag": "🇳🇴", "abbr": "NOR" },
+      "away": { "name": "France", "flag": "🇫🇷", "abbr": "FRA" },
+      "pred": { "h": 1, "a": 2 },
       "scorers": {
-        "h": [],
-        "a": [
-          "Diallo 38'",
-          "Adingra 74'"
-        ]
+        "h": ["Haaland 51'"],
+        "a": ["Mbappe 18'", "Olise 84'"]
       },
       "confidence": "Medium",
-      "moment": "Diallo's direct run splits the Curacoa right side in the 38th; Adingra punishes a tired defensive shape late.",
-      "status": "FT",
-      "result": {
-        "h": 0,
-        "a": 2,
-        "status": "FT"
-      }
+      "moment": "Mbappe releases Olise on the break in the 84th minute as three Norwegian defenders are caught high in France's half — Norway's all-in attacking posture collapses when Olise's clinical finish ends the contest."
     },
     {
-      "id": "2026-06-25-ECU-GER",
-      "time": "16:00 ET",
-      "venue": "MetLife Stadium, East Rutherford",
-      "group": "Group E",
-      "home": {
-        "name": "Ecuador",
-        "flag": "EC",
-        "abbr": "ECU",
-        "cc": "ec"
-      },
-      "away": {
-        "name": "Germany",
-        "flag": "DE",
-        "abbr": "GER",
-        "cc": "de"
-      },
-      "pred": {
-        "h": 0,
-        "a": 3
-      },
+      "id": "2026-06-26-CPV-KSA",
+      "time": "20:00 ET",
+      "venue": "NRG Stadium, Houston",
+      "group": "Group H",
+      "home": { "name": "Cape Verde", "flag": "🇨🇻", "abbr": "CPV" },
+      "away": { "name": "Saudi Arabia", "flag": "🇸🇦", "abbr": "KSA" },
+      "pred": { "h": 1, "a": 0 },
       "scorers": {
-        "h": [],
-        "a": [
-          "Undav 27'",
-          "Beier 55'",
-          "Goretzka 78'"
-        ]
-      },
-      "confidence": "Medium",
-      "moment": "Germany scored 3+ in 8 of their last 9 internationals; Ecuador have 0 goals across 2 games with their creator suspended.",
-      "status": "FT",
-      "result": {
-        "h": 2,
-        "a": 1,
-        "status": "FT"
-      }
-    },
-    {
-      "id": "2026-06-25-JPN-SWE",
-      "time": "19:00 ET",
-      "venue": "AT&T Stadium, Arlington",
-      "group": "Group F",
-      "home": {
-        "name": "Japan",
-        "flag": "JP",
-        "abbr": "JPN",
-        "cc": "jp"
-      },
-      "away": {
-        "name": "Sweden",
-        "flag": "SE",
-        "abbr": "SWE",
-        "cc": "se"
-      },
-      "pred": {
-        "h": 3,
-        "a": 1
-      },
-      "scorers": {
-        "h": [
-          "Ueda 18'",
-          "Kamada 51'",
-          "Doan 83'"
-        ],
-        "a": [
-          "Isak 38'"
-        ]
-      },
-      "confidence": "Medium",
-      "moment": "Sweden's must-win desperation forces them to push 5 men forward from the 60th minute -- Japan's transitions become lethal."
-    },
-    {
-      "id": "2026-06-25-TUN-NED",
-      "time": "19:00 ET",
-      "venue": "Arrowhead Stadium, Kansas City",
-      "group": "Group F",
-      "home": {
-        "name": "Tunisia",
-        "flag": "TN",
-        "abbr": "TUN",
-        "cc": "tn"
-      },
-      "away": {
-        "name": "Netherlands",
-        "flag": "NL",
-        "abbr": "NED",
-        "cc": "nl"
-      },
-      "pred": {
-        "h": 0,
-        "a": 4
-      },
-      "scorers": {
-        "h": [],
-        "a": [
-          "Gakpo 12'",
-          "Brobbey 35'",
-          "Reijnders 58'",
-          "Summerville 82'"
-        ]
-      },
-      "confidence": "High",
-      "moment": "Tunisia conceded 5 to Sweden and 4 to Japan. Netherlands' GD race means Koeman keeps pushing; Summerville adds the 4th in the 82nd.",
-      "status": "live",
-      "live_score": {
-        "h": 0,
-        "a": 1
-      }
-    },
-    {
-      "id": "2026-06-25-TUR-USA",
-      "time": "22:00 ET",
-      "venue": "SoFi Stadium, Inglewood",
-      "group": "Group D",
-      "home": {
-        "name": "Turkiye",
-        "flag": "TR",
-        "abbr": "TUR",
-        "cc": "tr"
-      },
-      "away": {
-        "name": "United States",
-        "flag": "US",
-        "abbr": "USA",
-        "cc": "us"
-      },
-      "pred": {
-        "h": 1,
-        "a": 2
-      },
-      "scorers": {
-        "h": [
-          "Guler 67'"
-        ],
-        "a": [
-          "Pepi 14'",
-          "Balogun 58'"
-        ]
-      },
-      "confidence": "Low",
-      "moment": "USA scored 4 and 2 in their first two games -- even rotating they finish. Guler gets his tournament goal but too late."
-    },
-    {
-      "id": "2026-06-25-PAR-AUS",
-      "time": "22:00 ET",
-      "venue": "Levi's Stadium, Santa Clara",
-      "group": "Group D",
-      "home": {
-        "name": "Paraguay",
-        "flag": "PY",
-        "abbr": "PAR",
-        "cc": "py"
-      },
-      "away": {
-        "name": "Australia",
-        "flag": "AU",
-        "abbr": "AUS",
-        "cc": "au"
-      },
-      "pred": {
-        "h": 1,
-        "a": 0
-      },
-      "scorers": {
-        "h": [
-          "Gomez 63'"
-        ],
+        "h": ["G. Rodrigues 67'"],
         "a": []
       },
       "confidence": "Low",
-      "moment": "A Paraguay corner creates chaos in the six-yard box; Gomez pounces on the second ball after Souttar's clearance falls short."
+      "moment": "Saudi Arabia clear a corner only to the edge of the area in the 67th minute — Garry Rodrigues reads the second ball first, controls and finishes low before the Saudi recovery shape resets, punishing defensive disorganization from a side that pushed every body forward chasing the game."
+    },
+    {
+      "id": "2026-06-26-URU-ESP",
+      "time": "20:00 ET",
+      "venue": "Estadio Akron, Guadalajara",
+      "group": "Group H",
+      "home": { "name": "Uruguay", "flag": "🇺🇾", "abbr": "URU" },
+      "away": { "name": "Spain", "flag": "🇪🇸", "abbr": "ESP" },
+      "pred": { "h": 1, "a": 2 },
+      "scorers": {
+        "h": ["Nunez 77'"],
+        "a": ["Oyarzabal 23'", "N. Williams 72'"]
+      },
+      "confidence": "Medium",
+      "moment": "Yamal's incisive through-ball in the 72nd minute splits Uruguay's defensive line — exposed through the center without Araujo anchoring it — sending Nico Williams clear to slot past Muslera and make the result safe, five minutes before Nunez's consolation."
+    },
+    {
+      "id": "2026-06-26-EGY-IRN",
+      "time": "23:00 ET",
+      "venue": "Lumen Field, Seattle",
+      "group": "Group G",
+      "home": { "name": "Egypt", "flag": "🇪🇬", "abbr": "EGY" },
+      "away": { "name": "Iran", "flag": "🇮🇷", "abbr": "IRN" },
+      "pred": { "h": 2, "a": 0 },
+      "scorers": {
+        "h": ["Salah 61' (fk)", "Marmoush 88'"],
+        "a": []
+      },
+      "confidence": "Medium",
+      "moment": "Mohamed Salah bends in a free kick from 22 yards in the 61st minute — the single piece of individual precision on a night where Iran's defensive block holds for an hour before being undone by the one moment it cannot game-plan for; Marmoush seals it as Iran abandon structure chasing an equalizer."
+    },
+    {
+      "id": "2026-06-26-NZL-BEL",
+      "time": "23:00 ET",
+      "venue": "BC Place, Vancouver",
+      "group": "Group G",
+      "home": { "name": "New Zealand", "flag": "🇳🇿", "abbr": "NZL" },
+      "away": { "name": "Belgium", "flag": "🇧🇪", "abbr": "BEL" },
+      "pred": { "h": 1, "a": 3 },
+      "scorers": {
+        "h": ["Wood 55'"],
+        "a": ["Lukaku 28'", "De Bruyne 64' (fk)", "Trossard 82'"]
+      },
+      "confidence": "Medium",
+      "moment": "Kevin De Bruyne's precise free kick from 20 yards in the 64th minute finally gives Belgium the two-goal cushion that breaks New Zealand's resistance — the set-piece precision delivering what open-play service failed to produce across two prior group matches."
     }
   ],
-  "verdict": "This tournament is averaging 3.1 goals per game -- the highest group-stage rate in decades -- and today's six-match final slate will not be an exception. Germany have scored 3+ in eight of their last nine internationals against an Ecuador side with zero goals in two games. The Netherlands face a Tunisia defence that has leaked nine goals in two games, with a GD race providing motivation to keep pushing -- 4-0 is where the data points. Japan's counter-attacking system becomes a scoring machine when Sweden must commit forwards in the 60th minute. The single genuinely tight match is Paraguay vs Australia, where Almiron's suspension and Australia's structural incentive to park the bus create the one legitimate case for a 1-0. Everywhere else today, the goals are coming. -- The Analyst.",
+  "verdict": "June 26 is the day the 2026 World Cup's group-stage picture finally resolves, and the numbers point to an outcome that rewards quality over desperation across all five matches. In Group I, France and Norway deliver what their form demanded: a competitive, open game at Gillette Stadium where Norway's structural need to win creates the space Mbappe needs to confirm his place at the top of the Golden Boot conversation — 6 goals in 3 games would be the statement of a player who arrived at this World Cup in form that demands serious attention for tournament honors. The Group H double-header settles the bracket cleanly: Spain advance as group winners powered by Yamal's incisiveness through a Uruguay defense that cannot recover from losing both Araujo and de Arrascaeta in the same elimination game; Cape Verde's extraordinary tournament story — a team that held Spain to 0-0 and drew Uruguay 2-2 — gets the final-chapter win it deserves when Saudi Arabia's desperation attacking leaves the spaces a low-block counter-attacking side is built to exploit. Group G delivers the starkest corrective moment of the day: Belgium's catastrophic xG-to-goals underperformance (1.81/game to 0.5/game actual) finally resolves at BC Place, where New Zealand's must-attack posture provides exactly the open space Belgium's attackers have been denied; meanwhile Egypt confirm their group leadership with the Salah free-kick that has been building since this tournament began. The tournament picture after today sees 24 of the 32 Round of 32 places confirmed, with France, Spain, and Belgium from today's slate entering the knockout rounds as three of the four or five genuine title contenders the data consistently identifies. — The Analyst.",
   "players": [
     {
-      "name": "Ayase Ueda",
-      "team": "Japan",
-      "flag": "JP",
-      "cc": "jp",
-      "stat": "2 goals this tournament (both vs. Tunisia)",
-      "watch": "Exploit Sweden's high defensive line on Japan's third-man runs -- scores in the 18th before Sweden can establish their shape"
+      "name": "Erling Haaland",
+      "team": "Norway",
+      "flag": "🇳🇴",
+      "stat": "4 goals in 2 tournament games (2 vs Iraq, 2 vs Senegal) — joint 2nd in Golden Boot",
+      "watch": "Whether Haaland drops deep to link play and bypass Saliba — his combination with Nusa in tight spaces rather than pure aerial duels vs France's elite backline"
     },
     {
-      "name": "Arda Guler",
-      "team": "Turkiye",
-      "flag": "TR",
-      "cc": "tr",
-      "stat": "0 tournament goals, est. 1.3 xG/game created -- most creative on an eliminated side",
-      "watch": "The tournament goal that was coming -- curling finish from 20m; arrives too late to change the result"
+      "name": "Kylian Mbappé",
+      "team": "France",
+      "flag": "🇫🇷",
+      "stat": "4 goals in 2 tournament games — tied for Golden Boot lead alongside Haaland and Messi",
+      "watch": "Mbappé in the first 20 minutes when Norway are fresh but already committed to attacking — his first-half counter is France's most efficient weapon"
     },
     {
-      "name": "Cody Gakpo",
-      "team": "Netherlands",
-      "flag": "NL",
-      "cc": "nl",
-      "stat": "1 tournament goal; NED averaging 1.70 xG/game; market over/under vs. TUN set at 3.5",
-      "watch": "Opens the scoring in the 12th -- Netherlands start fast to bank GD before Japan can set a high target"
+      "name": "Lamine Yamal",
+      "team": "Spain",
+      "flag": "🇪🇸",
+      "stat": "1 goal in tournament; 18 goals + 25 assists in 2024-25 club season (fallback — club stat); Ballon d'Or winner at 18",
+      "watch": "His through-ball precision targeting the space between Uruguay's CB pairing — specifically the channel opened by Araujo's absence — and whether he completes 90 minutes or is subbed with hamstring precaution"
     },
     {
-      "name": "Deniz Undav",
-      "team": "Germany",
-      "flag": "DE",
-      "cc": "de",
-      "stat": "5 sub goal contributions this tournament; starts today",
-      "watch": "First full 90 vs. Ecuador -- scores early to end any lingering ECU hope"
+      "name": "Mohamed Salah",
+      "team": "Egypt",
+      "flag": "🇪🇬",
+      "stat": "1 goal + 1 assist in tournament; chasing Hossam Hassan's all-time Egypt goals record",
+      "watch": "Salah's positioning at free kicks 20-22 yards from goal in the second half — if Egypt win a dead ball in that zone, this is his moment against Iran's compact block"
     },
     {
-      "name": "Viktor Gyokeres",
-      "team": "Sweden",
-      "flag": "SE",
-      "cc": "se",
-      "stat": "7 qualifying goals (0 WC tournament goals yet)",
-      "watch": "Scores through Isak to make it 1-1 at 38' but Sweden's defensive exposure on the counter undoes the fight"
+      "name": "Kevin De Bruyne",
+      "team": "Belgium",
+      "flag": "🇧🇪",
+      "stat": "Belgium 1.81 xG/game in tournament (De Bruyne primary creator); 0.5 actual goals/game — extreme underperformance predicts correction",
+      "watch": "His free-kick delivery in the 60-70 minute window — Belgium's set-piece excellence has been underutilized across two group matches and is the correction mechanism for their xG gap"
     },
     {
-      "name": "Simon Adingra",
-      "team": "Ivory Coast",
-      "flag": "CI",
-      "cc": "ci",
-      "stat": "Regular PL starter for Brighton 2025/26 -- pace and direct running on the left",
-      "watch": "Punishes Curacoa's tired legs in the 74th minute -- Room made 15 saves vs. Ecuador; this time the volume breaks through"
+      "name": "Darwin Núñez",
+      "team": "Uruguay",
+      "flag": "🇺🇾",
+      "stat": "13 career international goals (fallback); 0 goals in 2 tournament games vs Saudi Arabia and Cape Verde",
+      "watch": "His 60-80 minute performance when Uruguay are behind and Bielsa commits to all-out attack — the consolation goal window when Spain drop back at 2-0"
     }
   ]
 }
