@@ -1,225 +1,142 @@
 {
-  "date": "June 26, 2026",
-  "dateKey": "2026-06-26",
-  "matchday": "Matchday 3 - Groups G, H & I",
+  "date": "June 27, 2026",
+  "dateKey": "2026-06-27",
+  "matchday": "Matchday 3 — Groups J, K & L",
   "matches": [
     {
-      "id": "2026-06-26-NOR-FRA",
-      "time": "15:00 ET",
-      "venue": "Gillette Stadium, Foxborough",
-      "group": "Group I",
-      "home": {
-        "name": "Norway",
-        "flag": "NOR",
-        "abbr": "NOR"
-      },
-      "away": {
-        "name": "France",
-        "flag": "FRA",
-        "abbr": "FRA"
-      },
-      "pred": {
-        "h": 1,
-        "a": 1
-      },
+      "id": "2026-06-27-PAN-ENG",
+      "time": "17:00 ET",
+      "venue": "MetLife Stadium, East Rutherford, NJ",
+      "group": "Group L",
+      "home": { "name": "Panama", "flag": "🇵🇦", "abbr": "PAN" },
+      "away": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "abbr": "ENG" },
+      "pred": { "h": 0, "a": 3 },
       "scorers": {
-        "h": [
-          "Haaland 28'"
-        ],
-        "a": [
-          "Mbappe 67'"
-        ]
+        "h": [],
+        "a": ["Kane 22'", "Bellingham 47'", "Rashford 68'"]
+      },
+      "confidence": "High",
+      "moment": "Kane exploits Panama's high defensive line with a first-time turn after Bellingham's through ball; Panama never recover from conceding before the half-hour mark"
+    },
+    {
+      "id": "2026-06-27-CRO-GHA",
+      "time": "17:00 ET",
+      "venue": "Lincoln Financial Field, Philadelphia, PA",
+      "group": "Group L",
+      "home": { "name": "Croatia", "flag": "🇭🇷", "abbr": "CRO" },
+      "away": { "name": "Ghana", "flag": "🇬🇭", "abbr": "GHA" },
+      "pred": { "h": 1, "a": 1 },
+      "scorers": {
+        "h": ["Budimir 39' (hdr)"],
+        "a": ["Semenyo 71'"]
       },
       "confidence": "Medium",
-      "moment": "With France trailing 1-0, Mbappe receives from Dembele on the right and cuts inside to equalise with a left-foot finish in the 67th minute. Neither side finds a second goal as both defenses tighten in the final 20 minutes."
+      "moment": "Croatia score from a Perišić cross-set piece; Ghana respond when Partey drives forward, plays Semenyo in behind Stanišić, and the Bristol City winger finishes low to Livaković's right"
     },
     {
-      "id": "2026-06-26-SEN-IRQ",
-      "time": "15:00 ET",
-      "venue": "BMO Field, Toronto",
-      "group": "Group I",
-      "home": {
-        "name": "Senegal",
-        "flag": "SEN",
-        "abbr": "SEN"
-      },
-      "away": {
-        "name": "Iraq",
-        "flag": "IRQ",
-        "abbr": "IRQ"
-      },
-      "pred": {
-        "h": 2,
-        "a": 0
-      },
+      "id": "2026-06-27-COL-POR",
+      "time": "19:30 ET",
+      "venue": "Hard Rock Stadium, Miami Gardens, FL",
+      "group": "Group K",
+      "home": { "name": "Colombia", "flag": "🇨🇴", "abbr": "COL" },
+      "away": { "name": "Portugal", "flag": "🇵🇹", "abbr": "POR" },
+      "pred": { "h": 1, "a": 2 },
       "scorers": {
-        "h": [
-          "Sarr 38'",
-          "Dia 71' hdr"
-        ],
-        "a": []
+        "h": ["Díaz 87'"],
+        "a": ["Ronaldo 34' (hdr)", "Bruno Fernandes 74'"]
       },
       "confidence": "Medium",
-      "moment": "Ismaila Sarr converts a Mane through-ball in the 38th minute, punishing Iraq's high defensive line with the same direct run that tore Norway apart last week. Iraq's fully eliminated status and likely squad rotation leaves the spaces Senegal's counter-attacking system craves. Dia's header from a 71st-minute corner seals it."
+      "moment": "Ronaldo's timed run from deep — overlooked by Colombia's compact block — meets Bruno Fernandes's diagonal; the header is unstoppable and sets the pattern for Portugal's patient group-stage win"
     },
     {
-      "id": "2026-06-26-CPV-KSA",
-      "time": "20:00 ET",
-      "venue": "NRG Stadium, Houston",
-      "group": "Group H",
-      "home": {
-        "name": "Cape Verde",
-        "flag": "CPV",
-        "abbr": "CPV"
-      },
-      "away": {
-        "name": "Saudi Arabia",
-        "flag": "KSA",
-        "abbr": "KSA"
-      },
-      "pred": {
-        "h": 1,
-        "a": 0
-      },
+      "id": "2026-06-27-COD-UZB",
+      "time": "19:30 ET",
+      "venue": "Mercedes-Benz Stadium, Atlanta, GA",
+      "group": "Group K",
+      "home": { "name": "DR Congo", "flag": "🇨🇩", "abbr": "COD" },
+      "away": { "name": "Uzbekistan", "flag": "🇺🇿", "abbr": "UZB" },
+      "pred": { "h": 3, "a": 1 },
       "scorers": {
-        "h": [
-          "G. Rodrigues 74'"
-        ],
-        "a": []
+        "h": ["Wissa 18'", "Wissa 51'", "Fofana 77'"],
+        "a": ["[Uzbekistan] 88'"]
       },
-      "confidence": "Low",
-      "moment": "Saudi Arabia push a set piece forward in the 74th minute, lose the second ball to Cape Verde's midfield, and Garry Rodrigues bursts through a disorganized Saudi defensive line on a 40-metre counter to finish coolly."
+      "confidence": "Medium-High",
+      "moment": "Wissa's relentless first-half press forces two Uzbekistan errors in the opening 20 minutes; DR Congo score twice from direct pressing turnovers before Uzbekistan can organize"
     },
     {
-      "id": "2026-06-26-URU-ESP",
-      "time": "20:00 ET",
-      "venue": "Estadio Akron, Guadalajara",
-      "group": "Group H",
-      "home": {
-        "name": "Uruguay",
-        "flag": "URU",
-        "abbr": "URU"
-      },
-      "away": {
-        "name": "Spain",
-        "flag": "ESP",
-        "abbr": "ESP"
-      },
-      "pred": {
-        "h": 1,
-        "a": 2
-      },
+      "id": "2026-06-27-ALG-AUT",
+      "time": "22:00 ET",
+      "venue": "GEHA Field at Arrowhead Stadium, Kansas City, MO",
+      "group": "Group J",
+      "home": { "name": "Algeria", "flag": "🇩🇿", "abbr": "ALG" },
+      "away": { "name": "Austria", "flag": "🇦🇹", "abbr": "AUT" },
+      "pred": { "h": 1, "a": 1 },
       "scorers": {
-        "h": [
-          "Nunez 82'"
-        ],
-        "a": [
-          "Oyarzabal 31'",
-          "N. Williams 73'"
-        ]
+        "h": ["Mahrez 28' (fk)"],
+        "a": ["Sabitzer 73'"]
       },
       "confidence": "Medium",
-      "moment": "Lamine Yamal's reverse pass in the 73rd minute exploits the central channel vacated by Uruguay's overcommitment to closing Pedri. Nico Williams stays in behind the last defender to finish. Nunez's late header provides a consolation but doesn't change the outcome."
+      "moment": "Mahrez's precisely placed free kick from 25 yards deceives the Austrian wall and finds the top-right corner; Austria, unwilling to overcommit with their GD position secure, concede a Sabitzer counter-attack equalizer"
     },
     {
-      "id": "2026-06-26-EGY-IRN",
-      "time": "23:00 ET",
-      "venue": "Lumen Field, Seattle",
-      "group": "Group G",
-      "home": {
-        "name": "Egypt",
-        "flag": "EGY",
-        "abbr": "EGY"
-      },
-      "away": {
-        "name": "Iran",
-        "flag": "IRN",
-        "abbr": "IRN"
-      },
-      "pred": {
-        "h": 1,
-        "a": 1
-      },
+      "id": "2026-06-27-JOR-ARG",
+      "time": "22:00 ET",
+      "venue": "AT&T Stadium, Arlington, TX",
+      "group": "Group J",
+      "home": { "name": "Jordan", "flag": "🇯🇴", "abbr": "JOR" },
+      "away": { "name": "Argentina", "flag": "🇦🇷", "abbr": "ARG" },
+      "pred": { "h": 0, "a": 2 },
       "scorers": {
-        "h": [
-          "Salah 56' fk"
-        ],
-        "a": [
-          "Taremi 78' hdr"
-        ]
-      },
-      "confidence": "Low",
-      "moment": "UPSET ALERT - Egypt already qualified, Iran must win, Beiranvand held Belgium's 1.82 xG to zero. Salah bends a free kick into the top corner at 56', but Taremi equalises from a corner in the 78th minute as Iran abandon defensive caution."
-    },
-    {
-      "id": "2026-06-26-NZL-BEL",
-      "time": "23:00 ET",
-      "venue": "BC Place, Vancouver",
-      "group": "Group G",
-      "home": {
-        "name": "New Zealand",
-        "flag": "NZL",
-        "abbr": "NZL"
-      },
-      "away": {
-        "name": "Belgium",
-        "flag": "BEL",
-        "abbr": "BEL"
-      },
-      "pred": {
-        "h": 1,
-        "a": 2
-      },
-      "scorers": {
-        "h": [
-          "Wood 52' hdr"
-        ],
-        "a": [
-          "Lukaku 34'",
-          "De Bruyne 68' fk"
-        ]
+        "h": [],
+        "a": ["Álvarez 31'", "Lautaro 61'"]
       },
       "confidence": "Medium",
-      "moment": "Chris Wood's 52nd-minute header reduces Belgium's lead to 1-1 and threatens a genuine NZ upset - but De Bruyne's precise free kick from 22 yards in the 68th minute restores Belgium's advantage."
+      "moment": "Álvarez, in his first start after an ankle absence, channels full pressing intensity in the high block in the first half — his close control in a tight 30-yard channel leads directly to Argentina's opener; Messi enters at 60' to sustained applause"
     }
   ],
-  "verdict": "June 26 is the day the v3 methodology earns its keep - and the day it was stress-tested by a missed fixture. The sixth match, Senegal vs Iraq (15:00 ET, Toronto), was initially omitted from the fixture search; Senegal 2-0 Iraq is the clear prediction, driven by the starkest motivation asymmetry on the day. Egypt-Iran is the intellectual centrepiece: Egypt qualified, Iran desperate, Beiranvand having held Belgium's 1.82 xG to zero - the 1-1 draw prediction reflects a genuine three-way probability split (37/33/30) that v2 would have blindly called Egypt 2-0. Norway-France is correctly a draw: both qualified, xG gap 0.23/game well below the 0.8 threshold. Belgium downgraded from 3-1 to 2-1 (volume-shooter profile). Spain 2-1 over injury-hit Uruguay. Cape Verde 1-0 over toothless Saudi Arabia. By midnight, the Group G, H and I brackets are set. - The Analyst.",
+  "verdict": "Today's six-match final matchday closes three of the twelve groups, and the data tells a clear story: the quality gaps between today's combatants are wider than the group-stage records suggest. England dispatched Croatia in their opener but were stopped by Ghana's defensive fortress — today they face a Panama side that has produced literally zero goals and zero quality chances across two matches; the 3-0 outcome is the most arithmetic prediction on the slate. The match that matters for Group L is Croatia vs Ghana — a collision between Croatia's creative desperation and Ghana's two-game zero-conceded record that the 1-1 draw outcome reflects with structural logic: Croatia score from a set piece, Ghana answer on the counter with Semenyo's pace, and the Black Stars advance while Croatia scrambles for a third-place route. In Group K, Colombia's tournament-leading six points mask a significant attacking quality flaw — their 0.052 xG-per-shot against DR Congo is the tournament's most important under-the-surface number, and Portugal's Ronaldo-powered attack exploits it for a 2-1 victory that hands Ronaldo his seventh World Cup tournament goal. DR Congo's assault on Uzbekistan is the most structurally lopsided match of the day — Wissa's 162 pressures meeting a team with 11 opposition-box touches — and three goals and a best-third-place candidacy for the Leopards is the predictable result. Group J provides the day's most charged atmosphere: Algeria vs Austria carries the weight of the 1982 Disgrace of Gijón and the raw necessity of both sides needing something — the 1-1 draw is the most probable single outcome and the one that, brutally, leaves Algeria relying on the best-third-place lottery while Austria advance on goal difference. Meanwhile in Arlington, a rotated Argentina dispatches Jordan efficiently without Messi for 60 minutes, giving Julián Álvarez his first start and Lautaro Martínez another goal in what is ultimately a training exercise for the defending champions. — The Analyst.",
   "players": [
     {
-      "name": "Erling Haaland",
-      "team": "Norway",
-      "stat": "4 goals in 2 WC games - joint top Golden Boot scorer; xG/shot 0.211 (quality profile)",
-      "watch": "Aerial duel vs Lacroix (replacing Saliba) in the 25-35 minute window"
+      "name": "Harry Kane",
+      "team": "England",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "stat": "Scored 4 goals vs Panama at Russia 2018; England 6.72 xG in 2 tournament games",
+      "watch": "First-touch finish inside the box; aerial threat from set pieces vs Panama's passive CBs"
     },
     {
-      "name": "Kylian Mbappe",
-      "team": "France",
-      "stat": "4 goals in 2 WC games - tied for Golden Boot lead",
-      "watch": "Counter-attack burst in the 60-75 minute range after Norway lead"
+      "name": "Cristiano Ronaldo",
+      "team": "Portugal",
+      "flag": "🇵🇹",
+      "stat": "2.1 non-penalty xG after 2 matches — highest outside Haaland & Jonathan David at tournament; 2 goals vs Uzbekistan",
+      "watch": "Diagonal run behind Colombia's left-back; header from crossing position; late box arrival"
     },
     {
-      "name": "Ismaila Sarr",
-      "team": "Senegal",
-      "stat": "3 goals in 2 WC games - top Group I scorer among non-qualified teams",
-      "watch": "First-half movement off the right channel when Mane plays the through-ball"
+      "name": "Yoane Wissa",
+      "team": "DR Congo",
+      "flag": "🇨🇩",
+      "stat": "162 pressures applied (tournament leader); 49 in final third; 5 opposition-box touches",
+      "watch": "Winning the ball in Uzbekistan's defensive third via pressing turnovers; second-ball finishing"
     },
     {
-      "name": "Mohamed Salah",
-      "team": "Egypt",
-      "stat": "68 career Egypt goals - 1 shy of all-time record; UPSET ALERT match",
-      "watch": "Free kick from 20-22 yards in the second half"
+      "name": "Riyad Mahrez",
+      "team": "Algeria",
+      "flag": "🇩🇿",
+      "stat": "Captain; Algeria's sole creative nucleus; provided assist vs Jordan; free kick specialist",
+      "watch": "Direct cut from right to left-foot shot angle; free kick placement over Austrian wall"
     },
     {
-      "name": "Lamine Yamal",
-      "team": "Spain",
-      "stat": "1 WC goal; 18g+25a in 2024-25 club season; Ballon d'Or at 18",
-      "watch": "Through-ball into the channel behind Maxi Araujo (midfielder at left-back)"
+      "name": "Antoine Semenyo",
+      "team": "Ghana",
+      "flag": "🇬🇭",
+      "stat": "11 EPL goals in 2024/25 (Bristol City → Bournemouth); Ghana's fastest attacking outlet",
+      "watch": "Running in behind Croatia's high press-then-recover line; left-side cut-across finish"
     },
     {
-      "name": "Alireza Beiranvand",
-      "team": "Iran",
-      "stat": "7 saves vs Belgium (1.82 xG, 0 goals conceded) - UPSET ALERT hero",
-      "watch": "Positioning on Salah free kicks from 20-22 yards"
+      "name": "Julián Álvarez",
+      "team": "Argentina",
+      "flag": "🇦🇷",
+      "stat": "First start of tournament after ankle injury; fallback: 0.56 xG/90 and 22 goals at Atlético Madrid 2024/25",
+      "watch": "Pressing in Jordan's half leading directly to a chance; combination play with Lautaro in tight space"
     }
   ]
 }
