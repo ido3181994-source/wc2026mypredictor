@@ -1,142 +1,60 @@
 {
-  "date": "June 27, 2026",
-  "dateKey": "2026-06-27",
-  "matchday": "Matchday 3 — Groups J, K & L",
+  "date": "June 28, 2026",
+  "dateKey": "2026-06-28",
+  "matchday": "Round of 32 — Match 1",
   "matches": [
     {
-      "id": "2026-06-27-PAN-ENG",
-      "time": "17:00 ET",
-      "venue": "MetLife Stadium, East Rutherford, NJ",
-      "group": "Group L",
-      "home": { "name": "Panama", "flag": "🇵🇦", "abbr": "PAN" },
-      "away": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "abbr": "ENG" },
-      "pred": { "h": 0, "a": 3 },
-      "scorers": {
-        "h": [],
-        "a": ["Kane 22'", "Bellingham 47'", "Rashford 68'"]
-      },
-      "confidence": "High",
-      "moment": "Kane exploits Panama's high defensive line with a first-time turn after Bellingham's through ball; Panama never recover from conceding before the half-hour mark"
-    },
-    {
-      "id": "2026-06-27-CRO-GHA",
-      "time": "17:00 ET",
-      "venue": "Lincoln Financial Field, Philadelphia, PA",
-      "group": "Group L",
-      "home": { "name": "Croatia", "flag": "🇭🇷", "abbr": "CRO" },
-      "away": { "name": "Ghana", "flag": "🇬🇭", "abbr": "GHA" },
-      "pred": { "h": 1, "a": 1 },
-      "scorers": {
-        "h": ["Budimir 39' (hdr)"],
-        "a": ["Semenyo 71'"]
-      },
-      "confidence": "Medium",
-      "moment": "Croatia score from a Perišić cross-set piece; Ghana respond when Partey drives forward, plays Semenyo in behind Stanišić, and the Bristol City winger finishes low to Livaković's right"
-    },
-    {
-      "id": "2026-06-27-COL-POR",
-      "time": "19:30 ET",
-      "venue": "Hard Rock Stadium, Miami Gardens, FL",
-      "group": "Group K",
-      "home": { "name": "Colombia", "flag": "🇨🇴", "abbr": "COL" },
-      "away": { "name": "Portugal", "flag": "🇵🇹", "abbr": "POR" },
+      "id": "2026-06-28-RSA-CAN",
+      "time": "15:00 ET",
+      "venue": "SoFi Stadium, Los Angeles",
+      "group": "Round of 32",
+      "home": { "name": "South Africa", "flag": "🇿🇦", "abbr": "RSA" },
+      "away": { "name": "Canada", "flag": "🇨🇦", "abbr": "CAN" },
       "pred": { "h": 1, "a": 2 },
       "scorers": {
-        "h": ["Díaz 87'"],
-        "a": ["Ronaldo 34' (hdr)", "Bruno Fernandes 74'"]
+        "h": ["Mokoena 64' (hdr)"],
+        "a": ["David 28'", "David 79' (p)"]
       },
       "confidence": "Medium",
-      "moment": "Ronaldo's timed run from deep — overlooked by Colombia's compact block — meets Bruno Fernandes's diagonal; the header is unstoppable and sets the pattern for Portugal's patient group-stage win"
-    },
-    {
-      "id": "2026-06-27-COD-UZB",
-      "time": "19:30 ET",
-      "venue": "Mercedes-Benz Stadium, Atlanta, GA",
-      "group": "Group K",
-      "home": { "name": "DR Congo", "flag": "🇨🇩", "abbr": "COD" },
-      "away": { "name": "Uzbekistan", "flag": "🇺🇿", "abbr": "UZB" },
-      "pred": { "h": 3, "a": 1 },
-      "scorers": {
-        "h": ["Wissa 18'", "Wissa 51'", "Fofana 77'"],
-        "a": ["[Uzbekistan] 88'"]
-      },
-      "confidence": "Medium-High",
-      "moment": "Wissa's relentless first-half press forces two Uzbekistan errors in the opening 20 minutes; DR Congo score twice from direct pressing turnovers before Uzbekistan can organize"
-    },
-    {
-      "id": "2026-06-27-ALG-AUT",
-      "time": "22:00 ET",
-      "venue": "GEHA Field at Arrowhead Stadium, Kansas City, MO",
-      "group": "Group J",
-      "home": { "name": "Algeria", "flag": "🇩🇿", "abbr": "ALG" },
-      "away": { "name": "Austria", "flag": "🇦🇹", "abbr": "AUT" },
-      "pred": { "h": 1, "a": 1 },
-      "scorers": {
-        "h": ["Mahrez 28' (fk)"],
-        "a": ["Sabitzer 73'"]
-      },
-      "confidence": "Medium",
-      "moment": "Mahrez's precisely placed free kick from 25 yards deceives the Austrian wall and finds the top-right corner; Austria, unwilling to overcommit with their GD position secure, concede a Sabitzer counter-attack equalizer"
-    },
-    {
-      "id": "2026-06-27-JOR-ARG",
-      "time": "22:00 ET",
-      "venue": "AT&T Stadium, Arlington, TX",
-      "group": "Group J",
-      "home": { "name": "Jordan", "flag": "🇯🇴", "abbr": "JOR" },
-      "away": { "name": "Argentina", "flag": "🇦🇷", "abbr": "ARG" },
-      "pred": { "h": 0, "a": 2 },
-      "scorers": {
-        "h": [],
-        "a": ["Álvarez 31'", "Lautaro 61'"]
-      },
-      "confidence": "Medium",
-      "moment": "Álvarez, in his first start after an ankle absence, channels full pressing intensity in the high block in the first half — his close control in a tight 30-yard channel leads directly to Argentina's opener; Messi enters at 60' to sustained applause"
+      "moment": "Mokoena's corner-kick header levels the game at 1-1 at 64'; David converts a penalty at 79' as South Africa push numbers forward and leave space behind."
     }
   ],
-  "verdict": "Today's six-match final matchday closes three of the twelve groups, and the data tells a clear story: the quality gaps between today's combatants are wider than the group-stage records suggest. England dispatched Croatia in their opener but were stopped by Ghana's defensive fortress — today they face a Panama side that has produced literally zero goals and zero quality chances across two matches; the 3-0 outcome is the most arithmetic prediction on the slate. The match that matters for Group L is Croatia vs Ghana — a collision between Croatia's creative desperation and Ghana's two-game zero-conceded record that the 1-1 draw outcome reflects with structural logic: Croatia score from a set piece, Ghana answer on the counter with Semenyo's pace, and the Black Stars advance while Croatia scrambles for a third-place route. In Group K, Colombia's tournament-leading six points mask a significant attacking quality flaw — their 0.052 xG-per-shot against DR Congo is the tournament's most important under-the-surface number, and Portugal's Ronaldo-powered attack exploits it for a 2-1 victory that hands Ronaldo his seventh World Cup tournament goal. DR Congo's assault on Uzbekistan is the most structurally lopsided match of the day — Wissa's 162 pressures meeting a team with 11 opposition-box touches — and three goals and a best-third-place candidacy for the Leopards is the predictable result. Group J provides the day's most charged atmosphere: Algeria vs Austria carries the weight of the 1982 Disgrace of Gijón and the raw necessity of both sides needing something — the 1-1 draw is the most probable single outcome and the one that, brutally, leaves Algeria relying on the best-third-place lottery while Austria advance on goal difference. Meanwhile in Arlington, a rotated Argentina dispatches Jordan efficiently without Messi for 60 minutes, giving Julián Álvarez his first start and Lautaro Martínez another goal in what is ultimately a training exercise for the defending champions. — The Analyst.",
+  "verdict": "Sunday in Los Angeles opens the round of 32 with a fixture that puts football's expanded format on full display: a historic first for both nations, and a moment that, by any pre-tournament projection, neither was expected to reach. The numbers are unambiguous about who the better team is — Canada lead all 32 remaining qualifiers in xG differential at +1.77 per match, and Jonathan David has established himself as the tournament's most dangerous finisher with three goals in three appearances. What the numbers also reveal, however, is that South Africa are not simply making up the numbers. Their adjusted xGA of 1.01 against comparable opposition matches Canada's almost identically, their goalkeeper Ronwen Williams is among the elite in this tournament, and the absence of Zwane — the red-card ghost from matchday one against Mexico — has been absorbed across two further group performances without structural collapse. Canada's path to victory runs directly through breaking down a compact defensive block that has allowed only two goals across three group games, and doing so with significant uncertainty around their primary midfield anchor, Eustaquio. The most dangerous scenario for Canada is not South Africa winning convincingly — it is a 1-1 draw at 90 minutes that takes this tie to extra time and then to Ronwen Williams guarding the penalty spot. Canada win this in normal time, but the margin is narrow, the scoreline is contested, and the tournament's first knockout day ends not with the comprehensive statement result Canada's xG data suggests they deserve, but with the kind of hard-fought 2-1 that establishes a co-host's knockout credentials without fully settling the questions about their resilience under maximum pressure. — The Analyst.",
   "players": [
     {
-      "name": "Harry Kane",
-      "team": "England",
-      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "stat": "Scored 4 goals vs Panama at Russia 2018; England 6.72 xG in 2 tournament games",
-      "watch": "First-touch finish inside the box; aerial threat from set pieces vs Panama's passive CBs"
+      "name": "Jonathan David",
+      "team": "Canada",
+      "flag": "🇨🇦",
+      "stat": "3 goals (hat trick vs Qatar); highest xG rate among active strikers in tournament",
+      "watch": "Second goal of the match — David has scored multiple times in two of three WC appearances; penalty-area movement is his primary weapon"
     },
     {
-      "name": "Cristiano Ronaldo",
-      "team": "Portugal",
-      "flag": "🇵🇹",
-      "stat": "2.1 non-penalty xG after 2 matches — highest outside Haaland & Jonathan David at tournament; 2 goals vs Uzbekistan",
-      "watch": "Diagonal run behind Colombia's left-back; header from crossing position; late box arrival"
+      "name": "Ronwen Williams",
+      "team": "South Africa",
+      "flag": "🇿🇦",
+      "stat": "13 club clean sheets this season; Ballon d'Or top-10 GK (2024); tourney xGA 3.43 but only 2 goals conceded",
+      "watch": "One-on-one reactions and penalty stops — South Africa advance only if Williams performs at peak level"
     },
     {
-      "name": "Yoane Wissa",
-      "team": "DR Congo",
-      "flag": "🇨🇩",
-      "stat": "162 pressures applied (tournament leader); 49 in final third; 5 opposition-box touches",
-      "watch": "Winning the ball in Uzbekistan's defensive third via pressing turnovers; second-ball finishing"
+      "name": "Teboho Mokoena",
+      "team": "South Africa",
+      "flag": "🇿🇦",
+      "stat": "1 WC goal (83' penalty vs Czechia); set-piece authority and aerial threat",
+      "watch": "Corners and free kicks — South Africa's most probable route to an equalizer; fills Zwane's creative void"
     },
     {
-      "name": "Riyad Mahrez",
-      "team": "Algeria",
-      "flag": "🇩🇿",
-      "stat": "Captain; Algeria's sole creative nucleus; provided assist vs Jordan; free kick specialist",
-      "watch": "Direct cut from right to left-foot shot angle; free kick placement over Austrian wall"
+      "name": "Tajon Buchanan",
+      "team": "Canada",
+      "flag": "🇨🇦",
+      "stat": "1 WC assist; direct dribbling pace on the left channel",
+      "watch": "First 20 minutes — will attempt to establish dominance vs Mudau and force South Africa into a deep, passive block"
     },
     {
-      "name": "Antoine Semenyo",
-      "team": "Ghana",
-      "flag": "🇬🇭",
-      "stat": "11 EPL goals in 2024/25 (Bristol City → Bournemouth); Ghana's fastest attacking outlet",
-      "watch": "Running in behind Croatia's high press-then-recover line; left-side cut-across finish"
-    },
-    {
-      "name": "Julián Álvarez",
-      "team": "Argentina",
-      "flag": "🇦🇷",
-      "stat": "First start of tournament after ankle injury; fallback: 0.56 xG/90 and 22 goals at Atlético Madrid 2024/25",
-      "watch": "Pressing in Jordan's half leading directly to a chance; combination play with Lautaro in tight space"
+      "name": "Oswin Appollis",
+      "team": "South Africa",
+      "flag": "🇿🇦",
+      "stat": "1 WC goal (vs South Korea); counter-attack leader with high pace",
+      "watch": "Transition moments after Canada lose the ball high — primary South Africa counter-attacking threat with Mofokeng"
     }
   ]
 }
