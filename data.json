@@ -1,60 +1,90 @@
 {
-  "date": "June 28, 2026",
-  "dateKey": "2026-06-28",
-  "matchday": "Round of 32 — Match 1",
+  "date": "June 29, 2026",
+  "dateKey": "2026-06-29",
+  "matchday": "Round of 32 — Matchday 1 (of 8 R32 days)",
   "matches": [
     {
-      "id": "2026-06-28-RSA-CAN",
-      "time": "15:00 ET",
-      "venue": "SoFi Stadium, Los Angeles",
+      "id": "2026-06-29-BRA-JPN",
+      "time": "13:00 ET",
+      "venue": "NRG Stadium, Houston",
       "group": "Round of 32",
-      "home": { "name": "South Africa", "flag": "🇿🇦", "abbr": "RSA" },
-      "away": { "name": "Canada", "flag": "🇨🇦", "abbr": "CAN" },
-      "pred": { "h": 1, "a": 2 },
+      "home": { "name": "Brazil", "flag": "🇧🇷", "abbr": "BRA" },
+      "away": { "name": "Japan", "flag": "🇯🇵", "abbr": "JPN" },
+      "pred": { "h": 2, "a": 1 },
       "scorers": {
-        "h": ["Mokoena 64' (hdr)"],
-        "a": ["David 28'", "David 79' (p)"]
+        "h": ["Vinicius Jr 34'", "Cunha 69'"],
+        "a": ["Ueda 57'"]
       },
       "confidence": "Medium",
-      "moment": "Mokoena's corner-kick header levels the game at 1-1 at 64'; David converts a penalty at 79' as South Africa push numbers forward and leave space behind."
+      "moment": "Ueda's equalizer at 57' resets the game, but Brazil's squad depth — Neymar available as impact sub — and Vinicius Jr's relentless pressure on Japan's back three creates the decisive space for Cunha's late winner; the match decided by superior bench quality, not early dominance."
+    },
+    {
+      "id": "2026-06-29-GER-PAR",
+      "time": "16:30 ET",
+      "venue": "Gillette Stadium, Foxborough",
+      "group": "Round of 32",
+      "home": { "name": "Germany", "flag": "🇩🇪", "abbr": "GER" },
+      "away": { "name": "Paraguay", "flag": "🇵🇾", "abbr": "PAR" },
+      "pred": { "h": 3, "a": 0 },
+      "scorers": {
+        "h": ["Wirtz 22'", "Musiala 54'", "Havertz 81'(p)"],
+        "a": []
+      },
+      "confidence": "High",
+      "moment": "Kimmich's diagonal finds Sane at 22', who squares for Wirtz unmarked at the top of the box — Germany's structured positional overload breaks Paraguay's first defensive line; the game's outcome is settled not by individual brilliance but by Germany's press systematically dismantling a team that generated just 1.04 total xG across three group matches."
+    },
+    {
+      "id": "2026-06-29-NED-MAR",
+      "time": "21:00 ET",
+      "venue": "Estadio BBVA, Monterrey",
+      "group": "Round of 32",
+      "home": { "name": "Netherlands", "flag": "🇳🇱", "abbr": "NED" },
+      "away": { "name": "Morocco", "flag": "🇲🇦", "abbr": "MAR" },
+      "pred": { "h": 2, "a": 1 },
+      "scorers": {
+        "h": ["Gakpo 31'", "Brobbey 76'(hdr)"],
+        "a": ["Saibari 49'"]
+      },
+      "confidence": "Low-Medium",
+      "moment": "Saibari's equalizer 4 minutes into the second half — his fourth goal in four World Cup matches — resets momentum, but Morocco's failure to hold a second ball from a Netherlands corner at 76' allows Brobbey's back-post header; the decisive moment is a set piece, not individual skill, reflecting the data: this is the match of the day and the narrowest possible margin."
     }
   ],
-  "verdict": "Sunday in Los Angeles opens the round of 32 with a fixture that puts football's expanded format on full display: a historic first for both nations, and a moment that, by any pre-tournament projection, neither was expected to reach. The numbers are unambiguous about who the better team is — Canada lead all 32 remaining qualifiers in xG differential at +1.77 per match, and Jonathan David has established himself as the tournament's most dangerous finisher with three goals in three appearances. What the numbers also reveal, however, is that South Africa are not simply making up the numbers. Their adjusted xGA of 1.01 against comparable opposition matches Canada's almost identically, their goalkeeper Ronwen Williams is among the elite in this tournament, and the absence of Zwane — the red-card ghost from matchday one against Mexico — has been absorbed across two further group performances without structural collapse. Canada's path to victory runs directly through breaking down a compact defensive block that has allowed only two goals across three group games, and doing so with significant uncertainty around their primary midfield anchor, Eustaquio. The most dangerous scenario for Canada is not South Africa winning convincingly — it is a 1-1 draw at 90 minutes that takes this tie to extra time and then to Ronwen Williams guarding the penalty spot. Canada win this in normal time, but the margin is narrow, the scoreline is contested, and the tournament's first knockout day ends not with the comprehensive statement result Canada's xG data suggests they deserve, but with the kind of hard-fought 2-1 that establishes a co-host's knockout credentials without fully settling the questions about their resilience under maximum pressure. — The Analyst.",
+  "verdict": "Three Round of 32 matches, three divergent narratives. Germany's path in Foxborough is a structural mismatch: Paraguay generated 1.04 total xG across three group games, converted 0.038 expected goals per shot, and have never scored in five previous World Cup knockout appearances. Nagelsmann's side advance 3-0 and announce themselves as a genuine contender. Houston is where genuine uncertainty lives: Brazil carry the higher ceiling, but Japan are the tournament's most disciplined counter-attacking unit and will expose Brazil in transition — the Seleção win 2-1, not in a stroll. Monterrey is the match of the day: Netherlands have outperformed their xG by 190% across the group stage, and regression at this level is a mathematical certainty. Morocco, with Saibari in exceptional form (3 goals from 3 games, scored against Brazil, Scotland, Haiti), enter as legitimate threats. The data gives Netherlands a marginal set-piece edge — but any analyst calling this one comfortably Dutch is reading the numbers backward. — The Analyst.",
   "players": [
     {
-      "name": "Jonathan David",
-      "team": "Canada",
-      "flag": "🇨🇦",
-      "stat": "3 goals (hat trick vs Qatar); highest xG rate among active strikers in tournament",
-      "watch": "Second goal of the match — David has scored multiple times in two of three WC appearances; penalty-area movement is his primary weapon"
+      "name": "Ismael Saibari",
+      "team": "Morocco",
+      "flag": "🇲🇦",
+      "stat": "3 goals in 3 group matches — scored vs Brazil, Scotland (fastest WC26 goal at 71 seconds), and Haiti; first African player to score in each of a team's first 3 WC matches",
+      "watch": "Immediate threat from kick-off; vertical runs between Netherlands' midfield and defensive line where Gravenberch loses contact — fourth WC goal incoming"
     },
     {
-      "name": "Ronwen Williams",
-      "team": "South Africa",
-      "flag": "🇿🇦",
-      "stat": "13 club clean sheets this season; Ballon d'Or top-10 GK (2024); tourney xGA 3.43 but only 2 goals conceded",
-      "watch": "One-on-one reactions and penalty stops — South Africa advance only if Williams performs at peak level"
+      "name": "Florian Wirtz",
+      "team": "Germany",
+      "flag": "🇩🇪",
+      "stat": "est. 0.6 xG contribution in 3 group matches; decisive goals vs Curaçao and Ivory Coast",
+      "watch": "Receives the ball in pockets between Paraguay's lines — without Gómez (suspended), no one in Paraguay's midfield can track his movement; first-half goal nearly certain"
     },
     {
-      "name": "Teboho Mokoena",
-      "team": "South Africa",
-      "flag": "🇿🇦",
-      "stat": "1 WC goal (83' penalty vs Czechia); set-piece authority and aerial threat",
-      "watch": "Corners and free kicks — South Africa's most probable route to an equalizer; fills Zwane's creative void"
+      "name": "Vinicius Júnior",
+      "team": "Brazil",
+      "flag": "🇧🇷",
+      "stat": "est. 0.55 xG in 3 group matches; 2 goal contributions; Brazil's primary attacking axis with Raphinha absent",
+      "watch": "Drifts centrally off the left to receive and accelerate past Japan's compact back three — the matchup vs Ito determines Brazil's first-half territorial control"
     },
     {
-      "name": "Tajon Buchanan",
-      "team": "Canada",
-      "flag": "🇨🇦",
-      "stat": "1 WC assist; direct dribbling pace on the left channel",
-      "watch": "First 20 minutes — will attempt to establish dominance vs Mudau and force South Africa into a deep, passive block"
+      "name": "Cody Gakpo",
+      "team": "Netherlands",
+      "flag": "🇳🇱",
+      "stat": "est. 0.7 xG in 3 group matches; 2 goals in group stage from left forward role",
+      "watch": "Exploits Hakimi's defensive commitment when Morocco push forward — predicted to open the scoring at 31' off a Netherlands counter"
     },
     {
-      "name": "Oswin Appollis",
-      "team": "South Africa",
-      "flag": "🇿🇦",
-      "stat": "1 WC goal (vs South Korea); counter-attack leader with high pace",
-      "watch": "Transition moments after Canada lose the ball high — primary South Africa counter-attacking threat with Mofokeng"
+      "name": "Jamal Musiala",
+      "team": "Germany",
+      "flag": "🇩🇪",
+      "stat": "Key creative force in Germany's front four; central to Germany's pressing system in combination with Wirtz",
+      "watch": "Second goal of the day against Paraguay — Germany's overload through the middle opens the channel for Musiala to ghost in from deep and finish at the back post (54')"
     }
   ]
 }
