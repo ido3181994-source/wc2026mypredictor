@@ -1,90 +1,90 @@
 {
-  "date": "June 29, 2026",
-  "dateKey": "2026-06-29",
-  "matchday": "Round of 32 — Matchday 1 (of 8 R32 days)",
+  "date": "June 30, 2026",
+  "dateKey": "2026-06-30",
+  "matchday": "Round of 32 — Day 1",
   "matches": [
     {
-      "id": "2026-06-29-BRA-JPN",
+      "id": "2026-06-30-CIV-NOR",
       "time": "13:00 ET",
-      "venue": "NRG Stadium, Houston",
+      "venue": "AT&T Stadium, Arlington TX",
       "group": "Round of 32",
-      "home": { "name": "Brazil", "flag": "🇧🇷", "abbr": "BRA" },
-      "away": { "name": "Japan", "flag": "🇯🇵", "abbr": "JPN" },
-      "pred": { "h": 2, "a": 1 },
+      "home": { "name": "Ivory Coast", "flag": "🇨🇮", "abbr": "CIV" },
+      "away": { "name": "Norway", "flag": "🇳🇴", "abbr": "NOR" },
+      "pred": { "h": 1, "a": 2 },
       "scorers": {
-        "h": ["Vinicius Jr 34'", "Cunha 69'"],
-        "a": ["Ueda 57'"]
+        "h": ["Pépe 53'"],
+        "a": ["Haaland 29' (p)", "Sørloth 68'"]
       },
       "confidence": "Medium",
-      "moment": "Ueda's equalizer at 57' resets the game, but Brazil's squad depth — Neymar available as impact sub — and Vinicius Jr's relentless pressure on Japan's back three creates the decisive space for Cunha's late winner; the match decided by superior bench quality, not early dominance."
+      "moment": "Haaland draws a foul from Diomandé inside the area — Norway convert from the spot and Ivory Coast's compact defensive shape opens as they chase the game"
     },
     {
-      "id": "2026-06-29-GER-PAR",
-      "time": "16:30 ET",
-      "venue": "Gillette Stadium, Foxborough",
+      "id": "2026-06-30-FRA-SWE",
+      "time": "17:00 ET",
+      "venue": "MetLife Stadium, East Rutherford NJ",
       "group": "Round of 32",
-      "home": { "name": "Germany", "flag": "🇩🇪", "abbr": "GER" },
-      "away": { "name": "Paraguay", "flag": "🇵🇾", "abbr": "PAR" },
-      "pred": { "h": 3, "a": 0 },
+      "home": { "name": "France", "flag": "🇫🇷", "abbr": "FRA" },
+      "away": { "name": "Sweden", "flag": "🇸🇪", "abbr": "SWE" },
+      "pred": { "h": 3, "a": 1 },
       "scorers": {
-        "h": ["Wirtz 22'", "Musiala 54'", "Havertz 81'(p)"],
+        "h": ["Mbappé 22'", "Dembélé 45+2'", "Olise 77'"],
+        "a": ["Gyökeres 84'"]
+      },
+      "confidence": "Medium-High",
+      "moment": "Lindelöf, covering at CB for injured Hien, fails to cut Mbappé's lateral run at the edge of the box in the 22nd minute — Mbappé cuts inside and finishes low to the near post; Sweden's shape collapses immediately"
+    },
+    {
+      "id": "2026-06-30-MEX-ECU",
+      "time": "21:00 ET",
+      "venue": "Estadio Azteca, Mexico City",
+      "group": "Round of 32",
+      "home": { "name": "Mexico", "flag": "🇲🇽", "abbr": "MEX" },
+      "away": { "name": "Ecuador", "flag": "🇪🇨", "abbr": "ECU" },
+      "pred": { "h": 2, "a": 0 },
+      "scorers": {
+        "h": ["Giménez 31'", "Lozano 74'"],
         "a": []
       },
-      "confidence": "High",
-      "moment": "Kimmich's diagonal finds Sane at 22', who squares for Wirtz unmarked at the top of the box — Germany's structured positional overload breaks Paraguay's first defensive line; the game's outcome is settled not by individual brilliance but by Germany's press systematically dismantling a team that generated just 1.04 total xG across three group matches."
-    },
-    {
-      "id": "2026-06-29-NED-MAR",
-      "time": "21:00 ET",
-      "venue": "Estadio BBVA, Monterrey",
-      "group": "Round of 32",
-      "home": { "name": "Netherlands", "flag": "🇳🇱", "abbr": "NED" },
-      "away": { "name": "Morocco", "flag": "🇲🇦", "abbr": "MAR" },
-      "pred": { "h": 2, "a": 1 },
-      "scorers": {
-        "h": ["Gakpo 31'", "Brobbey 76'(hdr)"],
-        "a": ["Saibari 49'"]
-      },
-      "confidence": "Low-Medium",
-      "moment": "Saibari's equalizer 4 minutes into the second half — his fourth goal in four World Cup matches — resets momentum, but Morocco's failure to hold a second ball from a Netherlands corner at 76' allows Brobbey's back-post header; the decisive moment is a set piece, not individual skill, reflecting the data: this is the match of the day and the narrowest possible margin."
+      "confidence": "Medium",
+      "moment": "Ecuador goalkeeper Galíndez hesitates on a crossed corner in the 31st minute under the deafening Azteca crowd roar — the ball drops to Giménez unmarked at the six-yard box; communication between Galíndez and Pacho breaks down in the noise"
     }
   ],
-  "verdict": "Three Round of 32 matches, three divergent narratives. Germany's path in Foxborough is a structural mismatch: Paraguay generated 1.04 total xG across three group games, converted 0.038 expected goals per shot, and have never scored in five previous World Cup knockout appearances. Nagelsmann's side advance 3-0 and announce themselves as a genuine contender. Houston is where genuine uncertainty lives: Brazil carry the higher ceiling, but Japan are the tournament's most disciplined counter-attacking unit and will expose Brazil in transition — the Seleção win 2-1, not in a stroll. Monterrey is the match of the day: Netherlands have outperformed their xG by 190% across the group stage, and regression at this level is a mathematical certainty. Morocco, with Saibari in exceptional form (3 goals from 3 games, scored against Brazil, Scotland, Haiti), enter as legitimate threats. The data gives Netherlands a marginal set-piece edge — but any analyst calling this one comfortably Dutch is reading the numbers backward. — The Analyst.",
+  "verdict": "June 30 is the day the Round of 32 begins to separate tournament contenders from hopeful survivors. Norway at full strength — Haaland, Ødegaard, Nusa all returning from rest — is the single clearest upgrade in the day's slate: their xG/shot of 0.18 (highest in the tournament) paired with Haaland's 4 goals from 2 full-strength appearances marks them as genuine dark-horse semi-finalists, and Ivory Coast's defense, which yielded 1.83 xG to Germany, has not been tested by a forward of this caliber. France's destruction of Sweden will be methodical: their 1.77 xG/game average against competitive opponents is solid, and Sweden's Hien-depleted defense (Lindelöf covering at CB for the first time at this tournament) collapses the margin the Swedes need — Gyökeres and Isak will threaten once, as they always do, but 3-1 France is consistent with xG reality. The most analytically interesting match is at the Azteca: Mexico's 1.23 xG/game (lowest of today's predicted winners) against Ecuador's 0.70 adjusted xG, with the +0.35 Azteca crowd adjustment and Ecuador's conversion failure (0 goals in 2 of 3 WC games) supporting the 2-0. Ecuador's defensive spine of Pacho-Hincapié-Caicedo is the best defensive unit on the field today — the margins are thinner than the scorelines suggest. — The Analyst.",
   "players": [
     {
-      "name": "Ismael Saibari",
-      "team": "Morocco",
-      "flag": "🇲🇦",
-      "stat": "3 goals in 3 group matches — scored vs Brazil, Scotland (fastest WC26 goal at 71 seconds), and Haiti; first African player to score in each of a team's first 3 WC matches",
-      "watch": "Immediate threat from kick-off; vertical runs between Netherlands' midfield and defensive line where Gravenberch loses contact — fourth WC goal incoming"
+      "name": "Erling Haaland",
+      "team": "Norway",
+      "flag": "🇳🇴",
+      "stat": "4 WC goals in 2 full-strength games; xG/shot 0.18 (highest in tournament)",
+      "watch": "First 30 minutes — if he gets in behind Diomandé, the game is settled early"
     },
     {
-      "name": "Florian Wirtz",
-      "team": "Germany",
-      "flag": "🇩🇪",
-      "stat": "est. 0.6 xG contribution in 3 group matches; decisive goals vs Curaçao and Ivory Coast",
-      "watch": "Receives the ball in pockets between Paraguay's lines — without Gómez (suspended), no one in Paraguay's midfield can track his movement; first-half goal nearly certain"
+      "name": "Nicolas Pépe",
+      "team": "Ivory Coast",
+      "flag": "🇨🇮",
+      "stat": "2 WC goals — tournament's leading Ivory Coast scorer",
+      "watch": "Any Norway lead forces Ivory Coast open on the counter, which is Pépe's optimal environment"
     },
     {
-      "name": "Vinicius Júnior",
-      "team": "Brazil",
-      "flag": "🇧🇷",
-      "stat": "est. 0.55 xG in 3 group matches; 2 goal contributions; Brazil's primary attacking axis with Raphinha absent",
-      "watch": "Drifts centrally off the left to receive and accelerate past Japan's compact back three — the matchup vs Ito determines Brazil's first-half territorial control"
+      "name": "Kylian Mbappé",
+      "team": "France",
+      "flag": "🇫🇷",
+      "stat": "4 WC goals, 6 goal involvements across 3 games",
+      "watch": "Diagonal runs across Lindelöf (now at CB) in the first 20 minutes; early goal ends the match as a contest"
     },
     {
-      "name": "Cody Gakpo",
-      "team": "Netherlands",
-      "flag": "🇳🇱",
-      "stat": "est. 0.7 xG in 3 group matches; 2 goals in group stage from left forward role",
-      "watch": "Exploits Hakimi's defensive commitment when Morocco push forward — predicted to open the scoring at 31' off a Netherlands counter"
+      "name": "Viktor Gyökeres",
+      "team": "Sweden",
+      "flag": "🇸🇪",
+      "stat": "1 WC goal (vs Tunisia); Arsenal's leading scorer in 2025/26 (fallback)",
+      "watch": "Second-ball situations in the French box in the 70-90 minute window"
     },
     {
-      "name": "Jamal Musiala",
-      "team": "Germany",
-      "flag": "🇩🇪",
-      "stat": "Key creative force in Germany's front four; central to Germany's pressing system in combination with Wirtz",
-      "watch": "Second goal of the day against Paraguay — Germany's overload through the middle opens the channel for Musiala to ghost in from deep and finish at the back post (54')"
+      "name": "Moisés Caicedo",
+      "team": "Ecuador",
+      "flag": "🇪🇨",
+      "stat": "Key midfield anchor; no injury concerns; screens for Pacho-Hincapié CB pair",
+      "watch": "Late-game discipline — a booking when chasing a deficit could suspend him for the R16"
     }
   ]
 }
