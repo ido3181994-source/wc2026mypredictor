@@ -1,90 +1,90 @@
 {
-  "date": "June 30, 2026",
-  "dateKey": "2026-06-30",
+  "date": "July 1, 2026",
+  "dateKey": "2026-07-01",
   "matchday": "Round of 32 — Day 1",
   "matches": [
     {
-      "id": "2026-06-30-CIV-NOR",
-      "time": "13:00 ET",
-      "venue": "AT&T Stadium, Arlington TX",
+      "id": "2026-07-01-ENG-CGO",
+      "time": "12:00 ET",
+      "venue": "Mercedes-Benz Stadium, Atlanta",
       "group": "Round of 32",
-      "home": { "name": "Ivory Coast", "flag": "🇨🇮", "abbr": "CIV" },
-      "away": { "name": "Norway", "flag": "🇳🇴", "abbr": "NOR" },
-      "pred": { "h": 1, "a": 2 },
-      "scorers": {
-        "h": ["Pépe 53'"],
-        "a": ["Haaland 29' (p)", "Sørloth 68'"]
-      },
-      "confidence": "Medium",
-      "moment": "Haaland draws a foul from Diomandé inside the area — Norway convert from the spot and Ivory Coast's compact defensive shape opens as they chase the game"
-    },
-    {
-      "id": "2026-06-30-FRA-SWE",
-      "time": "17:00 ET",
-      "venue": "MetLife Stadium, East Rutherford NJ",
-      "group": "Round of 32",
-      "home": { "name": "France", "flag": "🇫🇷", "abbr": "FRA" },
-      "away": { "name": "Sweden", "flag": "🇸🇪", "abbr": "SWE" },
-      "pred": { "h": 3, "a": 1 },
-      "scorers": {
-        "h": ["Mbappé 22'", "Dembélé 45+2'", "Olise 77'"],
-        "a": ["Gyökeres 84'"]
-      },
-      "confidence": "Medium-High",
-      "moment": "Lindelöf, covering at CB for injured Hien, fails to cut Mbappé's lateral run at the edge of the box in the 22nd minute — Mbappé cuts inside and finishes low to the near post; Sweden's shape collapses immediately"
-    },
-    {
-      "id": "2026-06-30-MEX-ECU",
-      "time": "21:00 ET",
-      "venue": "Estadio Azteca, Mexico City",
-      "group": "Round of 32",
-      "home": { "name": "Mexico", "flag": "🇲🇽", "abbr": "MEX" },
-      "away": { "name": "Ecuador", "flag": "🇪🇨", "abbr": "ECU" },
+      "home": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "abbr": "ENG" },
+      "away": { "name": "DR Congo", "flag": "🇨🇩", "abbr": "CGO" },
       "pred": { "h": 2, "a": 0 },
       "scorers": {
-        "h": ["Giménez 31'", "Lozano 74'"],
+        "h": ["Kane 51'", "Bellingham 74'"],
         "a": []
       },
       "confidence": "Medium",
-      "moment": "Ecuador goalkeeper Galíndez hesitates on a crossed corner in the 31st minute under the deafening Azteca crowd roar — the ball drops to Giménez unmarked at the six-yard box; communication between Galíndez and Pacho breaks down in the noise"
+      "moment": "Rice wins possession high up the pitch; Bellingham plays a disguised reverse pass into Kane's run in the 51st minute — Kane finishes low across Mpasi to break Congo's resolute 5-3-2 block."
+    },
+    {
+      "id": "2026-07-01-BEL-SEN",
+      "time": "16:00 ET",
+      "venue": "Lumen Field, Seattle",
+      "group": "Round of 32",
+      "home": { "name": "Belgium", "flag": "🇧🇪", "abbr": "BEL" },
+      "away": { "name": "Senegal", "flag": "🇸🇳", "abbr": "SEN" },
+      "pred": { "h": 2, "a": 1 },
+      "scorers": {
+        "h": ["De Ketelaere 33'", "Trossard 78'"],
+        "a": ["Mane 61'"]
+      },
+      "confidence": "Medium",
+      "moment": "Mane equalizes in the 61st minute exploiting the gap behind Castagne; Belgium are rattled for 15 minutes before Doku's 30-metre carry creates Trossard's decisive far-post redirect at the 78th minute."
+    },
+    {
+      "id": "2026-07-01-USA-BIH",
+      "time": "20:00 ET",
+      "venue": "Levi's Stadium, Santa Clara",
+      "group": "Round of 32",
+      "home": { "name": "United States", "flag": "🇺🇸", "abbr": "USA" },
+      "away": { "name": "Bosnia Herzegovina", "flag": "🇧🇦", "abbr": "BIH" },
+      "pred": { "h": 3, "a": 1 },
+      "scorers": {
+        "h": ["Balogun 19'", "Pulisic 67'", "McKennie 82'"],
+        "a": ["Demirovic 43'"]
+      },
+      "confidence": "Medium-High",
+      "moment": "Pulisic receives McKennie's overlap at the edge of the box in the 67th minute and drives low through a deflection to restore USA's lead — breaking Bosnia's resistance after Demirovic's HT equalizer had unsettled the hosts."
     }
   ],
-  "verdict": "June 30 is the day the Round of 32 begins to separate tournament contenders from hopeful survivors. Norway at full strength — Haaland, Ødegaard, Nusa all returning from rest — is the single clearest upgrade in the day's slate: their xG/shot of 0.18 (highest in the tournament) paired with Haaland's 4 goals from 2 full-strength appearances marks them as genuine dark-horse semi-finalists, and Ivory Coast's defense, which yielded 1.83 xG to Germany, has not been tested by a forward of this caliber. France's destruction of Sweden will be methodical: their 1.77 xG/game average against competitive opponents is solid, and Sweden's Hien-depleted defense (Lindelöf covering at CB for the first time at this tournament) collapses the margin the Swedes need — Gyökeres and Isak will threaten once, as they always do, but 3-1 France is consistent with xG reality. The most analytically interesting match is at the Azteca: Mexico's 1.23 xG/game (lowest of today's predicted winners) against Ecuador's 0.70 adjusted xG, with the +0.35 Azteca crowd adjustment and Ecuador's conversion failure (0 goals in 2 of 3 WC games) supporting the 2-0. Ecuador's defensive spine of Pacho-Hincapié-Caicedo is the best defensive unit on the field today — the margins are thinner than the scorelines suggest. — The Analyst.",
+  "verdict": "Today's three matches present a deceptively comfortable-looking slate that conceals genuine variance. England should dispatch DR Congo, but the match will not be the exhibition performance English media anticipate — their 1.88 xG average across the group stage is that of a functional, not exceptional, team, and Congo's consistent defensive record (one goal conceded in every single game, including vs Portugal and Colombia) demands respect. The real story of the day is in Seattle, where Belgium's attacking inconsistency — one goal against Egypt, zero against Iran — collides with Senegal's defensive fragility (six goals surrendered to France and Norway in two games). De Bruyne must impose himself on a physical Senegal midfield to give Belgium the platform they need; if Camara neutralizes him, a 1-1 draw becomes the day's defining result rather than a Belgian advance. In California, the USA-Bosnia game carries the most comfortable probability distribution for the favorite, but Bosnia's remarkable fighting spirit and the wildcard of Alajbegovic's teenage brilliance means the USMNT cannot assume cruise control. Pulisic will need a defining moment, not merely a functional one, to send the hosts into the Round of 16. — The Analyst.",
   "players": [
     {
-      "name": "Erling Haaland",
-      "team": "Norway",
-      "flag": "🇳🇴",
-      "stat": "4 WC goals in 2 full-strength games; xG/shot 0.18 (highest in tournament)",
-      "watch": "First 30 minutes — if he gets in behind Diomandé, the game is settled early"
+      "name": "Harry Kane",
+      "team": "England",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "stat": "3 goals in group stage; xG 0.88 (slight under-conversion suggests correction incoming)",
+      "watch": "Clinical 90-minute hold-up play draws fouls; penalty threat if Congo commit cynically inside the box"
     },
     {
-      "name": "Nicolas Pépe",
-      "team": "Ivory Coast",
-      "flag": "🇨🇮",
-      "stat": "2 WC goals — tournament's leading Ivory Coast scorer",
-      "watch": "Any Norway lead forces Ivory Coast open on the counter, which is Pépe's optimal environment"
+      "name": "Yoane Wissa",
+      "team": "DR Congo",
+      "flag": "🇨🇩",
+      "stat": "3 goals from 9 shots in tournament; elite conversion rate vs xG",
+      "watch": "Counter-attacking pace against Djed Spence (replacing injured James) on England's right flank"
     },
     {
-      "name": "Kylian Mbappé",
-      "team": "France",
-      "flag": "🇫🇷",
-      "stat": "4 WC goals, 6 goal involvements across 3 games",
-      "watch": "Diagonal runs across Lindelöf (now at CB) in the first 20 minutes; early goal ends the match as a contest"
+      "name": "Kevin De Bruyne",
+      "team": "Belgium",
+      "flag": "🇧🇪",
+      "stat": "1 goal + tournament-high 6 key passes across group stage; 2025/26 club: 14g/18a",
+      "watch": "Late runs into the right channel behind Senegal's left-sided midfielder — the decisive through-ball zone"
     },
     {
-      "name": "Viktor Gyökeres",
-      "team": "Sweden",
-      "flag": "🇸🇪",
-      "stat": "1 WC goal (vs Tunisia); Arsenal's leading scorer in 2025/26 (fallback)",
-      "watch": "Second-ball situations in the French box in the 70-90 minute window"
+      "name": "Sadio Mane",
+      "team": "Senegal",
+      "flag": "🇸🇳",
+      "stat": "1 goal (vs France), consistent starter — fit and full-90 capable at 34",
+      "watch": "Diagonal runs from the left exploiting Belgium's high line; counter-attack trigger after Belgium turnover"
     },
     {
-      "name": "Moisés Caicedo",
-      "team": "Ecuador",
-      "flag": "🇪🇨",
-      "stat": "Key midfield anchor; no injury concerns; screens for Pacho-Hincapié CB pair",
-      "watch": "Late-game discipline — a booking when chasing a deficit could suspend him for the R16"
+      "name": "Christian Pulisic",
+      "team": "United States",
+      "flag": "🇺🇸",
+      "stat": "2 goals in tournament; tournament-high xA of 1.54 for USA",
+      "watch": "Left-channel drive cutting inside to right foot — the defining individual action in USA's attacking pattern"
     }
   ]
 }
