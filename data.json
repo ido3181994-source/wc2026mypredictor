@@ -1,90 +1,90 @@
 {
-  "date": "July 1, 2026",
-  "dateKey": "2026-07-01",
-  "matchday": "Round of 32 — Day 1",
+  "date": "July 2, 2026",
+  "dateKey": "2026-07-02",
+  "matchday": "Round of 32 — Day 3",
   "matches": [
     {
-      "id": "2026-07-01-ENG-CGO",
-      "time": "12:00 ET",
-      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "id": "2026-07-02-ESP-AUT",
+      "time": "15:00 ET",
+      "venue": "SoFi Stadium, Inglewood",
       "group": "Round of 32",
-      "home": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "abbr": "ENG" },
-      "away": { "name": "DR Congo", "flag": "🇨🇩", "abbr": "CGO" },
+      "home": { "name": "Spain", "flag": "🇪🇸", "abbr": "ESP" },
+      "away": { "name": "Austria", "flag": "🇦🇹", "abbr": "AUT" },
       "pred": { "h": 2, "a": 0 },
       "scorers": {
-        "h": ["Kane 51'", "Bellingham 74'"],
+        "h": ["Oyarzabal 35'", "Yamal 68'"],
         "a": []
       },
-      "confidence": "Medium",
-      "moment": "Rice wins possession high up the pitch; Bellingham plays a disguised reverse pass into Kane's run in the 51st minute — Kane finishes low across Mpasi to break Congo's resolute 5-3-2 block."
+      "confidence": "Medium-High",
+      "moment": "Austria's right-back Posch is caught high in the 68th minute; Yamal exploits the channel and finishes to seal Spain's clean sheet."
     },
     {
-      "id": "2026-07-01-BEL-SEN",
-      "time": "16:00 ET",
-      "venue": "Lumen Field, Seattle",
+      "id": "2026-07-02-POR-CRO",
+      "time": "19:00 ET",
+      "venue": "BMO Field, Toronto",
       "group": "Round of 32",
-      "home": { "name": "Belgium", "flag": "🇧🇪", "abbr": "BEL" },
-      "away": { "name": "Senegal", "flag": "🇸🇳", "abbr": "SEN" },
+      "home": { "name": "Portugal", "flag": "🇵🇹", "abbr": "POR" },
+      "away": { "name": "Croatia", "flag": "🇭🇷", "abbr": "CRO" },
       "pred": { "h": 2, "a": 1 },
       "scorers": {
-        "h": ["De Ketelaere 33'", "Trossard 78'"],
-        "a": ["Mane 61'"]
+        "h": ["Ronaldo 22'", "Leão 61'"],
+        "a": ["Kramarić 74'"]
       },
       "confidence": "Medium",
-      "moment": "Mane equalizes in the 61st minute exploiting the gap behind Castagne; Belgium are rattled for 15 minutes before Doku's 30-metre carry creates Trossard's decisive far-post redirect at the 78th minute."
+      "moment": "Leão's run in behind Croatia's high line at 61', set up by Fernandes' lofted through ball after Croatia commit numbers forward, stretches the defensive block and results in a composed finish."
     },
     {
-      "id": "2026-07-01-USA-BIH",
-      "time": "20:00 ET",
-      "venue": "Levi's Stadium, Santa Clara",
+      "id": "2026-07-02-SUI-ALG",
+      "time": "23:00 ET",
+      "venue": "BC Place, Vancouver",
       "group": "Round of 32",
-      "home": { "name": "United States", "flag": "🇺🇸", "abbr": "USA" },
-      "away": { "name": "Bosnia Herzegovina", "flag": "🇧🇦", "abbr": "BIH" },
-      "pred": { "h": 3, "a": 1 },
+      "home": { "name": "Switzerland", "flag": "🇨🇭", "abbr": "SUI" },
+      "away": { "name": "Algeria", "flag": "🇩🇿", "abbr": "ALG" },
+      "pred": { "h": 2, "a": 1 },
       "scorers": {
-        "h": ["Balogun 19'", "Pulisic 67'", "McKennie 82'"],
-        "a": ["Demirovic 43'"]
+        "h": ["Manzambi 34'", "Xhaka 78'(p)"],
+        "a": ["Mahrez 57'"]
       },
-      "confidence": "Medium-High",
-      "moment": "Pulisic receives McKennie's overlap at the edge of the box in the 67th minute and drives low through a deflection to restore USA's lead — breaking Bosnia's resistance after Demirovic's HT equalizer had unsettled the hosts."
+      "confidence": "Medium",
+      "moment": "Mahrez ties the match at 57' via a set-piece driven dribble sequence; Switzerland regain the lead through a penalty won by Embolo after Algeria's backline over-commits to stopping Manzambi's run."
     }
   ],
-  "verdict": "Today's three matches present a deceptively comfortable-looking slate that conceals genuine variance. England should dispatch DR Congo, but the match will not be the exhibition performance English media anticipate — their 1.88 xG average across the group stage is that of a functional, not exceptional, team, and Congo's consistent defensive record (one goal conceded in every single game, including vs Portugal and Colombia) demands respect. The real story of the day is in Seattle, where Belgium's attacking inconsistency — one goal against Egypt, zero against Iran — collides with Senegal's defensive fragility (six goals surrendered to France and Norway in two games). De Bruyne must impose himself on a physical Senegal midfield to give Belgium the platform they need; if Camara neutralizes him, a 1-1 draw becomes the day's defining result rather than a Belgian advance. In California, the USA-Bosnia game carries the most comfortable probability distribution for the favorite, but Bosnia's remarkable fighting spirit and the wildcard of Alajbegovic's teenage brilliance means the USMNT cannot assume cruise control. Pulisic will need a defining moment, not merely a functional one, to send the hosts into the Round of 16. — The Analyst.",
+  "verdict": "Three Round of 32 matches today consolidate the narrative of this expanded 48-team World Cup: the favorites from Europe's elite have cleared the group stage without drama, and the knockout phase now sorts them against the ambitious qualifiers who survived the opening gauntlet on minimum margins. Spain are the cleanest story in the tournament — 0 goals conceded, 2.00 xG per game generated, a settled system without over-dependence on any single player. Austria had enough in them to reach this point but their 0% clean sheet rate and defensive exposure vs Argentina signals that Rangnick's side have hit the ceiling of what their personnel can sustain. Portugal enter their most uncertain fixture: Colombia outxG'd the Selecao 1.70 to 0.90 in matchday 3, and Ronaldo's blank sheet against organized defenses is a legitimate concern. Croatia's knockout pedigree means Dalic will manufacture a defensive structure that Portugal must actively break down. Switzerland vs Algeria is the day's most legitimate 50/50 contest, with Switzerland's fresh legs (8 days' rest), Manzambi's electric form, and Algeria's historically porous defense pointing narrowly to the Swiss advancing — but Mahrez remains a tournament-altering individual who will extract at least one chance and likely convert it, making the final score tighter than the rankings suggest. — The Analyst.",
   "players": [
     {
-      "name": "Harry Kane",
-      "team": "England",
-      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "stat": "3 goals in group stage; xG 0.88 (slight under-conversion suggests correction incoming)",
-      "watch": "Clinical 90-minute hold-up play draws fouls; penalty threat if Congo commit cynically inside the box"
+      "name": "Lamine Yamal",
+      "team": "Spain",
+      "flag": "🇪🇸",
+      "stat": "1 goal, 1 assist this WC; 17 years old; most direct dribbler in the tournament",
+      "watch": "Whether he exploits Austria's exposed right flank (Posch) at the same level as vs Saudi Arabia — if fully unleashed, the Austrian right side cannot contain him for 90 minutes"
     },
     {
-      "name": "Yoane Wissa",
-      "team": "DR Congo",
-      "flag": "🇨🇩",
-      "stat": "3 goals from 9 shots in tournament; elite conversion rate vs xG",
-      "watch": "Counter-attacking pace against Djed Spence (replacing injured James) on England's right flank"
+      "name": "Mikel Oyarzabal",
+      "team": "Spain",
+      "flag": "🇪🇸",
+      "stat": "2 goals this WC (both vs Saudi Arabia); clinical penalty-box finisher who loses markers with late runs",
+      "watch": "Late arrivals into the Austrian box from depth — his conversion in tight spaces is his signature and Austria have not kept a clean sheet in three attempts"
     },
     {
-      "name": "Kevin De Bruyne",
-      "team": "Belgium",
-      "flag": "🇧🇪",
-      "stat": "1 goal + tournament-high 6 key passes across group stage; 2025/26 club: 14g/18a",
-      "watch": "Late runs into the right channel behind Senegal's left-sided midfielder — the decisive through-ball zone"
+      "name": "Cristiano Ronaldo",
+      "team": "Portugal",
+      "flag": "🇵🇹",
+      "stat": "2 goals this WC (first player to score at 6 World Cups; 144th and 145th international goals)",
+      "watch": "Timing of late runs against Croatia's high defensive line on Fernandes' lofted through balls — his positioning in the box remains elite even at 41"
     },
     {
-      "name": "Sadio Mane",
-      "team": "Senegal",
-      "flag": "🇸🇳",
-      "stat": "1 goal (vs France), consistent starter — fit and full-90 capable at 34",
-      "watch": "Diagonal runs from the left exploiting Belgium's high line; counter-attack trigger after Belgium turnover"
+      "name": "Johann Manzambi",
+      "team": "Switzerland",
+      "flag": "🇨🇭",
+      "stat": "3 goals this WC — FIFA Young Player of Tournament candidate; volley vs Bosnia was standout goal of the group stage",
+      "watch": "Second-post arrivals and cuts across the penalty spot; he has been in the right place with alarming consistency and Algeria's central defenders are susceptible to runs that drag them wide"
     },
     {
-      "name": "Christian Pulisic",
-      "team": "United States",
-      "flag": "🇺🇸",
-      "stat": "2 goals in tournament; tournament-high xA of 1.54 for USA",
-      "watch": "Left-channel drive cutting inside to right foot — the defining individual action in USA's attacking pattern"
+      "name": "Riyad Mahrez",
+      "team": "Algeria",
+      "flag": "🇩🇿",
+      "stat": "2 goals this WC (both vs Austria, 60' and 90+3'); 35 years old, still a match-winner from set pieces and dribbling sequences",
+      "watch": "Drifting centrally from the right to thread passes into Gouiri or shoot on his stronger foot — Switzerland's left side (Rodriguez) is his primary target zone"
     }
   ]
 }
