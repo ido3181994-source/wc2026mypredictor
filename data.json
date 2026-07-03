@@ -1,90 +1,90 @@
 {
-  "date": "July 2, 2026",
-  "dateKey": "2026-07-02",
-  "matchday": "Round of 32 — Day 3",
+  "date": "July 3, 2026",
+  "dateKey": "2026-07-03",
+  "matchday": "Round of 32 — Matchday 3 (R32-40 to R32-42)",
   "matches": [
     {
-      "id": "2026-07-02-ESP-AUT",
-      "time": "15:00 ET",
-      "venue": "SoFi Stadium, Inglewood",
+      "id": "2026-07-03-AUS-EGY",
+      "time": "14:00 ET",
+      "venue": "AT&T Stadium, Arlington TX",
       "group": "Round of 32",
-      "home": { "name": "Spain", "flag": "🇪🇸", "abbr": "ESP" },
-      "away": { "name": "Austria", "flag": "🇦🇹", "abbr": "AUT" },
+      "home": { "name": "Australia", "flag": "🇦🇺", "abbr": "AUS" },
+      "away": { "name": "Egypt", "flag": "🇪🇬", "abbr": "EGY" },
+      "pred": { "h": 0, "a": 1 },
+      "scorers": {
+        "h": [],
+        "a": ["Marmoush 71'"]
+      },
+      "confidence": "Medium",
+      "moment": "Salah enters in the 62nd minute and delivers a diagonal cross from the left that Marmoush meets with a near-post run — the ball deflects off Souttar and wrong-foots Ryan."
+    },
+    {
+      "id": "2026-07-03-ARG-CPV",
+      "time": "18:00 ET",
+      "venue": "Hard Rock Stadium, Miami Gardens FL",
+      "group": "Round of 32",
+      "home": { "name": "Argentina", "flag": "🇦🇷", "abbr": "ARG" },
+      "away": { "name": "Cape Verde", "flag": "🇨🇻", "abbr": "CPV" },
       "pred": { "h": 2, "a": 0 },
       "scorers": {
-        "h": ["Oyarzabal 35'", "Yamal 68'"],
+        "h": ["Messi 38'", "Álvarez 77'"],
         "a": []
       },
-      "confidence": "Medium-High",
-      "moment": "Austria's right-back Posch is caught high in the 68th minute; Yamal exploits the channel and finishes to seal Spain's clean sheet."
+      "confidence": "Medium",
+      "moment": "Messi receives a short corner at the edge of the area in the 38th minute, steps inside his marker, and drives low to the keeper's right. Cape Verde's block held firm for 37 minutes before the world's greatest finisher made it count."
     },
     {
-      "id": "2026-07-02-POR-CRO",
-      "time": "19:00 ET",
-      "venue": "BMO Field, Toronto",
+      "id": "2026-07-03-COL-GHA",
+      "time": "21:30 ET",
+      "venue": "Arrowhead Stadium, Kansas City MO",
       "group": "Round of 32",
-      "home": { "name": "Portugal", "flag": "🇵🇹", "abbr": "POR" },
-      "away": { "name": "Croatia", "flag": "🇭🇷", "abbr": "CRO" },
-      "pred": { "h": 2, "a": 1 },
+      "home": { "name": "Colombia", "flag": "🇨🇴", "abbr": "COL" },
+      "away": { "name": "Ghana", "flag": "🇬🇭", "abbr": "GHA" },
+      "pred": { "h": 1, "a": 0 },
       "scorers": {
-        "h": ["Ronaldo 22'", "Leão 61'"],
-        "a": ["Kramarić 74'"]
+        "h": ["J. Rodríguez 57' (fk)"],
+        "a": []
       },
       "confidence": "Medium",
-      "moment": "Leão's run in behind Croatia's high line at 61', set up by Fernandes' lofted through ball after Croatia commit numbers forward, stretches the defensive block and results in a composed finish."
-    },
-    {
-      "id": "2026-07-02-SUI-ALG",
-      "time": "23:00 ET",
-      "venue": "BC Place, Vancouver",
-      "group": "Round of 32",
-      "home": { "name": "Switzerland", "flag": "🇨🇭", "abbr": "SUI" },
-      "away": { "name": "Algeria", "flag": "🇩🇿", "abbr": "ALG" },
-      "pred": { "h": 2, "a": 1 },
-      "scorers": {
-        "h": ["Manzambi 34'", "Xhaka 78'(p)"],
-        "a": ["Mahrez 57'"]
-      },
-      "confidence": "Medium",
-      "moment": "Mahrez ties the match at 57' via a set-piece driven dribble sequence; Switzerland regain the lead through a penalty won by Embolo after Algeria's backline over-commits to stopping Manzambi's run."
+      "moment": "Ghana defend diligently for 55 minutes before James Rodríguez wins a free kick 25 yards out and clips the wall-side into a spot Ghana's keeper cannot reach — a set-piece mechanism breaking what open play could not."
     }
   ],
-  "verdict": "Three Round of 32 matches today consolidate the narrative of this expanded 48-team World Cup: the favorites from Europe's elite have cleared the group stage without drama, and the knockout phase now sorts them against the ambitious qualifiers who survived the opening gauntlet on minimum margins. Spain are the cleanest story in the tournament — 0 goals conceded, 2.00 xG per game generated, a settled system without over-dependence on any single player. Austria had enough in them to reach this point but their 0% clean sheet rate and defensive exposure vs Argentina signals that Rangnick's side have hit the ceiling of what their personnel can sustain. Portugal enter their most uncertain fixture: Colombia outxG'd the Selecao 1.70 to 0.90 in matchday 3, and Ronaldo's blank sheet against organized defenses is a legitimate concern. Croatia's knockout pedigree means Dalic will manufacture a defensive structure that Portugal must actively break down. Switzerland vs Algeria is the day's most legitimate 50/50 contest, with Switzerland's fresh legs (8 days' rest), Manzambi's electric form, and Algeria's historically porous defense pointing narrowly to the Swiss advancing — but Mahrez remains a tournament-altering individual who will extract at least one chance and likely convert it, making the final score tighter than the rankings suggest. — The Analyst.",
+  "verdict": "Three completed results from the morning session — Spain, Portugal, and Switzerland all advancing in decisive fashion — set a commanding European tone for today's Round of 32. The day's real analytical interest lies in the evening fixtures, where the data tells a consistent story: tight margins, organized defenses, and single-goal decisions. Egypt's case against Australia rests entirely on whether Mohamed Salah can contribute meaningfully from a hamstring he is visibly nursing, and the quality-comparable data from Belgium and Iran produces a 1.0 goals/game average — a thin but real advantage that manifests as Egypt 1-0. Argentina versus Cape Verde is the clearest prediction of the day not because of certainty but because the quality differential is simply so vast that Cape Verde's two clean sheets against Spain and Saudi Arabia function as a ceiling test, not a floor test: Messi at 6 goals in 3 games with an elite xG/shot profile will find the net, and Álvarez's pressing earns a second. Colombia versus Ghana is the hardest call — Colombia's 1.63 xG against Portugal went unrewarded, James Rodríguez's free kicks are the most reliable mechanism for breaking a compact block, and Ghana's adjusted expected goals against Colombia's elite defense is simply not enough. The 1-0 Colombia call is correct but carries the lowest conviction of the three predictions. — The Analyst.",
   "players": [
     {
-      "name": "Lamine Yamal",
-      "team": "Spain",
-      "flag": "🇪🇸",
-      "stat": "1 goal, 1 assist this WC; 17 years old; most direct dribbler in the tournament",
-      "watch": "Whether he exploits Austria's exposed right flank (Posch) at the same level as vs Saudi Arabia — if fully unleashed, the Austrian right side cannot contain him for 90 minutes"
+      "name": "Mohamed Salah",
+      "team": "Egypt",
+      "flag": "🇪🇬",
+      "stat": "1 goal + 2 assists + 11 chances created in group stage (2nd most in Group G behind Trossard/Belgium)",
+      "watch": "His movement after arriving on the pitch — the first 10 minutes of Salah time will determine whether Egypt create the decisive opening vs Australia"
     },
     {
-      "name": "Mikel Oyarzabal",
-      "team": "Spain",
-      "flag": "🇪🇸",
-      "stat": "2 goals this WC (both vs Saudi Arabia); clinical penalty-box finisher who loses markers with late runs",
-      "watch": "Late arrivals into the Austrian box from depth — his conversion in tight spaces is his signature and Austria have not kept a clean sheet in three attempts"
+      "name": "Lionel Messi",
+      "team": "Argentina",
+      "flag": "🇦🇷",
+      "stat": "6 goals in 3 group matches; WC all-time scoring record (19 goals); scored in 7 consecutive WC matches",
+      "watch": "First touch after receiving in the right half-space 30-40 yards from goal — his trigger position for drives to goal that Cape Verde's defense has never faced at this level"
     },
     {
-      "name": "Cristiano Ronaldo",
-      "team": "Portugal",
-      "flag": "🇵🇹",
-      "stat": "2 goals this WC (first player to score at 6 World Cups; 144th and 145th international goals)",
-      "watch": "Timing of late runs against Croatia's high defensive line on Fernandes' lofted through balls — his positioning in the box remains elite even at 41"
+      "name": "James Rodríguez",
+      "team": "Colombia",
+      "flag": "🇨🇴",
+      "stat": "2014 WC Golden Boot (6 goals); elite free kick and key-pass specialist; confirmed starter vs Ghana",
+      "watch": "Set piece delivery from 20-30 yards — any free kick in that zone is Colombia's highest-probability scoring event against Ghana's organized block"
     },
     {
-      "name": "Johann Manzambi",
-      "team": "Switzerland",
-      "flag": "🇨🇭",
-      "stat": "3 goals this WC — FIFA Young Player of Tournament candidate; volley vs Bosnia was standout goal of the group stage",
-      "watch": "Second-post arrivals and cuts across the penalty spot; he has been in the right place with alarming consistency and Algeria's central defenders are susceptible to runs that drag them wide"
+      "name": "Nestory Irankunda",
+      "team": "Australia",
+      "flag": "🇦🇺",
+      "stat": "0.41 goals per 90 (tournament); youngest player to score for Australia at a World Cup",
+      "watch": "First touch after Australia wins ball in transition — Egypt's fullbacks push high, Irankunda's pace in behind is Australia's sole genuine counter-attacking threat"
     },
     {
-      "name": "Riyad Mahrez",
-      "team": "Algeria",
-      "flag": "🇩🇿",
-      "stat": "2 goals this WC (both vs Austria, 60' and 90+3'); 35 years old, still a match-winner from set pieces and dribbling sequences",
-      "watch": "Drifting centrally from the right to thread passes into Gouiri or shoot on his stronger foot — Switzerland's left side (Rodriguez) is his primary target zone"
+      "name": "Thomas Partey",
+      "team": "Ghana",
+      "flag": "🇬🇭",
+      "stat": "Defensive midfielder anchor; midfield screen for Ghana's back four throughout group stage",
+      "watch": "Positioning between the lines when Colombia enter the final third — if Partey steps up and wins the ball, Ghana stay compact; if he is bypassed, Colombia create at will"
     }
   ]
 }
