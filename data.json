@@ -1,90 +1,75 @@
 {
-  "date": "July 3, 2026",
-  "dateKey": "2026-07-03",
-  "matchday": "Round of 32 — Matchday 3 (R32-40 to R32-42)",
+  "date": "July 4, 2026",
+  "dateKey": "2026-07-04",
+  "matchday": "Round of 16 - Day 1",
   "matches": [
     {
-      "id": "2026-07-03-AUS-EGY",
-      "time": "14:00 ET",
-      "venue": "AT&T Stadium, Arlington TX",
-      "group": "Round of 32",
-      "home": { "name": "Australia", "flag": "🇦🇺", "abbr": "AUS" },
-      "away": { "name": "Egypt", "flag": "🇪🇬", "abbr": "EGY" },
-      "pred": { "h": 0, "a": 1 },
+      "id": "2026-07-04-CAN-MAR",
+      "time": "13:00 ET",
+      "venue": "NRG Stadium, Houston",
+      "group": "Round of 16",
+      "home": { "name": "Canada", "flag": "🇨🇦", "abbr": "CAN" },
+      "away": { "name": "Morocco", "flag": "🇲🇦", "abbr": "MAR" },
+      "pred": { "h": 1, "a": 2 },
       "scorers": {
-        "h": [],
-        "a": ["Marmoush 71'"]
+        "h": ["David 63'"],
+        "a": ["Saibari 38'(hdr)", "Diaz 82'"]
       },
       "confidence": "Medium",
-      "moment": "Salah enters in the 62nd minute and delivers a diagonal cross from the left that Marmoush meets with a near-post run — the ball deflects off Souttar and wrong-foots Ryan."
+      "moment": "Morocco absorb Canada's late pressure and win it on the counter in the 82nd minute after the hosts commit numbers forward chasing an equalizer."
     },
     {
-      "id": "2026-07-03-ARG-CPV",
-      "time": "18:00 ET",
-      "venue": "Hard Rock Stadium, Miami Gardens FL",
-      "group": "Round of 32",
-      "home": { "name": "Argentina", "flag": "🇦🇷", "abbr": "ARG" },
-      "away": { "name": "Cape Verde", "flag": "🇨🇻", "abbr": "CPV" },
-      "pred": { "h": 2, "a": 0 },
+      "id": "2026-07-04-PAR-FRA",
+      "time": "17:00 ET",
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "group": "Round of 16",
+      "home": { "name": "Paraguay", "flag": "🇵🇾", "abbr": "PAR" },
+      "away": { "name": "France", "flag": "🇫🇷", "abbr": "FRA" },
+      "pred": { "h": 1, "a": 3 },
       "scorers": {
-        "h": ["Messi 38'", "Álvarez 77'"],
-        "a": []
+        "h": ["Enciso 84'"],
+        "a": ["Mbappé 56'(p)", "Olise 72'", "Dembélé 90'+2"]
       },
       "confidence": "Medium",
-      "moment": "Messi receives a short corner at the edge of the area in the 38th minute, steps inside his marker, and drives low to the keeper's right. Cape Verde's block held firm for 37 minutes before the world's greatest finisher made it count."
-    },
-    {
-      "id": "2026-07-03-COL-GHA",
-      "time": "21:30 ET",
-      "venue": "Arrowhead Stadium, Kansas City MO",
-      "group": "Round of 32",
-      "home": { "name": "Colombia", "flag": "🇨🇴", "abbr": "COL" },
-      "away": { "name": "Ghana", "flag": "🇬🇭", "abbr": "GHA" },
-      "pred": { "h": 1, "a": 0 },
-      "scorers": {
-        "h": ["J. Rodríguez 57' (fk)"],
-        "a": []
-      },
-      "confidence": "Medium",
-      "moment": "Ghana defend diligently for 55 minutes before James Rodríguez wins a free kick 25 yards out and clips the wall-side into a spot Ghana's keeper cannot reach — a set-piece mechanism breaking what open play could not."
+      "moment": "Paraguay's low block cracks in the 56th minute when a mistimed challenge in the box gifts France a penalty, breaking the deadlock and opening the floodgates."
     }
   ],
-  "verdict": "Three completed results from the morning session — Spain, Portugal, and Switzerland all advancing in decisive fashion — set a commanding European tone for today's Round of 32. The day's real analytical interest lies in the evening fixtures, where the data tells a consistent story: tight margins, organized defenses, and single-goal decisions. Egypt's case against Australia rests entirely on whether Mohamed Salah can contribute meaningfully from a hamstring he is visibly nursing, and the quality-comparable data from Belgium and Iran produces a 1.0 goals/game average — a thin but real advantage that manifests as Egypt 1-0. Argentina versus Cape Verde is the clearest prediction of the day not because of certainty but because the quality differential is simply so vast that Cape Verde's two clean sheets against Spain and Saudi Arabia function as a ceiling test, not a floor test: Messi at 6 goals in 3 games with an elite xG/shot profile will find the net, and Álvarez's pressing earns a second. Colombia versus Ghana is the hardest call — Colombia's 1.63 xG against Portugal went unrewarded, James Rodríguez's free kicks are the most reliable mechanism for breaking a compact block, and Ghana's adjusted expected goals against Colombia's elite defense is simply not enough. The 1-0 Colombia call is correct but carries the lowest conviction of the three predictions. — The Analyst.",
+  "verdict": "Today's Round of 16 openers split cleanly along the line the data has drawn all tournament: one genuine coin-flip and one mismatch that the numbers refuse to soften. Canada's dream run - a maiden Round of 16 appearance built on a favorable Qatar mismatch and a stoppage-time winner - meets a Moroccan side that has quietly beaten Brazil and Netherlands to a draw and taken both prior meetings with the hosts; strip the padding from Canada's attacking numbers and the two sides are functionally even in quality, with Morocco's edge resting on defensive resilience against comparable opposition rather than raw firepower, which is why 2-1 rather than anything more emphatic is the call. Paraguay's story is different in kind, not degree - Orlando Gill has been the single best individual performer of their tournament, and his heroics against Germany prove this defense can hold for 120 minutes against real quality, but the underlying attacking data (xG in the 0.24-0.47 range across three matches) confirms this is a side without the tools to threaten a French front line that has scored at least three in every match it has played, Sweden included. Neither fixture carries the complacency or rotation risk that has produced this tournament's upsets to date - both favorites here have every reason to be at full strength - so today's slate is a legitimate test of quality rather than motivation, and the numbers say Morocco edges a coin-flip while France's ceiling proves too high for Paraguay's floor to hold. - The Analyst.",
   "players": [
     {
-      "name": "Mohamed Salah",
-      "team": "Egypt",
-      "flag": "🇪🇬",
-      "stat": "1 goal + 2 assists + 11 chances created in group stage (2nd most in Group G behind Trossard/Belgium)",
-      "watch": "His movement after arriving on the pitch — the first 10 minutes of Salah time will determine whether Egypt create the decisive opening vs Australia"
+      "name": "Kylian Mbappé",
+      "team": "France",
+      "flag": "🇫🇷",
+      "stat": "2.9 cumulative tournament xG; 8 goal involvements in 4 games",
+      "watch": "Movement off Upamecano's side to isolate Paraguay's centre-backs 1v1"
     },
     {
-      "name": "Lionel Messi",
-      "team": "Argentina",
-      "flag": "🇦🇷",
-      "stat": "6 goals in 3 group matches; WC all-time scoring record (19 goals); scored in 7 consecutive WC matches",
-      "watch": "First touch after receiving in the right half-space 30-40 yards from goal — his trigger position for drives to goal that Cape Verde's defense has never faced at this level"
+      "name": "Orlando Gill",
+      "team": "Paraguay",
+      "flag": "🇵🇾",
+      "stat": "5 saves vs Germany (incl. 2 in the shootout), 6 shots on target saved vs Turkey, 5 vs Australia",
+      "watch": "Reaction saves and 1-on-1s against Mbappé and Doué"
     },
     {
-      "name": "James Rodríguez",
-      "team": "Colombia",
-      "flag": "🇨🇴",
-      "stat": "2014 WC Golden Boot (6 goals); elite free kick and key-pass specialist; confirmed starter vs Ghana",
-      "watch": "Set piece delivery from 20-30 yards — any free kick in that zone is Colombia's highest-probability scoring event against Ghana's organized block"
+      "name": "Ismael Saibari",
+      "team": "Morocco",
+      "flag": "🇲🇦",
+      "stat": "3 goals this tournament (team-high); scored the winning penalty vs Netherlands",
+      "watch": "Late runs into the box from the right half-space"
     },
     {
-      "name": "Nestory Irankunda",
-      "team": "Australia",
-      "flag": "🇦🇺",
-      "stat": "0.41 goals per 90 (tournament); youngest player to score for Australia at a World Cup",
-      "watch": "First touch after Australia wins ball in transition — Egypt's fullbacks push high, Irankunda's pace in behind is Australia's sole genuine counter-attacking threat"
+      "name": "Jonathan David",
+      "team": "Canada",
+      "flag": "🇨🇦",
+      "stat": "3 goals this tournament (hat-trick vs Qatar); 42 goals in 80 caps, Canada's all-time top scorer",
+      "watch": "Timing of runs in behind Diop/Riad"
     },
     {
-      "name": "Thomas Partey",
-      "team": "Ghana",
-      "flag": "🇬🇭",
-      "stat": "Defensive midfielder anchor; midfield screen for Ghana's back four throughout group stage",
-      "watch": "Positioning between the lines when Colombia enter the final third — if Partey steps up and wins the ball, Ghana stay compact; if he is bypassed, Colombia create at will"
+      "name": "Achraf Hakimi",
+      "team": "Morocco",
+      "flag": "🇲🇦",
+      "stat": "Primary attacking outlet and set-piece delivery threat down the right",
+      "watch": "Overlapping runs and delivery from the byline"
     }
   ]
 }
