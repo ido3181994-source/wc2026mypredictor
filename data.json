@@ -1,75 +1,68 @@
 {
-  "date": "July 4, 2026",
-  "dateKey": "2026-07-04",
-  "matchday": "Round of 16 - Day 1",
+  "date": "July 5, 2026",
+  "dateKey": "2026-07-05",
+  "matchday": "Round of 16 - Day 2",
   "matches": [
     {
-      "id": "2026-07-04-CAN-MAR",
-      "time": "13:00 ET",
-      "venue": "NRG Stadium, Houston",
+      "id": "2026-07-05-BRA-NOR",
+      "time": "16:00 ET",
+      "venue": "MetLife Stadium, East Rutherford",
       "group": "Round of 16",
-      "home": { "name": "Canada", "flag": "🇨🇦", "abbr": "CAN" },
-      "away": { "name": "Morocco", "flag": "🇲🇦", "abbr": "MAR" },
-      "pred": { "h": 1, "a": 2 },
+      "home": { "name": "Brazil", "flag": "🇧🇷", "abbr": "BRA" },
+      "away": { "name": "Norway", "flag": "🇳🇴", "abbr": "NOR" },
+      "pred": { "h": 2, "a": 1 },
       "scorers": {
-        "h": ["David 63'"],
-        "a": ["Saibari 38'(hdr)", "Diaz 82'"]
+        "h": ["Vinícius 34'", "Cunha 71'"],
+        "a": ["Haaland 65'"]
       },
       "confidence": "Medium",
-      "moment": "Morocco absorb Canada's late pressure and win it on the counter in the 82nd minute after the hosts commit numbers forward chasing an equalizer."
+      "moment": "Haaland extends his 13-match scoring streak to pull Norway level just after the hour, but Brazil's superior chance quality produces a late go-ahead finish through Cunha that Norway's makeshift back line cannot repel a second time."
     },
     {
-      "id": "2026-07-04-PAR-FRA",
-      "time": "17:00 ET",
-      "venue": "Lincoln Financial Field, Philadelphia",
+      "id": "2026-07-05-MEX-ENG",
+      "time": "20:00 ET",
+      "venue": "Estadio Azteca, Mexico City",
       "group": "Round of 16",
-      "home": { "name": "Paraguay", "flag": "🇵🇾", "abbr": "PAR" },
-      "away": { "name": "France", "flag": "🇫🇷", "abbr": "FRA" },
-      "pred": { "h": 1, "a": 3 },
+      "home": { "name": "Mexico", "flag": "🇲🇽", "abbr": "MEX" },
+      "away": { "name": "England", "flag": "🏴", "abbr": "ENG" },
+      "pred": { "h": 1, "a": 1 },
       "scorers": {
-        "h": ["Enciso 84'"],
-        "a": ["Mbappé 56'(p)", "Olise 72'", "Dembélé 90'+2"]
+        "h": ["Quiñones 58'"],
+        "a": ["Kane 77'"]
       },
       "confidence": "Medium",
-      "moment": "Paraguay's low block cracks in the 56th minute when a mistimed challenge in the box gifts France a penalty, breaking the deadlock and opening the floodgates."
+      "moment": "A Bellingham corner routine that has already produced goals this tournament finds Kane's head again in the 77th minute, canceling out a Quiñones counter-attack strike that punished England's legs after an hour at altitude."
     }
   ],
-  "verdict": "Today's Round of 16 openers split cleanly along the line the data has drawn all tournament: one genuine coin-flip and one mismatch that the numbers refuse to soften. Canada's dream run - a maiden Round of 16 appearance built on a favorable Qatar mismatch and a stoppage-time winner - meets a Moroccan side that has quietly beaten Brazil and Netherlands to a draw and taken both prior meetings with the hosts; strip the padding from Canada's attacking numbers and the two sides are functionally even in quality, with Morocco's edge resting on defensive resilience against comparable opposition rather than raw firepower, which is why 2-1 rather than anything more emphatic is the call. Paraguay's story is different in kind, not degree - Orlando Gill has been the single best individual performer of their tournament, and his heroics against Germany prove this defense can hold for 120 minutes against real quality, but the underlying attacking data (xG in the 0.24-0.47 range across three matches) confirms this is a side without the tools to threaten a French front line that has scored at least three in every match it has played, Sweden included. Neither fixture carries the complacency or rotation risk that has produced this tournament's upsets to date - both favorites here have every reason to be at full strength - so today's slate is a legitimate test of quality rather than motivation, and the numbers say Morocco edges a coin-flip while France's ceiling proves too high for Paraguay's floor to hold. - The Analyst.",
+  "verdict": "Today's Round of 16 slate delivers one match with a clear data-backed favorite and one genuine coin-flip, and both readings are earned rather than defaulted. Brazil carry the sharper underlying numbers into MetLife Stadium, a clinical, low-volume attack posting their best-ever recorded xG-per-shot figure against a Norway side that has not kept a clean sheet in a fully-motivated match all tournament, but Erling Haaland's individual scoring streak is real enough to keep this from being a formality, and Brazil's own profile, needing a 95th-minute winner against Japan, shows this front line can go long stretches without finishing what it creates. In Mexico City, the data resists the temptation to hand this to England on reputation: Mexico's perfect defensive record, home altitude, and an extra day of rest stack up against an England side that has already shown it can be breached early and needed a second-half Kane rescue act of its own in the last round. Neither market nor public betting has fully resolved which way this one tips, and the numbers say they shouldn't have, this is the day's true 50/50. If Brazil advance as expected and Mexico or England survive extra time, the bracket's second week starts to take clearer shape around a Brazil side whose ceiling is obvious but whose floor, on the numbers, is not yet fully tested. — The Analyst",
   "players": [
     {
-      "name": "Kylian Mbappé",
-      "team": "France",
-      "flag": "🇫🇷",
-      "stat": "2.9 cumulative tournament xG; 8 goal involvements in 4 games",
-      "watch": "Movement off Upamecano's side to isolate Paraguay's centre-backs 1v1"
+      "name": "Vinícius Júnior",
+      "team": "Brazil",
+      "flag": "🇧🇷",
+      "stat": "4 goals in group stage (fallback stat)",
+      "watch": "Runs in behind Norway's high line; the primary beneficiary of Brazil's 0.16 xG/shot efficiency"
     },
     {
-      "name": "Orlando Gill",
-      "team": "Paraguay",
-      "flag": "🇵🇾",
-      "stat": "5 saves vs Germany (incl. 2 in the shootout), 6 shots on target saved vs Turkey, 5 vs Australia",
-      "watch": "Reaction saves and 1-on-1s against Mbappé and Doué"
+      "name": "Erling Haaland",
+      "team": "Norway",
+      "flag": "🇳🇴",
+      "stat": "5 tournament goals; scored in 13 straight competitive internationals (fallback stat)",
+      "watch": "Direct physical duel with Gabriel; all 10 tournament shots have been first-time efforts"
     },
     {
-      "name": "Ismael Saibari",
-      "team": "Morocco",
-      "flag": "🇲🇦",
-      "stat": "3 goals this tournament (team-high); scored the winning penalty vs Netherlands",
-      "watch": "Late runs into the box from the right half-space"
+      "name": "Julián Quiñones",
+      "team": "Mexico",
+      "flag": "🇲🇽",
+      "stat": "3 goals, 1 assist - joint-most goal involvements at this World Cup",
+      "watch": "Counter-attacking service against an England defense breached in 75% of its matches"
     },
     {
-      "name": "Jonathan David",
-      "team": "Canada",
-      "flag": "🇨🇦",
-      "stat": "3 goals this tournament (hat-trick vs Qatar); 42 goals in 80 caps, Canada's all-time top scorer",
-      "watch": "Timing of runs in behind Diop/Riad"
-    },
-    {
-      "name": "Achraf Hakimi",
-      "team": "Morocco",
-      "flag": "🇲🇦",
-      "stat": "Primary attacking outlet and set-piece delivery threat down the right",
-      "watch": "Overlapping runs and delivery from the byline"
+      "name": "Harry Kane",
+      "team": "England",
+      "flag": "🏴",
+      "stat": "11 World Cup goals, England's all-time record (fallback stat)",
+      "watch": "Set-piece positioning off Bellingham deliveries against Mexico's 100%-clean-sheet run"
     }
   ]
 }
