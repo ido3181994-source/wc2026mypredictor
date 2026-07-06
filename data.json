@@ -1,68 +1,68 @@
 {
-  "date": "July 5, 2026",
-  "dateKey": "2026-07-05",
-  "matchday": "Round of 16 - Day 2",
+  "date": "July 6, 2026",
+  "dateKey": "2026-07-06",
+  "matchday": "Round of 16 - Final Day",
   "matches": [
     {
-      "id": "2026-07-05-BRA-NOR",
-      "time": "16:00 ET",
-      "venue": "MetLife Stadium, East Rutherford",
+      "id": "2026-07-06-POR-ESP",
+      "time": "15:00 ET",
+      "venue": "AT&T Stadium, Arlington",
       "group": "Round of 16",
-      "home": { "name": "Brazil", "flag": "🇧🇷", "abbr": "BRA" },
-      "away": { "name": "Norway", "flag": "🇳🇴", "abbr": "NOR" },
-      "pred": { "h": 2, "a": 1 },
+      "home": { "name": "Portugal", "flag": "🇵🇹", "abbr": "POR" },
+      "away": { "name": "Spain", "flag": "🇪🇸", "abbr": "ESP" },
+      "pred": { "h": 1, "a": 2 },
       "scorers": {
-        "h": ["Vinícius 34'", "Cunha 71'"],
-        "a": ["Haaland 65'"]
+        "h": ["Ronaldo 84'"],
+        "a": ["Yamal 38'", "Oyarzabal 71'"]
       },
       "confidence": "Medium",
-      "moment": "Haaland extends his 13-match scoring streak to pull Norway level just after the hour, but Brazil's superior chance quality produces a late go-ahead finish through Cunha that Norway's makeshift back line cannot repel a second time."
+      "moment": "Yamal's individual carry through the right half-space breaks the deadlock — a genuine individual-quality gap, not a coin-flip game."
     },
     {
-      "id": "2026-07-05-MEX-ENG",
+      "id": "2026-07-06-USA-BEL",
       "time": "20:00 ET",
-      "venue": "Estadio Azteca, Mexico City",
+      "venue": "Lumen Field, Seattle",
       "group": "Round of 16",
-      "home": { "name": "Mexico", "flag": "🇲🇽", "abbr": "MEX" },
-      "away": { "name": "England", "flag": "🏴", "abbr": "ENG" },
+      "home": { "name": "United States", "flag": "🇺🇸", "abbr": "USA" },
+      "away": { "name": "Belgium", "flag": "🇧🇪", "abbr": "BEL" },
       "pred": { "h": 1, "a": 1 },
       "scorers": {
-        "h": ["Quiñones 58'"],
-        "a": ["Kane 77'"]
+        "h": ["Balogun 55'"],
+        "a": ["Lukaku 79'"]
       },
-      "confidence": "Medium",
-      "moment": "A Bellingham corner routine that has already produced goals this tournament finds Kane's head again in the 77th minute, canceling out a Quiñones counter-attack strike that punished England's legs after an hour at altitude."
+      "confidence": "Low",
+      "moment": "Lukaku's second-half introduction shifts momentum late — a substitute-impact game-state swing reflecting the scrappier, tighter profile of this tie."
     }
   ],
-  "verdict": "Today's Round of 16 slate delivers one match with a clear data-backed favorite and one genuine coin-flip, and both readings are earned rather than defaulted. Brazil carry the sharper underlying numbers into MetLife Stadium, a clinical, low-volume attack posting their best-ever recorded xG-per-shot figure against a Norway side that has not kept a clean sheet in a fully-motivated match all tournament, but Erling Haaland's individual scoring streak is real enough to keep this from being a formality, and Brazil's own profile, needing a 95th-minute winner against Japan, shows this front line can go long stretches without finishing what it creates. In Mexico City, the data resists the temptation to hand this to England on reputation: Mexico's perfect defensive record, home altitude, and an extra day of rest stack up against an England side that has already shown it can be breached early and needed a second-half Kane rescue act of its own in the last round. Neither market nor public betting has fully resolved which way this one tips, and the numbers say they shouldn't have, this is the day's true 50/50. If Brazil advance as expected and Mexico or England survive extra time, the bracket's second week starts to take clearer shape around a Brazil side whose ceiling is obvious but whose floor, on the numbers, is not yet fully tested. — The Analyst",
+  "verdict": "Today's slate splits cleanly between a genuine class gap and a genuine coin flip. Spain's numbers are the standout of the round of 16: zero goals conceded in four tournament matches, a 0.275 xGA per 90 that leads the field, and a clean-sheet record built partly against comparable opposition rather than pure group-stage padding — that defense should be enough to see off a Portugal side that has been blanked once already this tournament and leans heavily on Ronaldo's individual moments rather than a settled attacking process. The USA-Belgium tie is the opposite story: two defenses that have both shown real cracks against the best opposition they've faced so far, a market that is nearly dead-even, and two teams whose paths to the round of 16 both required a late scare rather than comfort. Treating that match as a probable favorite win would be the model imposing certainty the data doesn't support; the draw is the honest call. If both results hold, the emerging quarterfinal picture rewards defensive solidity over raw attacking volume — Spain's clean-sheet discipline looks like the most transferable asset left in the bracket. — The Analyst.",
   "players": [
     {
-      "name": "Vinícius Júnior",
-      "team": "Brazil",
-      "flag": "🇧🇷",
-      "stat": "4 goals in group stage (fallback stat)",
-      "watch": "Runs in behind Norway's high line; the primary beneficiary of Brazil's 0.16 xG/shot efficiency"
+      "name": "Lamine Yamal",
+      "team": "Spain",
+      "flag": "🇪🇸",
+      "stat": "14 chances created, 12 dribbles/90 (tournament-leading creation)",
+      "watch": "Half-space carries into the box, set-piece involvement"
     },
     {
-      "name": "Erling Haaland",
-      "team": "Norway",
-      "flag": "🇳🇴",
-      "stat": "5 tournament goals; scored in 13 straight competitive internationals (fallback stat)",
-      "watch": "Direct physical duel with Gabriel; all 10 tournament shots have been first-time efforts"
+      "name": "Cristiano Ronaldo",
+      "team": "Portugal",
+      "flag": "🇵🇹",
+      "stat": "3.01 xG this tournament",
+      "watch": "Movement in behind Spain's high defensive line; first-ever WC knockout goal last match"
     },
     {
-      "name": "Julián Quiñones",
-      "team": "Mexico",
-      "flag": "🇲🇽",
-      "stat": "3 goals, 1 assist - joint-most goal involvements at this World Cup",
-      "watch": "Counter-attacking service against an England defense breached in 75% of its matches"
+      "name": "Romelu Lukaku",
+      "team": "Belgium",
+      "flag": "🇧🇪",
+      "stat": "2 goals in 4 tournament appearances (fallback stat)",
+      "watch": "Expected introduction around the 60-65' mark as an impact substitute"
     },
     {
-      "name": "Harry Kane",
-      "team": "England",
-      "flag": "🏴",
-      "stat": "11 World Cup goals, England's all-time record (fallback stat)",
-      "watch": "Set-piece positioning off Bellingham deliveries against Mexico's 100%-clean-sheet run"
+      "name": "Folarin Balogun",
+      "team": "United States",
+      "flag": "🇺🇸",
+      "stat": "1 goal; red-card suspension overturned by FIFA (fallback stat)",
+      "watch": "Runs from deep to isolate Belgium's center-backs, missing Debast"
     }
   ]
 }
