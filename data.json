@@ -1,68 +1,75 @@
 {
-  "date": "July 6, 2026",
-  "dateKey": "2026-07-06",
+  "date": "July 7, 2026",
+  "dateKey": "2026-07-07",
   "matchday": "Round of 16 - Final Day",
   "matches": [
     {
-      "id": "2026-07-06-POR-ESP",
-      "time": "15:00 ET",
-      "venue": "AT&T Stadium, Arlington",
+      "id": "2026-07-07-ARG-EGY",
+      "time": "12:00 ET",
+      "venue": "Mercedes-Benz Stadium, Atlanta",
       "group": "Round of 16",
-      "home": { "name": "Portugal", "flag": "🇵🇹", "abbr": "POR" },
-      "away": { "name": "Spain", "flag": "🇪🇸", "abbr": "ESP" },
-      "pred": { "h": 1, "a": 2 },
+      "home": { "name": "Argentina", "flag": "🇦🇷", "abbr": "ARG" },
+      "away": { "name": "Egypt", "flag": "🇪🇬", "abbr": "EGY" },
+      "pred": { "h": 2, "a": 1 },
       "scorers": {
-        "h": ["Ronaldo 84'"],
-        "a": ["Yamal 38'", "Oyarzabal 71'"]
+        "h": ["Messi 34'", "L. Martinez 68'"],
+        "a": ["Salah 77'"]
       },
       "confidence": "Medium",
-      "moment": "Yamal's individual carry through the right half-space breaks the deadlock — a genuine individual-quality gap, not a coin-flip game."
+      "moment": "Messi's deep link-up drags Egypt's midfield out of shape, creating Argentina's second on the counter; Egypt's reply comes from Salah finally getting isolated 1v1 late on."
     },
     {
-      "id": "2026-07-06-USA-BEL",
-      "time": "20:00 ET",
-      "venue": "Lumen Field, Seattle",
+      "id": "2026-07-07-SUI-COL",
+      "time": "16:00 ET",
+      "venue": "BC Place, Vancouver",
       "group": "Round of 16",
-      "home": { "name": "United States", "flag": "🇺🇸", "abbr": "USA" },
-      "away": { "name": "Belgium", "flag": "🇧🇪", "abbr": "BEL" },
+      "home": { "name": "Switzerland", "flag": "🇨🇭", "abbr": "SUI" },
+      "away": { "name": "Colombia", "flag": "🇨🇴", "abbr": "COL" },
       "pred": { "h": 1, "a": 1 },
       "scorers": {
-        "h": ["Balogun 55'"],
-        "a": ["Lukaku 79'"]
+        "h": ["Embolo 52'(hdr)"],
+        "a": ["Diaz 81'(fk)"]
       },
-      "confidence": "Low",
-      "moment": "Lukaku's second-half introduction shifts momentum late — a substitute-impact game-state swing reflecting the scrappier, tighter profile of this tie."
+      "confidence": "Medium",
+      "moment": "Neither goal comes from open play - Embolo heads in a corner's second ball, Diaz equalizes from a free kick that catches a light wall. Set pieces decide this one."
     }
   ],
-  "verdict": "Today's slate splits cleanly between a genuine class gap and a genuine coin flip. Spain's numbers are the standout of the round of 16: zero goals conceded in four tournament matches, a 0.275 xGA per 90 that leads the field, and a clean-sheet record built partly against comparable opposition rather than pure group-stage padding — that defense should be enough to see off a Portugal side that has been blanked once already this tournament and leans heavily on Ronaldo's individual moments rather than a settled attacking process. The USA-Belgium tie is the opposite story: two defenses that have both shown real cracks against the best opposition they've faced so far, a market that is nearly dead-even, and two teams whose paths to the round of 16 both required a late scare rather than comfort. Treating that match as a probable favorite win would be the model imposing certainty the data doesn't support; the draw is the honest call. If both results hold, the emerging quarterfinal picture rewards defensive solidity over raw attacking volume — Spain's clean-sheet discipline looks like the most transferable asset left in the bracket. — The Analyst.",
+  "verdict": "Today closes the Round of 16 with a day of contrasts rather than a day of formalities. Messi's Argentina remain the most dangerous attacking unit left in the draw by underlying numbers alone - seven goals from 3.82 xG is a player finishing above his chances created, not a mirage - but Egypt's one meaningful data point, a 1-1 draw with a full-strength Belgium, is the single strongest piece of evidence in this report that the Pharaohs won't be brushed aside without a goal of their own, hamstring concern or not. In Vancouver, the day's real storyline is Colombia's defense: one goal conceded in four matches is the best defensive record left in the bracket, but it was built with a 0-0 blank against the only elite side they've faced, and that same profile - stingy but toothless against quality - is exactly what a well-organized Switzerland side, anchored by Xhaka and finishing at a healthier clip than Colombia all tournament, is built to punish just enough to snatch a goal back. Two results, two different shapes: a shootout-adjacent Argentina win built on individual class, and a set-piece-decided stalemate in the Pacific Northwest that neither side's underlying numbers say they deserve to lose. - The Analyst.",
   "players": [
     {
-      "name": "Lamine Yamal",
-      "team": "Spain",
-      "flag": "🇪🇸",
-      "stat": "14 chances created, 12 dribbles/90 (tournament-leading creation)",
-      "watch": "Half-space carries into the box, set-piece involvement"
+      "name": "Lionel Messi",
+      "team": "Argentina",
+      "flag": "🇦🇷",
+      "stat": "7 goals / 3.82 xG this tournament (overperforming)",
+      "watch": "A second-half burst once Argentina find their attacking rhythm"
     },
     {
-      "name": "Cristiano Ronaldo",
-      "team": "Portugal",
-      "flag": "🇵🇹",
-      "stat": "3.01 xG this tournament",
-      "watch": "Movement in behind Spain's high defensive line; first-ever WC knockout goal last match"
+      "name": "Mohamed Salah",
+      "team": "Egypt",
+      "flag": "🇪🇬",
+      "stat": "1 goal / 1.94 xG this tournament (underperforming, due for correction)",
+      "watch": "Whether he's sprinting at full pace early given his hamstring concern"
     },
     {
-      "name": "Romelu Lukaku",
-      "team": "Belgium",
-      "flag": "🇧🇪",
-      "stat": "2 goals in 4 tournament appearances (fallback stat)",
-      "watch": "Expected introduction around the 60-65' mark as an impact substitute"
+      "name": "James Rodriguez",
+      "team": "Colombia",
+      "flag": "🇨🇴",
+      "stat": "0 goals / 5 chances created vs DR Congo (most by a Colombian at a WC since 1998)",
+      "watch": "Recovery from flu-like symptoms that forced his half-time substitution vs Ghana"
     },
     {
-      "name": "Folarin Balogun",
-      "team": "United States",
-      "flag": "🇺🇸",
-      "stat": "1 goal; red-card suspension overturned by FIFA (fallback stat)",
-      "watch": "Runs from deep to isolate Belgium's center-backs, missing Debast"
+      "name": "Granit Xhaka",
+      "team": "Switzerland",
+      "flag": "🇨🇭",
+      "stat": "Started and anchored all 4 Swiss matches this tournament (fallback stat)",
+      "watch": "Whether he suppresses James Rodriguez's chance creation as he has all tournament"
+    },
+    {
+      "name": "Luis Diaz",
+      "team": "Colombia",
+      "flag": "🇨🇴",
+      "stat": "1 goal this tournament; 5 offsides vs DR Congo (run-timing issue, not pace issue)",
+      "watch": "Whether his run timing corrects against a possibly makeshift Swiss back line"
     }
   ]
 }
