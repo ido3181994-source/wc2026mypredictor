@@ -1,46 +1,68 @@
 {
-  "date": "July 10, 2026",
-  "dateKey": "2026-07-10",
-  "matchday": "Quarterfinals - Match 3 of 4",
+  "date": "July 11, 2026",
+  "dateKey": "2026-07-11",
+  "matchday": "Quarterfinals - Day 3",
   "matches": [
     {
-      "id": "2026-07-10-ESP-BEL",
-      "time": "15:00 ET",
-      "venue": "SoFi Stadium, Inglewood, CA",
+      "id": "2026-07-11-NOR-ENG",
+      "time": "17:00 ET",
+      "venue": "Miami Stadium, Miami Gardens",
       "group": "Quarterfinal",
-      "home": { "name": "Spain", "flag": "🇪🇸", "abbr": "ESP" },
-      "away": { "name": "Belgium", "flag": "🇧🇪", "abbr": "BEL" },
-      "pred": { "h": 2, "a": 1 },
+      "home": { "name": "Norway", "flag": "🇳🇴", "abbr": "NOR" },
+      "away": { "name": "England", "flag": "🏴", "abbr": "ENG" },
+      "pred": { "h": 1, "a": 2 },
       "scorers": {
-        "h": ["Oyarzabal 52'", "Olmo 74'"],
-        "a": ["Lukaku 85'"]
+        "h": ["Haaland 63'"],
+        "a": ["Kane 55'", "Bellingham 78'"]
       },
       "confidence": "Medium",
-      "moment": "With Onana absent, Belgium's midfield leaves a central gap that Spain exploits on a turnover to open the scoring; Lukaku's late introduction produces Belgium's reply, extending his pattern of scoring in three straight sub appearances, but too late to force extra time."
+      "moment": "Norway concede from a set piece they should have cleared, and England's extra sharpness after Bellingham's 78th-minute strike proves decisive rather than any individual moment of brilliance."
+    },
+    {
+      "id": "2026-07-11-ARG-SUI",
+      "time": "20:00 ET",
+      "venue": "Kansas City Stadium, Kansas City",
+      "group": "Quarterfinal",
+      "home": { "name": "Argentina", "flag": "🇦🇷", "abbr": "ARG" },
+      "away": { "name": "Switzerland", "flag": "🇨🇭", "abbr": "SUI" },
+      "pred": { "h": 2, "a": 1 },
+      "scorers": {
+        "h": ["Messi 40'", "Alvarez 70'"],
+        "a": ["Embolo 82'"]
+      },
+      "confidence": "Medium-High",
+      "moment": "Ndoye springs Argentina's high line on the counter for a late consolation, but it's Messi splitting a deep block early -- not a set piece or error -- that sets the tone."
     }
   ],
-  "verdict": "Spain arrive at SoFi Stadium as the tournament's most statistically complete side - five competitive matches, zero goals conceded, the longest World Cup clean-sheet run on record - but their attacking output has been shaped by opponent quality as much as their own class, dropping to a single stoppage-time-level goal the one time they faced a side of genuine standard in Portugal. Belgium's story is the inverse: a group stage built on defensive solidity has given way to two knockout wins, over Senegal and the United States, that flatter their underlying numbers badly, with 3.18 and 2.06 expected goals conceded in those matches respectively against only three goals actually let in - a gap Thibaut Courtois and finishing variance have covered, not tactical structure. Losing Amadou Onana for the rest of the tournament removes the one player built to close that gap, at the exact moment Belgium face the side with the division's best central midfield pairing in Pedri and Rodri. The data does not support a rout - Belgium retain individual match-winners in De Bruyne, Trossard and a fresh Lukaku, and Spain's own attacking sample has never been tested by a side this good - but it points to Spain's control translating into a one-goal margin rather than a repeat clean sheet, with Belgium's structural defensive leakage, not their scoreline, deciding how this one goes.",
+  "verdict": "Both quarterfinals close a day that, on paper, favors the established order -- England and Argentina -- but the underlying numbers refuse to hand either favorite a comfortable passage. Norway arrives with the tournament's hottest finisher in Haaland and a full-strength defensive record considerably tighter than their rotated France dead-rubber suggests, while England's Quansah suspension and Henderson's tournament-ending injury thin a squad that has needed late drama in three of its last four knockout-adjacent matches. Argentina, despite topping the tournament's xG charts and riding Messi's finest World Cup form, has now conceded in four of its last five matches and trailed by two goals as recently as the round of 16 -- the underlying data says this Argentina side is beatable, even if Switzerland's own attack, further blunted by Manzambi's absence, likely lacks the firepower to be the one that does it. If both favorites advance as projected, Saturday's semifinal pairing sets up England's suspect knockout-round defense against an Argentina side that has proven this tournament it can be hurt -- the kind of matchup that would make the model's cautious instincts today look prescient rather than timid.",
   "players": [
     {
-      "name": "Mikel Oyarzabal",
-      "team": "Spain",
-      "flag": "🇪🇸",
-      "stat": "4 goals, 1 assist in 4 matches - Spain's outright top scorer",
-      "watch": "First real test of the tournament's poacher instincts against a knockout-tested Belgium backline missing Onana's cover"
+      "name": "Erling Haaland",
+      "team": "Norway",
+      "flag": "🇳🇴",
+      "stat": "3.7 xG, 7 goals (23% conversion) this tournament",
+      "watch": "First real test against a top-tier organized back line this tournament"
     },
     {
-      "name": "Kevin De Bruyne",
-      "team": "Belgium",
-      "flag": "🇧🇪",
-      "stat": "Restored to the XI after being rested vs USA; shifting into a more central role to cover Onana's absence",
-      "watch": "Whether he can dictate tempo without Onana's protection, against Spain's Pedri-Rodri pivot"
+      "name": "Harry Kane",
+      "team": "England",
+      "flag": "🏴",
+      "stat": "3.2 xG, 6 goals this tournament",
+      "watch": "Penalty-box instincts against a defense that concedes chances even when winning"
     },
     {
-      "name": "Romelu Lukaku",
-      "team": "Belgium",
-      "flag": "🇧🇪",
-      "stat": "3 goals - all as a substitute across 3 consecutive appearances - more tournament goals than any other Belgium player",
-      "watch": "Whether Garcia turns to him from the start given the magnitude of the tie"
+      "name": "Lionel Messi",
+      "team": "Argentina",
+      "flag": "🇦🇷",
+      "stat": "Tournament-leading 8 goals",
+      "watch": "Whether Switzerland's discipline can do what Cape Verde and Egypt couldn't"
+    },
+    {
+      "name": "Dan Ndoye",
+      "team": "Switzerland",
+      "flag": "🇨🇭",
+      "stat": "3 combined goals with Embolo this tournament (fallback stat, xG unavailable)",
+      "watch": "Switzerland's only realistic goal route -- in-behind pace on the counter"
     }
   ]
 }
