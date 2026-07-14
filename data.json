@@ -1,68 +1,53 @@
 {
-  "date": "July 11, 2026",
-  "dateKey": "2026-07-11",
-  "matchday": "Quarterfinals - Day 3",
+  "date": "July 14, 2026",
+  "dateKey": "2026-07-14",
+  "matchday": "Semifinal 1",
   "matches": [
     {
-      "id": "2026-07-11-NOR-ENG",
-      "time": "17:00 ET",
-      "venue": "Miami Stadium, Miami Gardens",
-      "group": "Quarterfinal",
-      "home": { "name": "Norway", "flag": "🇳🇴", "abbr": "NOR" },
-      "away": { "name": "England", "flag": "🏴", "abbr": "ENG" },
-      "pred": { "h": 1, "a": 2 },
-      "scorers": {
-        "h": ["Haaland 63'"],
-        "a": ["Kane 55'", "Bellingham 78'"]
-      },
-      "confidence": "Medium",
-      "moment": "Norway concede from a set piece they should have cleared, and England's extra sharpness after Bellingham's 78th-minute strike proves decisive rather than any individual moment of brilliance."
-    },
-    {
-      "id": "2026-07-11-ARG-SUI",
-      "time": "20:00 ET",
-      "venue": "Kansas City Stadium, Kansas City",
-      "group": "Quarterfinal",
-      "home": { "name": "Argentina", "flag": "🇦🇷", "abbr": "ARG" },
-      "away": { "name": "Switzerland", "flag": "🇨🇭", "abbr": "SUI" },
+      "id": "2026-07-14-FRA-ESP",
+      "time": "15:00 ET",
+      "venue": "AT&T Stadium, Arlington, Texas",
+      "group": "Semifinal",
+      "home": { "name": "France", "flag": "🇫🇷", "abbr": "FRA" },
+      "away": { "name": "Spain", "flag": "🇪🇸", "abbr": "ESP" },
       "pred": { "h": 2, "a": 1 },
       "scorers": {
-        "h": ["Messi 40'", "Alvarez 70'"],
-        "a": ["Embolo 82'"]
+        "h": ["Mbappé 58'", "Dembélé 63'"],
+        "a": ["Merino 84'"]
       },
-      "confidence": "Medium-High",
-      "moment": "Ndoye springs Argentina's high line on the counter for a late consolation, but it's Messi splitting a deep block early -- not a set piece or error -- that sets the tone."
+      "confidence": "Medium",
+      "moment": "Mbappé and Dembélé combine in transition to breach Spain's high defensive line before Mikel Merino, introduced from the bench, heads Spain back into it late, extending his tournament-best record as a super-sub."
     }
   ],
-  "verdict": "Both quarterfinals close a day that, on paper, favors the established order -- England and Argentina -- but the underlying numbers refuse to hand either favorite a comfortable passage. Norway arrives with the tournament's hottest finisher in Haaland and a full-strength defensive record considerably tighter than their rotated France dead-rubber suggests, while England's Quansah suspension and Henderson's tournament-ending injury thin a squad that has needed late drama in three of its last four knockout-adjacent matches. Argentina, despite topping the tournament's xG charts and riding Messi's finest World Cup form, has now conceded in four of its last five matches and trailed by two goals as recently as the round of 16 -- the underlying data says this Argentina side is beatable, even if Switzerland's own attack, further blunted by Manzambi's absence, likely lacks the firepower to be the one that does it. If both favorites advance as projected, Saturday's semifinal pairing sets up England's suspect knockout-round defense against an Argentina side that has proven this tournament it can be hurt -- the kind of matchup that would make the model's cautious instincts today look prescient rather than timid.",
+  "verdict": "This is the cleanest attack-versus-defense collision the tournament has produced: France own the highest aggregate xG of any side in the field by a margin of 1.6, built on the highest shots-on-target rate since 1966, while Spain have built a defense that has conceded the fewest shots on target and the lowest xG per shot faced of any team in the same window. Neither side is a pretender; both reached this stage as the pre-tournament co-favorites, and the numbers back that billing up. The data does not support a France procession, despite the attacking gap. Spain's defense is not merely good, it is statistically unprecedented at this level, and their recent head-to-head record against these exact opponents, decided by Lamine Yamal in each of the last two competitive meetings, is a genuine caution against assuming France's volume translates cleanly into a comfortable scoreline. What tips this the way of Les Bleus is the qualitative pattern sitting underneath the aggregate numbers: France do not need sustained pressure to score, they need one crack in a defensive structure, and their front three have shown all tournament that once that crack appears, goals follow in bursts. Spain's own goals, by contrast, have arrived late and via a substitute in each of their last two knockout wins, a sign of a team that grinds rather than carves opponents open, which will make life hard against a France backline that has already won 62 percent of its ground duels this summer. The winner of this one plays for the World Cup on July 19 at MetLife Stadium, and on the balance of the numbers, that team is more likely to be wearing blue than red, but only just.",
   "players": [
     {
-      "name": "Erling Haaland",
-      "team": "Norway",
-      "flag": "🇳🇴",
-      "stat": "3.7 xG, 7 goals (23% conversion) this tournament",
-      "watch": "First real test against a top-tier organized back line this tournament"
+      "name": "Kylian Mbappé",
+      "team": "France",
+      "flag": "🇫🇷",
+      "stat": "xG+xA 6.3; 8 goals, 3 assists, 16 chances created",
+      "watch": "A moment of individual brilliance to break the deadlock, his tiebreaker vs Morocco is the template"
     },
     {
-      "name": "Harry Kane",
-      "team": "England",
-      "flag": "🏴",
-      "stat": "3.2 xG, 6 goals this tournament",
-      "watch": "Penalty-box instincts against a defense that concedes chances even when winning"
+      "name": "Michael Olise",
+      "team": "France",
+      "flag": "🇫🇷",
+      "stat": "xG+xA 4.5; 5 assists (tournament co-lead), 0 goals from 2.1 xG",
+      "watch": "Whether he finally converts one of his own chances rather than only creating for others"
     },
     {
-      "name": "Lionel Messi",
-      "team": "Argentina",
-      "flag": "🇦🇷",
-      "stat": "Tournament-leading 8 goals",
-      "watch": "Whether Switzerland's discipline can do what Cape Verde and Egypt couldn't"
+      "name": "Lamine Yamal",
+      "team": "Spain",
+      "flag": "🇪🇸",
+      "stat": "xG+xA 2.5; 1 goal, 0 assists despite tournament-leading 78 duels attempted and 36 won",
+      "watch": "Whether Spain can finally unlock his end product against France, as he did in each of the last two meetings"
     },
     {
-      "name": "Dan Ndoye",
-      "team": "Switzerland",
-      "flag": "🇨🇭",
-      "stat": "3 combined goals with Embolo this tournament (fallback stat, xG unavailable)",
-      "watch": "Switzerland's only realistic goal route -- in-behind pace on the counter"
+      "name": "Mikel Merino",
+      "team": "Spain",
+      "flag": "🇪🇸",
+      "stat": "xG+xA 1.8; 2 goals, both as a substitute after the 85th minute",
+      "watch": "A repeat impact substitute appearance if the game remains tight into the final 15 minutes"
     }
   ]
 }
