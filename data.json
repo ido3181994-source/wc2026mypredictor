@@ -1,53 +1,53 @@
 {
-  "date": "July 14, 2026",
-  "dateKey": "2026-07-14",
-  "matchday": "Semifinal 1",
+  "date": "July 15, 2026",
+  "dateKey": "2026-07-15",
+  "matchday": "Semifinal 2",
   "matches": [
     {
-      "id": "2026-07-14-FRA-ESP",
+      "id": "2026-07-15-ARG-ENG",
       "time": "15:00 ET",
-      "venue": "AT&T Stadium, Arlington, Texas",
-      "group": "Semifinal",
-      "home": { "name": "France", "flag": "🇫🇷", "abbr": "FRA" },
-      "away": { "name": "Spain", "flag": "🇪🇸", "abbr": "ESP" },
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "group": "Semifinal 2",
+      "home": { "name": "Argentina", "flag": "🇦🇷", "abbr": "ARG" },
+      "away": { "name": "England", "flag": "🏴", "abbr": "ENG" },
       "pred": { "h": 2, "a": 1 },
       "scorers": {
-        "h": ["Mbappé 58'", "Dembélé 63'"],
-        "a": ["Merino 84'"]
+        "h": ["Messi 34'", "Alvarez 71'"],
+        "a": ["Kane 82'"]
       },
       "confidence": "Medium",
-      "moment": "Mbappé and Dembélé combine in transition to breach Spain's high defensive line before Mikel Merino, introduced from the bench, heads Spain back into it late, extending his tournament-best record as a super-sub."
+      "moment": "A worked set-piece routine — Argentina's signature weapon all tournament — breaks a tense stalemate before England's late push falls just short."
     }
   ],
-  "verdict": "This is the cleanest attack-versus-defense collision the tournament has produced: France own the highest aggregate xG of any side in the field by a margin of 1.6, built on the highest shots-on-target rate since 1966, while Spain have built a defense that has conceded the fewest shots on target and the lowest xG per shot faced of any team in the same window. Neither side is a pretender; both reached this stage as the pre-tournament co-favorites, and the numbers back that billing up. The data does not support a France procession, despite the attacking gap. Spain's defense is not merely good, it is statistically unprecedented at this level, and their recent head-to-head record against these exact opponents, decided by Lamine Yamal in each of the last two competitive meetings, is a genuine caution against assuming France's volume translates cleanly into a comfortable scoreline. What tips this the way of Les Bleus is the qualitative pattern sitting underneath the aggregate numbers: France do not need sustained pressure to score, they need one crack in a defensive structure, and their front three have shown all tournament that once that crack appears, goals follow in bursts. Spain's own goals, by contrast, have arrived late and via a substitute in each of their last two knockout wins, a sign of a team that grinds rather than carves opponents open, which will make life hard against a France backline that has already won 62 percent of its ground duels this summer. The winner of this one plays for the World Cup on July 19 at MetLife Stadium, and on the balance of the numbers, that team is more likely to be wearing blue than red, but only just.",
+  "verdict": "The tournament's marquee rematch of 1986, 1998 and 2002 comes down to fine margins that the data says tilt, barely, toward Argentina. Both sides arrive fully rested off identical four-day turnarounds from extra-time quarterfinal wins, so fatigue is a wash and this is a straight quality contest. Argentina's case rests on three pillars: a 2.3 xG per game tournament average against just 0.7 xG conceded, five set-piece goals (the tournament high), and a Messi who is outscoring his own already-superb expected-goals tally (8 goals from 4.51 xG). England's case rests on Kane and Bellingham directly producing 12 of the team's 13 goals, a knockout run defined by resilience in two extra-time victories, and a marginal betting-market edge (37% to Argentina's 33%). The opponent-strength adjustment favors Argentina: their two toughest opponents to date, Egypt and Switzerland, were both beaten 3-goal hauls, showing their attacking numbers hold up against real quality rather than being inflated by group-stage minnows. England's own defensive line, by contrast, has needed extra time twice to close out games it should have won in regulation. That gap, plus Argentina's set-piece specialism against a defense that has not faced a team of comparable dead-ball threat, is enough to lean Argentina 2-1 — with the explicit caveat that a 1-1 draw is the strongest alternative and this is a Medium, not High, confidence call in a genuine coin-flip fixture. — The Analyst.",
   "players": [
     {
-      "name": "Kylian Mbappé",
-      "team": "France",
-      "flag": "🇫🇷",
-      "stat": "xG+xA 6.3; 8 goals, 3 assists, 16 chances created",
-      "watch": "A moment of individual brilliance to break the deadlock, his tiebreaker vs Morocco is the template"
+      "name": "Lionel Messi",
+      "team": "Argentina",
+      "flag": "🇦🇷",
+      "stat": "8 goals from 4.51 xG, 29 shots (17 on target), 27.59% conversion — tournament top scorer",
+      "watch": "Overperforming his own elite xG; has scored against every knockout-stage opponent faced so far"
     },
     {
-      "name": "Michael Olise",
-      "team": "France",
-      "flag": "🇫🇷",
-      "stat": "xG+xA 4.5; 5 assists (tournament co-lead), 0 goals from 2.1 xG",
-      "watch": "Whether he finally converts one of his own chances rather than only creating for others"
+      "name": "Harry Kane",
+      "team": "England",
+      "flag": "🏴",
+      "stat": "6 goals in 5 tournament appearances, part of a duo (with Bellingham) responsible for 12 of England's 13 goals",
+      "watch": "Movement in the box against a Romero-Martinez pairing that has conceded in three straight knockout matches"
     },
     {
-      "name": "Lamine Yamal",
-      "team": "Spain",
-      "flag": "🇪🇸",
-      "stat": "xG+xA 2.5; 1 goal, 0 assists despite tournament-leading 78 duels attempted and 36 won",
-      "watch": "Whether Spain can finally unlock his end product against France, as he did in each of the last two meetings"
+      "name": "Jude Bellingham",
+      "team": "England",
+      "flag": "🏴",
+      "stat": "6 goals in 5 tournament appearances, including a match-winning double in the Norway quarterfinal",
+      "watch": "Late-arriving runs into the box — the primary source of England's goals beyond Kane"
     },
     {
-      "name": "Mikel Merino",
-      "team": "Spain",
-      "flag": "🇪🇸",
-      "stat": "xG+xA 1.8; 2 goals, both as a substitute after the 85th minute",
-      "watch": "A repeat impact substitute appearance if the game remains tight into the final 15 minutes"
+      "name": "Julian Alvarez",
+      "team": "Argentina",
+      "flag": "🇦🇷",
+      "stat": "Starting alongside Messi in a front two; fallback stat (goals/assists this tournament) — role: chance creation and secondary scoring threat",
+      "watch": "Link-up combinations with Messi that pulled Egypt's and Switzerland's back lines out of shape"
     }
   ]
 }
