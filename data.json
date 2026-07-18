@@ -1,53 +1,54 @@
 {
-  "date": "July 15, 2026",
-  "dateKey": "2026-07-15",
-  "matchday": "Semifinal 2",
+  "date": "July 18, 2026",
+  "dateKey": "2026-07-18",
+  "matchday": "Third-Place Play-Off",
   "matches": [
     {
-      "id": "2026-07-15-ARG-ENG",
-      "time": "15:00 ET",
-      "venue": "Mercedes-Benz Stadium, Atlanta",
-      "group": "Semifinal 2",
-      "home": { "name": "Argentina", "flag": "🇦🇷", "abbr": "ARG" },
+      "id": "2026-07-18-FRA-ENG",
+      "time": "17:00 ET",
+      "venue": "Hard Rock Stadium, Miami Gardens",
+      "group": "Third-Place Play-Off",
+      "home": { "name": "France", "flag": "🇫🇷", "abbr": "FRA" },
       "away": { "name": "England", "flag": "🏴", "abbr": "ENG" },
-      "pred": { "h": 2, "a": 1 },
+      "pred": { "h": 3, "a": 2 },
       "scorers": {
-        "h": ["Messi 34'", "Alvarez 71'"],
-        "a": ["Kane 82'"]
+        "h": ["Mbappé 23'", "Doué 61'", "Mbappé 78'(p)"],
+        "a": ["Kane 41'", "Bellingham 85'"]
       },
       "confidence": "Medium",
-      "moment": "A worked set-piece routine — Argentina's signature weapon all tournament — breaks a tense stalemate before England's late push falls just short."
+      "moment": "A rotated France backline missing Saliba is undone by a Kane set-piece header to level it, but Mbappé's cool finish from a rare clear sight of goal in a mutually loose, rotated game restores the lead for good."
     }
   ],
-  "verdict": "The tournament's marquee rematch of 1986, 1998 and 2002 comes down to fine margins that the data says tilt, barely, toward Argentina. Both sides arrive fully rested off identical four-day turnarounds from extra-time quarterfinal wins, so fatigue is a wash and this is a straight quality contest. Argentina's case rests on three pillars: a 2.3 xG per game tournament average against just 0.7 xG conceded, five set-piece goals (the tournament high), and a Messi who is outscoring his own already-superb expected-goals tally (8 goals from 4.51 xG). England's case rests on Kane and Bellingham directly producing 12 of the team's 13 goals, a knockout run defined by resilience in two extra-time victories, and a marginal betting-market edge (37% to Argentina's 33%). The opponent-strength adjustment favors Argentina: their two toughest opponents to date, Egypt and Switzerland, were both beaten 3-goal hauls, showing their attacking numbers hold up against real quality rather than being inflated by group-stage minnows. England's own defensive line, by contrast, has needed extra time twice to close out games it should have won in regulation. That gap, plus Argentina's set-piece specialism against a defense that has not faced a team of comparable dead-ball threat, is enough to lean Argentina 2-1 — with the explicit caveat that a 1-1 draw is the strongest alternative and this is a Medium, not High, confidence call in a genuine coin-flip fixture. — The Analyst.",
+  "verdict": "A third-place game between two heartbroken favorites was never going to be a defensive chess match, and the numbers back that up: France's 2.04 xG/game and 0.80 xGA/game against a tighter opponent-quality band outstrip England's 1.56 xG/game and leakier ~1.40 xGA/game versus comparable knockout-stage opposition, while an extra day of recovery and Mbappé's live Golden Boot tiebreaker against Messi give Les Bleus the sharper edge in motivation despite both sides rotating heavily. England counter with proven end-product in Kane and Bellingham (six goals apiece) against a France backline missing William Saliba, and the historical base rate for these fixtures — 16 of the last 20 finishing over 2.5 goals, both teams scoring in 14 of them — argues strongly against a cautious script. The likeliest outcome is exactly that: an open, rotated, high-event game that France's superior underlying numbers and rest edge nose them through, while England leave Miami with pride, goals, and no silverware. — The Analyst."
+  ,
   "players": [
     {
-      "name": "Lionel Messi",
-      "team": "Argentina",
-      "flag": "🇦🇷",
-      "stat": "8 goals from 4.51 xG, 29 shots (17 on target), 27.59% conversion — tournament top scorer",
-      "watch": "Overperforming his own elite xG; has scored against every knockout-stage opponent faced so far"
+      "name": "Kylian Mbappé",
+      "team": "France",
+      "flag": "🇫🇷",
+      "stat": "8 goals this tournament, 16 shots on target, 5.48 shots/appearance",
+      "watch": "Needs two goal involvements to overtake Messi's assist tiebreak and win the Golden Boot outright"
     },
     {
       "name": "Harry Kane",
       "team": "England",
       "flag": "🏴",
-      "stat": "6 goals in 5 tournament appearances, part of a duo (with Bellingham) responsible for 12 of England's 13 goals",
-      "watch": "Movement in the box against a Romero-Martinez pairing that has conceded in three straight knockout matches"
+      "stat": "6 goals this tournament, brace vs DR Congo in Round of 32",
+      "watch": "Aerial threat against a rotated, Saliba-less France center-back pairing"
     },
     {
       "name": "Jude Bellingham",
       "team": "England",
       "flag": "🏴",
-      "stat": "6 goals in 5 tournament appearances, including a match-winning double in the Norway quarterfinal",
-      "watch": "Late-arriving runs into the box — the primary source of England's goals beyond Kane"
+      "stat": "6 goals this tournament, tied with Kane for England's team lead",
+      "watch": "Late box arrivals against a tired, rotated France midfield"
     },
     {
-      "name": "Julian Alvarez",
-      "team": "Argentina",
-      "flag": "🇦🇷",
-      "stat": "Starting alongside Messi in a front two; fallback stat (goals/assists this tournament) — role: chance creation and secondary scoring threat",
-      "watch": "Link-up combinations with Messi that pulled Egypt's and Switzerland's back lines out of shape"
+      "name": "Désiré Doué",
+      "team": "France",
+      "flag": "🇫🇷",
+      "stat": "Regular starter across France's knockout run (tournament appearance data; club-level output not separately tracked here)",
+      "watch": "Pace in behind an England back line reshuffled by Reece James' fitness doubt"
     }
   ]
 }
