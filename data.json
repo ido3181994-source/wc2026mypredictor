@@ -1,54 +1,60 @@
 {
-  "date": "July 18, 2026",
-  "dateKey": "2026-07-18",
-  "matchday": "Third-Place Play-Off",
+  "date": "July 19, 2026",
+  "dateKey": "2026-07-19",
+  "matchday": "Final",
   "matches": [
     {
-      "id": "2026-07-18-FRA-ENG",
-      "time": "17:00 ET",
-      "venue": "Hard Rock Stadium, Miami Gardens",
-      "group": "Third-Place Play-Off",
-      "home": { "name": "France", "flag": "🇫🇷", "abbr": "FRA" },
-      "away": { "name": "England", "flag": "🏴", "abbr": "ENG" },
-      "pred": { "h": 3, "a": 2 },
+      "id": "2026-07-19-ESP-ARG",
+      "time": "15:00 ET",
+      "venue": "MetLife Stadium, East Rutherford, NJ",
+      "group": "Final",
+      "home": { "name": "Spain", "flag": "🇪🇸", "abbr": "ESP" },
+      "away": { "name": "Argentina", "flag": "🇦🇷", "abbr": "ARG" },
+      "pred": { "h": 2, "a": 1 },
       "scorers": {
-        "h": ["Mbappé 23'", "Doué 61'", "Mbappé 78'(p)"],
-        "a": ["Kane 41'", "Bellingham 85'"]
+        "h": ["Oyarzabal 24'(p)", "Ruiz 90'"],
+        "a": ["Romero 78'(hdr)"]
       },
       "confidence": "Medium",
-      "moment": "A rotated France backline missing Saliba is undone by a Kane set-piece header to level it, but Mbappé's cool finish from a rare clear sight of goal in a mutually loose, rotated game restores the lead for good."
+      "moment": "Argentina's tournament-leading set-piece threat finally breaches Spain's record defense through a Romero header, but Spain's fresher legs turn Argentina's late commitment forward into a stoppage-time breakaway that settles it."
     }
   ],
-  "verdict": "A third-place game between two heartbroken favorites was never going to be a defensive chess match, and the numbers back that up: France's 2.04 xG/game and 0.80 xGA/game against a tighter opponent-quality band outstrip England's 1.56 xG/game and leakier ~1.40 xGA/game versus comparable knockout-stage opposition, while an extra day of recovery and Mbappé's live Golden Boot tiebreaker against Messi give Les Bleus the sharper edge in motivation despite both sides rotating heavily. England counter with proven end-product in Kane and Bellingham (six goals apiece) against a France backline missing William Saliba, and the historical base rate for these fixtures — 16 of the last 20 finishing over 2.5 goals, both teams scoring in 14 of them — argues strongly against a cautious script. The likeliest outcome is exactly that: an open, rotated, high-event game that France's superior underlying numbers and rest edge nose them through, while England leave Miami with pride, goals, and no silverware. — The Analyst."
-  ,
+  "verdict": "Nothing in six weeks of data has suggested this final would be anything but exactly what the fixture list always promised: the tournament's most statistically dominant defense against its most clinically inevitable, if occasionally fortunate, attack. Spain arrive with a defensive record with no historical precedent in the shot-suppression era, 0.31 xG conceded per game, a single goal allowed in seven matches, six clean sheets, built on Rodri's record passing volume and the highest pressing frequency of the tournament. Argentina arrive as the only unbeaten, undefeated, 7-0 side left in the competition, carrying Messi's era-defining farewell run and a tournament-leading habit of scoring 12 of their 19 goals after the 75th minute, but also the worst clean-sheet rate of any side to reach the final four, having conceded to Cape Verde and Egypt alike. The numbers point to a result decided at the margins rather than by a gulf in class: Spain's superior rest, superior underlying defensive solidity, and superior recent scoring against comparable-quality opposition tip a genuinely close final their way, 2-1, with the health warning that Argentina's data-proven gift for finding exactly this kind of goal late has kept the draw scenario alive at 29% right up to kickoff. If Argentina win it, it will look exactly like their last five matches, backs against the wall, then suddenly not. If Spain win it, it will look exactly like their last seven, quiet, suffocating, and settled by the smallest of margins.",
   "players": [
     {
-      "name": "Kylian Mbappé",
-      "team": "France",
-      "flag": "🇫🇷",
-      "stat": "8 goals this tournament, 16 shots on target, 5.48 shots/appearance",
-      "watch": "Needs two goal involvements to overtake Messi's assist tiebreak and win the Golden Boot outright"
+      "name": "Lionel Messi",
+      "team": "Argentina",
+      "flag": "🇦🇷",
+      "stat": "6.2 xG, 4 assists (2026), 8 goals, 25 completed dribbles (most by a 30+ player in WC history)",
+      "watch": "A moment of individual creation to break Spain's low-event structure, likely after the 75th minute per his tournament pattern"
     },
     {
-      "name": "Harry Kane",
-      "team": "England",
-      "flag": "🏴",
-      "stat": "6 goals this tournament, brace vs DR Congo in Round of 32",
-      "watch": "Aerial threat against a rotated, Saliba-less France center-back pairing"
+      "name": "Lamine Yamal",
+      "team": "Spain",
+      "flag": "🇪🇸",
+      "stat": "3.6 xG, 0.7 xA, 1 goal, 1.82 shots on target per 90",
+      "watch": "Whether the semifinal knock affects his sharpness in one-on-one duels vs. Tagliafico"
     },
     {
-      "name": "Jude Bellingham",
-      "team": "England",
-      "flag": "🏴",
-      "stat": "6 goals this tournament, tied with Kane for England's team lead",
-      "watch": "Late box arrivals against a tired, rotated France midfield"
+      "name": "Rodri",
+      "team": "Spain",
+      "flag": "🇪🇸",
+      "stat": "655 completed passes this tournament, most on record in a single World Cup edition",
+      "watch": "Whether his screening in front of the back four holds for 90-plus minutes against Messi's central pockets"
     },
     {
-      "name": "Désiré Doué",
-      "team": "France",
-      "flag": "🇫🇷",
-      "stat": "Regular starter across France's knockout run (tournament appearance data; club-level output not separately tracked here)",
-      "watch": "Pace in behind an England back line reshuffled by Reece James' fitness doubt"
+      "name": "Mikel Oyarzabal",
+      "team": "Spain",
+      "flag": "🇪🇸",
+      "stat": "5 goals this tournament, 3rd Spanish player ever to reach 5 in a single World Cup",
+      "watch": "Continuing his run of scoring in three straight knockout matches"
+    },
+    {
+      "name": "Cristian Romero",
+      "team": "Argentina",
+      "flag": "🇦🇷",
+      "stat": "Part of Argentina's tournament-leading 5 set-piece goals in 6 games",
+      "watch": "Whether Argentina's best route to goal against Spain's suppression comes from a dead ball rather than open play"
     }
   ]
 }
